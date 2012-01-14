@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/cdsboy/work/sparkweave/spokes/web_security_spoke/web/templates'
+let g:netrw_dirhist_2='/home/cdsboy/work/sparkweave/spokes/hub/web/templates/scrollable'
+let g:netrw_dirhist_3='/home/cdsboy/work/sparkweave/projects/sparkweave/transfer/web/templates/email'
+let g:netrw_dirhist_4='/home/cdsboy/work/sparkweave/projects/sparkweave/common/web/templates'
