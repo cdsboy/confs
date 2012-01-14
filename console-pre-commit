@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+
+def check_for_console_logs
+  files_modified = `git diff-index --cached --name-only HEAD`.split("\n")
+  files_modified.each do |path|
+    File.open(path) do |io|
+      i = 0
+      io.each do |line|
+        if line.include? " console.log("
+          puts "[POLICY] Production Code should not include console.log"
+          puts "    in " + path + " on line " + i.to_s()
+          exit 1
+        end
+        if line.include? " alert("
+          puts "[POLICY] Production Code should not include alert"
+          puts "    in " + path + " on line " + i.to_s()
+          exit 1
+        end
+        i += 1
+      end
+    end
+  end
+end
+
+check_for_console_logs
