@@ -1,0 +1,11 @@
+
+[roxterm profile]
+always_show_tabs=0
+show_resize_grip=0
+font=Consolas 9
+scrollbar_pos=0
+background_type=2
+saturation=0.279070
+hide_menubar=1
+scroll_on_keystroke=1
+scroll_on_output=1
