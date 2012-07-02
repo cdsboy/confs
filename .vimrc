@@ -5,7 +5,6 @@ set sw=2
 set ts=2
 set smartindent
 set nowrap
-filetype plugin indent on
 
 " Display
 set background=dark
@@ -38,3 +37,15 @@ set colorcolumn=80
 map ; :
 " map jj to escape
 imap jj 
+
+" Vundle plugins:
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+Bundle "pangloss/vim-javascript"
+
+filetype plugin indent on
