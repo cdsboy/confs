@@ -37,6 +37,8 @@ set colorcolumn=80
 map ; :
 " map jj to escape
 imap jj 
+" map :syn sync fromstart to :sfs
+cmap sfs syn sync fromstart
 
 " Vundle plugins:
 set nocompatible
