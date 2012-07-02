@@ -46,7 +46,8 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
-Bundle "pangloss/vim-javascript"
+Bundle 'pangloss/vim-javascript'
 Bundle 'jQuery'
+Bundle 'surround.vim'
 
 filetype plugin indent on
