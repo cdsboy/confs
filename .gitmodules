@@ -1,3 +1,6 @@
 [submodule ".vim/bundle/vundle"]
 	path = .vim/bundle/vundle
 	url = https://github.com/gmarik/vundle.git
+[submodule ".config/awesome/awesompd"]
+	path = .config/awesome/awesompd
+	url = https://github.com/alexander-yakushev/awesompd.git
