@@ -35,3 +35,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/bin:/bin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.6.2:/usr/games/bin
+
+keychain --quiet --clear
+eval `keychain --eval ~/.ssh/id_rsa`
