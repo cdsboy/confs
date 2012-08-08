@@ -47,6 +47,5 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'pangloss/vim-javascript'
 Bundle 'jQuery'
-Bundle 'surround.vim'
 
 filetype plugin indent on
