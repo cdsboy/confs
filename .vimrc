@@ -26,9 +26,6 @@ nnoremap <F5> :set invpaste paste?<Enter>
 imap <F5> <C-O><F5>
 set pastetoggle=<F5>
 
-" add jquery syntax highlighting
-au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
-
 " Set color column to column 80 for easy code wrapping
 set colorcolumn=80
 " hi ColorColumn ctermbg=#AE81FF guibg=#AE81FF 
@@ -37,6 +34,8 @@ set colorcolumn=80
 map ; :
 " map jj to escape
 imap jj 
+" map :syn sync fromstart to :sfs
+cmap sfs syn sync fromstart
 
 " Vundle plugins:
 set nocompatible
@@ -48,6 +47,5 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'pangloss/vim-javascript'
 Bundle 'jQuery'
-Bundle 'surround.vim'
 
 filetype plugin indent on
