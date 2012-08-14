@@ -1,5 +1,5 @@
 URxvt.urgentOnBell: True
-URxvt.visualBell: True
+!URxvt.visualBell: True
 
 !Xft.dpi: 102
 !Xft.antialias: true
@@ -15,14 +15,17 @@ URxvt.letterSpace: -1
 
 URxvt.transparent: True
 URxvt.tint: grey
-URxvt.shading: 45
+URxvt.shading: 35
 
 URxvt.scrollBar: false
 
 URxvt.perl-ext-common:default,matcher
+#URxvt.urlLauncher: uzbl_launch.sh
 URxvt.urlLauncher: chromium
 URxvt.matcher.button: 1
 URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+
+URxvt.saveLines: 20000
 
 ! ----------------------------------------------------------------------
 ! file:     Xdefaults color scheme
