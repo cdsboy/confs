@@ -26,7 +26,10 @@ $VERSION = "0.1";
 my ($user_token, $interval, %last_message);
 
 $interval = 60; #TODO make it user configurable
+$idle_seconds = 900; #TODO make it user configurable
 %last_message = {};
+
+my $lastKeyboardActivity = time;
 
 sub sig_sendmsg {
 	my ($dest, $text, $stripped) = @_;
@@ -34,7 +37,8 @@ sub sig_sendmsg {
 
 	if (($dest->{level} & (MSGLEVEL_HILIGHT|MSGLEVEL_MSGS)) &&
 			($dest->{level} & MSGLEVEL_NOHILIGHT) == 0 &&
-			$user_token) {
+			$user_token &&
+      activity_allows_hilight()) {
 
 		if (!exists($last_message{$room}) || $last_message{$room} + $interval < time) {
 			LWP::UserAgent->new()->post(
@@ -65,6 +69,14 @@ sub cmd_pushover {
 	Irssi::print("pushover user: $user_token");
 }
 
+sub event_key_pressed {
+  $lastKeyboardActivity = time;
+}
+
+sub activity_allows_hilight {
+  return ($idle_seconds <= 0 || (time - $lastKeyboardActivity) > $idle_seconds);
+}
+
 Irssi::settings_add_str("misc", "pushover_user", "");
 $user_token = Irssi::settings_get_str("pushover_user");
 if (!($user_token =~ /^[a-zA-Z0-9]{30}$/)) {
@@ -72,4 +84,5 @@ if (!($user_token =~ /^[a-zA-Z0-9]{30}$/)) {
 }
 
 Irssi::signal_add('print text', 'sig_sendmsg');
+Irssi::signal_add('gui key pressed', 'event_key_pressed');
 Irssi::command_bind('pushover', 'cmd_pushover');
