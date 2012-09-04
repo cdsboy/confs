@@ -1,1 +1,10 @@
 My confs and stuff
+
+Instuctions for cloning:
+after cloning do:
+`git submodule init`
+`git submodule update`
+`cp -r .vim .vimrc ../.`
+
+In Vim:
+`:BundleInstall`
