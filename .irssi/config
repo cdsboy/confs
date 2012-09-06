@@ -196,6 +196,8 @@ aliases = {
   ATAG = "WINDOW SERVER";
   UNSET = "set -clear";
   RESET = "set -default";
+  vm_add = "/^statusbar prompt add -after input -alignment right vim_mode";
+  vm_del = "/^statusbar prompt remove vim_mode";
 };
 
 statusbar = {
@@ -259,6 +261,8 @@ statusbar = {
         lag = { priority = "-1"; };
         more = { priority = "-1"; alignment = "right"; };
         barend = { priority = "100"; alignment = "right"; };
+        vim_mode = { };
+        vim_windows = { };
       };
     };
 
@@ -279,19 +283,6 @@ statusbar = {
 
     # we treat input line as yet another statusbar :) It's possible to
     # add other items before or after the input line item.
-    prompt = {
-      type = "root";
-      placement = "bottom";
-      # we want to be at the bottom always
-      position = "100";
-      visible = "always";
-      items = {
-        prompt = { priority = "-1"; };
-        prompt_empty = { priority = "-1"; };
-        # treated specially, this is the real input line.
-        input = { priority = "10"; };
-      };
-    };
 
     # topicbar
     topic = {
@@ -320,6 +311,13 @@ statusbar = {
         barend = { priority = "100"; alignment = "right"; };
       };
     };
+    prompt = {
+      items = {
+        uberprompt = { priority = "-1"; };
+        input = { priority = "10"; };
+      };
+      position = "100";
+    };
   };
 };
 settings = {
@@ -342,6 +340,9 @@ settings = {
     awl_display_key = "$Q%K|%n$H$C$S";
     awl_block = "-15";
     pushover_user = "95matifJKfwUPSgTnmCYTWdDc2KTQ0";
+    uberprompt_load_hook = "/^vm_add";
+    uberprompt_unload_hook = "/^vm_del";
+    vim_mode_cmd_seq = "j";
   };
 };
 logs = { };
@@ -351,7 +352,13 @@ ignores = (
 );
 hilights = ( { text = "cdsboy"; nick = "no"; word = "yes"; } );
 windows = {
-  1 = { immortal = "yes"; name = "(status)"; level = "ALL"; };
+  1 = {
+    immortal = "yes";
+    name = "(status)";
+    level = "ALL";
+    sticky = "yes";
+    parent = "3";
+  };
   2 = {
     items = (
       {
@@ -361,6 +368,8 @@ windows = {
         tag = "bitblee";
       }
     );
+    sticky = "yes";
+    parent = "3";
   };
   3 = {
     items = (
@@ -371,16 +380,19 @@ windows = {
         tag = "Freenode";
       }
     );
+    sticky = "yes";
   };
   4 = {
     items = (
       {
         type = "CHANNEL";
         chat_type = "IRC";
-        name = "#frantech";
+        name = "#Frantech";
         tag = "dairc";
       }
     );
+    sticky = "yes";
+    parent = "3";
   };
   5 = {
     items = (
@@ -391,20 +403,24 @@ windows = {
         tag = "OFTC";
       }
     );
+    sticky = "yes";
+    parent = "3";
   };
   6 = {
     items = (
       {
         type = "CHANNEL";
         chat_type = "IRC";
-        name = "#arika";
+        name = "#Arika";
         tag = "QuakeNet";
       }
     );
+    sticky = "yes";
+    parent = "3";
   };
   7 = { name = "hilight"; sticky = "yes"; };
 };
 mainwindows = {
-  1 = { first_line = "8"; lines = "59"; };
+  3 = { first_line = "8"; lines = "60"; };
   7 = { first_line = "1"; lines = "7"; };
 };
