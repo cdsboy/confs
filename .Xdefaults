@@ -27,6 +27,9 @@ URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
 
 URxvt.saveLines: 20000
 
+#Work with screen better
+URxvt.secondaryScroll: true
+
 ! ----------------------------------------------------------------------
 ! file:     Xdefaults color scheme
 ! author:   Thayer Williams - http://cinderwick.ca
