@@ -1,0 +1,34 @@
+#!/usr/bin/env python2
+
+import glob
+import sys
+import os
+
+def simple(base, rel):
+  path = os.path.join(base, rel)
+  if os.path.isdir(path):
+    return path
+
+def main(base, rel):
+  rel = rel.strip('/')
+  path = simple(base, rel)
+
+  if not path:
+    rel = rel.replace('/', '*/').replace('.*/', './') + '*'
+    choices = filter(os.path.isdir, glob.glob(os.path.join(base, rel)))
+    if not choices:
+      print 'echo "No dir pattern matching base %s and relative %s"' % (
+          base, rel)
+      sys.exit(1)
+    choices.sort(lambda a,b: -cmp(len(a), len(b)))
+    path = choices[0]
+
+  print "cd %s" % path
+
+if __name__ == "__main__":
+  import sys
+  try:
+    main(sys.argv[1], sys.argv[2])
+  except IndexError:
+    print 'echo "Insufficient parameters to lazycd"'
+

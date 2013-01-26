@@ -1,0 +1,18 @@
+eval `keychain --eval --timeout 180 ~/.ssh/id_rsa`
+
+export PATH=$PATH:~/scripts
+
+_chgit() {
+  if [[ $# -eq 1 ]]
+  then
+    cd $1
+  else
+    `lazycd $1 $2`
+  fi
+}
+
+alias sp='_chgit ~/sparkweave/spokes'
+alias pro='_chgit ~/sparkweave/projects'
+alias dl='_chgit ~/sparkweave/disklayout'
+
+#vim() {screen -U -S "$*:t" vim $@}

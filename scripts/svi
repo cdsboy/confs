@@ -1,0 +1,22 @@
+#!/bin/sh
+
+vim=/usr/bin/vim
+screen=/usr/bin/screen
+fname="$1"
+
+if [ x"${fname}" = x ]; then
+  echo "svi needs a file to edit"
+else
+  scpid=$(hasopen "${fname}")
+  if [ x"${scpid}" = x ]; then
+    full="$(pwd)/${fname}"
+    fpart=`basename "${full}"`
+    dpart=`dirname "${full}"`
+    path=`echo "${dpart}" | sed -r 's%.*/([^/]+/[^/]+/[^/]+)$%.../\1%'`
+    name=`echo "${fpart} ($path)" |sed 's%/%\\\\%g'`
+    exec $screen -S "$name" $vim $*
+  else
+    exec $screen -x $scpid
+  fi
+fi
+
