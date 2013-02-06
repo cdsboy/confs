@@ -15,4 +15,5 @@ alias sp='_chgit ~/sparkweave/spokes'
 alias pro='_chgit ~/sparkweave/projects'
 alias dl='_chgit ~/sparkweave/disklayout'
 
+/() {grep -R $1 *}
 #vim() {screen -U -S "$*:t" vim $@}
