@@ -37,6 +37,15 @@ imap jj 
 " map :syn sync fromstart to :sfs
 cmap sfs syn sync fromstart
 
+" Groovy
+au BufNewFile,BufRead *.groovy setf groovy
+if did_filetype()
+  finish
+endif
+if getline(1) =~ '^#!.*[/\\]groovy\>'
+  setf groovy
+endif
+
 " Vundle plugins:
 set nocompatible
 filetype off
@@ -47,5 +56,6 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'pangloss/vim-javascript'
 Bundle 'jQuery'
+Bundle 'groovy.vim'
 
 filetype plugin indent on
