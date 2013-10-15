@@ -1,10 +1,13 @@
 " Whitespace
 set expandtab
-set tabstop=2
-set sw=2
-set ts=2
+set tabstop=4
+set sw=4
+set ts=4
 set smartindent
 set nowrap
+
+" mac osx
+set backspace+=indent,eol,start
 
 " Display
 set background=dark
@@ -13,6 +16,7 @@ let g:molokai_original = 0
 set number
 nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 set nofoldenable
+syntax on
 
 " Execute python file being edited with <Shift> + e:
 map <buffer> <S-e> :w<CR>:!/usr/bin/env python % <CR>
@@ -57,5 +61,6 @@ Bundle 'gmarik/vundle'
 Bundle 'pangloss/vim-javascript'
 Bundle 'jQuery'
 Bundle 'groovy.vim'
+Bundle 'christoomey/vim-tmux-navigator'
 
 filetype plugin indent on
