@@ -46,10 +46,10 @@ urxvt*cursorColor:      #fd971f
 ! terminal colours
 !*foreground:#a0a0a0
 *foreground:#f8f8f2
-*background:#1b1d1e
+*background:#1c1c1c
 
 !black
-*color0:    #1b1d1e
+*color0:    #1c1c1c
 *color8:    #505354
 !red
 *color1:    #f92672
