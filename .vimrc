@@ -62,5 +62,6 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'jQuery'
 Bundle 'groovy.vim'
 Bundle 'christoomey/vim-tmux-navigator'
+Bundle 'cdsboy/vim-scala'
 
 filetype plugin indent on
