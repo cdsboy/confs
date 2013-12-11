@@ -7,3 +7,6 @@
 [submodule ".vim/bundle/vim-javascript"]
 	path = .vim/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "antigen"]
+	path = antigen
+	url = https://github.com/zsh-users/antigen
