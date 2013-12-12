@@ -63,5 +63,8 @@ Bundle 'jQuery'
 Bundle 'groovy.vim'
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'derekwyatt/vim-scala'
+Bundle 'kien/ctrlp.vim'
 
 filetype plugin indent on
+
+set wildignore+=*.class,.git,.hg,.svn,**/target/classes/**,**/target/test-classes/**,**/target/test-reports/**.html,**/target/test-reports/**.xml,**/build/**
