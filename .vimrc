@@ -64,7 +64,19 @@ Bundle 'groovy.vim'
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'derekwyatt/vim-scala'
 Bundle 'kien/ctrlp.vim'
+Bundle 'atweiden/vim-dragvisuals'
 
 filetype plugin indent on
 
 set wildignore+=*.class,.git,.hg,.svn,**/target/classes/**,**/target/test-classes/**,**/target/test-reports/**.html,**/target/test-reports/**.xml,**/build/**
+
+" vim-dragvisuals setup
+runtime bundle/vim-dragvisuals/dragvisuals.vim
+
+vmap <expr> <LEFT>  DVB_Drag('left')
+vmap <expr> <RIGHT> DVB_Drag('right')
+vmap <expr> <DOWN>  DVB_Drag('down')
+vmap <expr> <UP>    DVB_Drag('up')
+vmap <expr> D       DVB_Duplicate()
+
+let g:DVB_TrimWS = 1
