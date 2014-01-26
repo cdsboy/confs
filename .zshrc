@@ -14,7 +14,6 @@ antigen bundles <<EOBUNDLES
 
     tmux
     jimhester/per-directory-history
-    zsh-users/zsh-syntax-highlighting
 EOBUNDLES
 
 antigen theme juanghurtado
