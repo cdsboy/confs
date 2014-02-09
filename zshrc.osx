@@ -1,3 +1,4 @@
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 source ~/.antigen/antigen.zsh
 
 antigen use oh-my-zsh
@@ -11,6 +12,9 @@ antigen bundles <<EOBUNDLES
 
     gradle
     grails
+    brew
+    vagrant
+    osx
 
     tmux
     jimhester/per-directory-history
@@ -19,3 +23,5 @@ EOBUNDLES
 antigen theme juanghurtado
 
 antigen apply
+
+alias tmux="TERM=screen-256color-bce tmux"
