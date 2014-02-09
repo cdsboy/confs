@@ -1,0 +1,159 @@
+2014-02-08 12:27:43	-->	cdsboy1 (~cdsboy@2607:5300:60:39da::1) has joined ##nicfix
+2014-02-08 12:27:43	--	Topic for ##nicfix is ""Spontaneous intra-familial grindobangs?" - Torhal | Our hangout: http://goo.gl/kL9Yy9 | nicfix10 @ Axiom 10% off | http://tinyurl.com/nicfixbooks"
+2014-02-08 12:27:43	--	Topic set by Torhal on Wed, 01 Jan 2014 14:35:53
+2014-02-08 12:27:43	--	Nicks ##nicfix: [@cdsboy @cudaman73 @cuda|work @driftx @thismat1 @Torhal @wattbot cdsboy1 slumberland]
+2014-02-08 12:27:43	--	Channel ##nicfix: 9 nicks (7 ops, 0 voices, 2 normals)
+2014-02-08 12:27:46	--	Nicks ##nicfix: [@cdsboy @cudaman73 @cuda|work @driftx @thismat1 @Torhal @wattbot cdsboy1 slumberland]
+2014-02-08 12:27:46	--	Channel ##nicfix: 9 nicks (7 ops, 0 voices, 2 normals)
+2014-02-08 12:27:48	--	Mode ##nicfix [+cnst]
+2014-02-08 12:27:48	--	Channel created on Fri, 14 Jun 2013 22:33:12
+2014-02-08 12:28:01	cdsboy1	so close to having weechat to exactly where I want it T_T
+2014-02-08 12:30:55	@driftx	I think I'm giving up for now, there's just no way to theme it how it want it the stupid way they've separated content from colors
+2014-02-08 12:31:13	@driftx	totally screwed that sentence up, but you get the idea.
+2014-02-08 12:31:53	<--	slumberland (~Adium@pool-71-251-220-162.nwrknj.fios.verizon.net) has quit (Quit: Leaving.)
+2014-02-08 12:32:11	cdsboy1	You refereing to the fact that if you basically get text and delimiter colors?
+2014-02-08 12:32:17	@driftx	hmm, apparently there is some kind of color interpolation
+2014-02-08 12:32:20	cdsboy1	yeah
+2014-02-08 12:32:24	cdsboy1	it's weird to use though
+2014-02-08 12:32:38	@driftx	I mean like there's 'prefix' which you set for text, then 'prefix_color' for the color, so the text can't be mixed colors
+2014-02-08 12:32:53	@driftx	or I guess it can, but now you have the color defined in different places, wtf.
+2014-02-08 12:33:02	cdsboy1	I was under the impression that you could do it
+2014-02-08 12:33:06	cdsboy1	it's just kind of magicy
+2014-02-08 12:33:18	@driftx	I think you can do ${color:242} or something like that
+2014-02-08 12:34:26	cdsboy1	hmm
+2014-02-08 12:34:28	cdsboy1	let me test it
+2014-02-08 12:35:47	cdsboy1	hmmm
+2014-02-08 12:36:04	cdsboy1	didn't seem to work in the title bar for me
+2014-02-08 12:37:36	cdsboy1	ah
+2014-02-08 12:37:51	cdsboy1	it's only possible in things where content is evaluated apparently
+2014-02-08 12:37:59	cdsboy1	so the title bar doesn't work
+2014-02-08 12:38:01	@driftx	that's even worse
+2014-02-08 12:38:34	cdsboy1	you can do it in things like timestamp format
+2014-02-08 12:38:41	cdsboy1	but it seems like there isn't a ton of places where it works in
+2014-02-08 12:38:55	cdsboy1	that's kind of frustrating, but it doesn't actually affect me because I'm a big fan of flat colors
+2014-02-08 12:40:04	@driftx	what really bothers me is the hotlist ordering isn't by buffer number
+2014-02-08 12:41:19	cdsboy1	I'm not using their builtin hotlist
+2014-02-08 12:41:38	cdsboy1	I'm using a plugin called buffers
+2014-02-08 12:41:49	cdsboy1	which basically makes it act like irssi's lsit
+2014-02-08 12:41:51	cdsboy1	list*
+2014-02-08 12:43:52	@driftx	which plugin is this?
+2014-02-08 12:45:28	cdsboy1	it's literally just called buffers
+2014-02-08 12:45:53	<--	cdsboy (~cdsboy@cdsboy.com) has quit (Quit: leaving)
+2014-02-08 12:46:01	cdsboy1	brb
+2014-02-08 12:47:26	-->	cdsboy (~cdsboy@2607:5300:60:39da::1) has joined ##nicfix
+2014-02-08 12:47:26	--	Topic for ##nicfix is ""Spontaneous intra-familial grindobangs?" - Torhal | Our hangout: http://goo.gl/kL9Yy9 | nicfix10 @ Axiom 10% off | http://tinyurl.com/nicfixbooks"
+2014-02-08 12:47:26	--	Topic set by Torhal on Wed, 01 Jan 2014 14:35:53
+2014-02-08 12:47:26	--	Nicks ##nicfix: [@cudaman73 @cuda|work @driftx @thismat1 @Torhal @wattbot cdsboy]
+2014-02-08 12:47:26	--	Channel ##nicfix: 7 nicks (6 ops, 0 voices, 1 normal)
+2014-02-08 12:47:26	--	Mode ##nicfix [+o cdsboy] by ChanServ
+2014-02-08 12:47:28	--	Mode ##nicfix [+cnst]
+2014-02-08 12:47:28	--	Channel created on Fri, 14 Jun 2013 22:33:12
+2014-02-08 12:47:30	@cdsboy	ah fuck
+2014-02-08 12:47:52	@cdsboy	I forgot to turn off ipv6
+2014-02-08 12:52:08	-->	cdsboy (~cdsboy@2607:5300:60:39da::1) has joined ##nicfix
+2014-02-08 12:52:08	--	Topic for ##nicfix is ""Spontaneous intra-familial grindobangs?" - Torhal | Our hangout: http://goo.gl/kL9Yy9 | nicfix10 @ Axiom 10% off | http://tinyurl.com/nicfixbooks"
+2014-02-08 12:52:08	--	Topic set by Torhal on Wed, 01 Jan 2014 14:35:53
+2014-02-08 12:52:08	--	Nicks ##nicfix: [@cudaman73 @cuda|work @driftx @thismat1 @Torhal @wattbot cdsboy]
+2014-02-08 12:52:08	--	Channel ##nicfix: 7 nicks (6 ops, 0 voices, 1 normal)
+2014-02-08 12:52:08	--	Notice(asimov.freenode.net) -> ##nicfix: [freenode-info] channel trolls and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2014-02-08 12:52:08	--	Mode ##nicfix [+o cdsboy] by ChanServ
+2014-02-08 12:52:10	--	Mode ##nicfix [+cnst]
+2014-02-08 12:52:10	--	Channel created on Fri, 14 Jun 2013 22:33:12
+2014-02-08 12:52:14	@cdsboy	also, their nicklist sucks
+2014-02-08 12:52:17	@driftx	is it buffers.pl?
+2014-02-08 12:52:19	@cdsboy	there has to be a way to get a better nicklist
+2014-02-08 12:52:23	@cdsboy	driftx: just use /scripts
+2014-02-08 12:52:25	@driftx	like /list?
+2014-02-08 12:52:37	@driftx	cuz yeah, that list does suck
+2014-02-08 12:52:49	@cdsboy	oh btw
+2014-02-08 12:52:52	@cdsboy	don't type /list
+2014-02-08 12:52:58	@cdsboy	it lists all the channels on the network T_T
+2014-02-08 12:52:59	@driftx	err, /names
+2014-02-08 12:53:01	@cdsboy	yeah
+2014-02-08 12:53:01	@driftx	  weechat =!= Error: unknown command "scripts" (type /help for help)
+2014-02-08 12:53:06	@cdsboy	erm
+2014-02-08 12:53:09	@cdsboy	it's /script
+2014-02-08 12:53:10	@cdsboy	mb
+2014-02-08 12:53:20	@driftx	nope, heh
+2014-02-08 12:53:21	@cdsboy	weechat has a build in plugin manager
+2014-02-08 12:53:35	@cdsboy	well
+2014-02-08 12:53:35	@driftx	do I need to download the script?
+2014-02-08 12:53:38	@cdsboy	maybe
+2014-02-08 12:53:41	@cdsboy	it came with mine
+2014-02-08 12:53:47	@driftx	let's start there, cuz searching for 'buffers' gets me nowhere
+2014-02-08 12:54:05	@cdsboy	oh, apparently it's a portage flag to auto install the script manager
+2014-02-08 13:08:58	@driftx	I'm not sure if whatever I'm going to get out of this is worth the effort anymore
+2014-02-08 13:09:10	@cdsboy	It's probably not
+2014-02-08 13:09:13	@cdsboy	I was bored this morning
+2014-02-08 13:09:28	@cdsboy	otherwise I wouldn't have messed around with it
+2014-02-08 13:11:25	@driftx	buffers.pl is definitely not what I want
+2014-02-08 13:13:51	@driftx	what's it called in your /plugin list?
+2014-02-08 13:17:25	@cdsboy	it's not in my plugin list, it's called buffers.pl in script. What do you want it to do?
+2014-02-08 13:17:38	@cdsboy	or what's not correcct about it?
+2014-02-08 13:17:47	@cdsboy	s/correcct/correct/
+2014-02-08 13:17:47	@wattbot	cdsboy meant to say: or what's not correct about it?
+2014-02-08 13:18:54	@cdsboy	http://i.imgur.com/T6P3061.png the very top line is why buffers looks for me
+2014-02-08 13:20:25	@cdsboy	gah I just realized ipv6 is turned of for freenode still T_T
+2014-02-08 13:20:30	@cdsboy	w/e I'll just leave it for now
+2014-02-08 13:20:45	@cdsboy	I guess I'll have to deal with not being cdsboy@cdsboy.com for the time being
+2014-02-08 13:24:53	@driftx	yeah, that's not the hotlist
+2014-02-08 13:25:04	@driftx	I don't need a list of buffers, I need a list of activity
+2014-02-08 13:25:16	@driftx	which I have, just ordering bothers my ocd
+2014-02-08 13:25:24	@cdsboy	oh, all of these terms
+2014-02-08 13:25:27	@cdsboy	my bad
+2014-02-08 13:25:47	@driftx	it's the 'Act: 2,3' in here http://static.faltering.com/weechat.png
+2014-02-08 13:26:01	@driftx	which are sorted that time, but most of the time it's the order they received activity
+2014-02-08 13:26:17	@driftx	like right now it's [Act: 6(18,1), 4(3)]
+2014-02-08 13:29:10	@cuda|work	http://redd.it/1xdcug
+2014-02-08 13:29:12	@cuda|work	needs some lub
+2014-02-08 13:29:13	@cuda|work	>.>
+2014-02-08 13:29:17	@cuda|work	lub u guise
+2014-02-08 13:37:54	@cdsboy	cuda|work: http://i.imgur.com/iePIABL.png
+2014-02-08 13:50:13	@cuda|work	:D
+2014-02-08 13:50:17	@cuda|work	im at like 17k doge now :/
+2014-02-08 14:02:16	-->	Adelwolf (~quassel@pool-173-67-40-33.bltmmd.fios.verizon.net) has joined ##nicfix
+2014-02-08 14:02:16	--	Mode ##nicfix [+o Adelwolf] by ChanServ
+2014-02-08 14:08:58	-->	slumberland (~Adium@c-68-46-10-248.hsd1.nj.comcast.net) has joined ##nicfix
+2014-02-08 14:12:19	-->	slumberland1 (~Adium@c-68-46-10-248.hsd1.nj.comcast.net) has joined ##nicfix
+2014-02-08 14:12:20	<--	slumberland (~Adium@c-68-46-10-248.hsd1.nj.comcast.net) has quit (Read error: Connection reset by peer)
+2014-02-08 18:34:59	<--	thismat1 (~thismat@li53-112.members.linode.com) has quit (Ping timeout: 272 seconds)
+2014-02-08 19:01:23	-->	thismat1 (~thismat@li53-112.members.linode.com) has joined ##nicfix
+2014-02-08 19:30:43	<--	Adelwolf (~quassel@pool-173-67-40-33.bltmmd.fios.verizon.net) has quit (Ping timeout: 272 seconds)
+2014-02-08 19:54:51	slumberland1	cuddles
+2014-02-08 19:55:03	slumberland1	i may need perdition in like 20/80 or 30/70 :/
+2014-02-08 19:55:06	slumberland1	for the genny
+2014-02-08 20:07:12	@cdsboy	driftx: I figured out how to sort the hotlist by buffer name :)
+2014-02-08 20:07:35	@driftx	I want to sort it by number, I have lots and they're all memorized, heh
+2014-02-08 20:08:08	@cdsboy	I meant buffer number rather
+2014-02-08 20:08:36	@cdsboy	 /set weechat.look.hotlist_sort number_asc
+2014-02-08 20:10:46	-->	Adelwolf (~quassel@pool-173-67-40-33.bltmmd.fios.verizon.net) has joined ##nicfix
+2014-02-08 20:10:46	--	Mode ##nicfix [+o Adelwolf] by ChanServ
+2014-02-08 20:10:58	@driftx	nice, thanks
+2014-02-08 20:19:20	@driftx	I think I'm about 90% there, still some annoyances
+2014-02-08 20:19:49	@cdsboy	What else is annoying?
+2014-02-08 20:19:56	@cdsboy	I think I almost have how this program works down
+2014-02-08 20:26:10	@driftx	names list, but I can probably live with that
+2014-02-08 20:26:21	@driftx	rest is little formatting things I'll figure out
+2014-02-08 20:26:33	@driftx	like how to get raw strings in the status
+2014-02-08 20:27:41	@driftx	or op/deop counts in buffer_nicklist_count
+2014-02-08 20:28:36	@Adelwolf	Whatever are you gentlemen doing?
+2014-02-08 20:32:13	@cdsboy	playing around with switching from irssi to weechat
+2014-02-08 20:39:05	@Adelwolf	Yeah, that looks just a weeeeeee bit over my head
+2014-02-08 20:40:47	@cdsboy	Adelwolf: what you don't want your irc client to look like http://i.imgur.com/nEc6TZo.png ?
+2014-02-08 20:41:25	@Adelwolf	Not without nick color coding =p
+2014-02-08 20:41:38	@cdsboy	well, I disabled that because I hate nick color coding >.>
+2014-02-08 20:42:31	@Adelwolf	Being able to see who's saying what at a glance is helpful to me, at least
+2014-02-08 20:42:37	@Adelwolf	Espcially if I can designate the colors
+2014-02-08 20:43:45	@Adelwolf	A font change would be nice, too >.>
+2014-02-08 20:47:15	@Torhal	Adelwolf: Every time they mention that, I say "Wee! Chat!"
+2014-02-08 20:47:40	@Adelwolf	I won't malign stupid app names, if it works. =p
+2014-02-08 20:47:57	@Torhal	I used to use weechat when I was on Linux.
+2014-02-08 20:48:37	@cdsboy	I just keep a curses irc running on a remote box
+2014-02-08 20:48:47	@cdsboy	that way I can always be logged in and connect from any computer :)
+2014-02-08 21:25:52	@driftx	same
+2014-02-08 22:28:11	<--	Adelwolf (~quassel@pool-173-67-40-33.bltmmd.fios.verizon.net) has quit (Ping timeout: 246 seconds)
+2014-02-08 22:56:46	<--	thismat1 (~thismat@li53-112.members.linode.com) has quit (Quit: WeeChat 0.4.3-rc1)
+2014-02-08 22:58:44	-->	thismat (~thismat@li53-112.members.linode.com) has joined ##nicfix
+2014-02-08 23:57:20	-->	leachim6 (~leachim6@rrcs-97-76-145-151.se.biz.rr.com) has joined ##nicfix
+2014-02-08 23:57:20	--	Mode ##nicfix [+o leachim6] by ChanServ
+2014-02-09 00:24:43	@cdsboy	leachim6: http://i.imgur.com/nEc6TZo.png weechat layout

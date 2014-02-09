@@ -1,0 +1,280 @@
+2014-02-08 12:46:50	-->	cdsboy (cdsboy@localhost) has joined &bitlbee
+2014-02-08 12:46:50	--	Mode &bitlbee [+Ct] by localhost
+2014-02-08 12:46:50	--	Nicks &bitlbee: [@cdsboy @root]
+2014-02-08 12:46:50	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2014-02-08 12:46:50	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2014-02-08 12:46:50	--	Topic set by root (root@localhost) on Sat, 08 Feb 2014 12:46:50
+2014-02-08 12:46:50	@root	Welcome to the BitlBee gateway!
+2014-02-08 12:46:50	@root	 
+2014-02-08 12:46:50	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2014-02-08 12:46:50	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2014-02-08 12:46:50	--	Mode &bitlbee [+Ct]
+2014-02-08 12:46:53	@cdsboy	identify cdsboy11
+2014-02-08 12:46:53	--	Mode &bitlbee [-C] by root
+2014-02-08 12:46:53	--	Mode &bitlbee [+C] by root
+2014-02-08 12:46:53	@root	Password accepted, settings and accounts loaded
+2014-02-08 12:46:53	@root	Trying to get all accounts connected...
+2014-02-08 12:46:53	@root	fb - Logging in: Connecting
+2014-02-08 12:46:53	@root	fb - Logging in: Connected to server, logging in
+2014-02-08 12:46:53	@root	fb - Logging in: Converting stream to TLS
+2014-02-08 12:46:53	@root	fb - Logging in: Connected to server, logging in
+2014-02-08 12:46:53	@root	gtalk - Logging in: Connecting
+2014-02-08 12:46:53	@root	gtalk - Logging in: Connected to server, logging in
+2014-02-08 12:46:54	@root	gtalk - Logging in: Converting stream to TLS
+2014-02-08 12:46:54	@root	fb - Logging in: Authentication finished
+2014-02-08 12:46:54	@root	gtalk - Logging in: Connected to server, logging in
+2014-02-08 12:46:54	@root	gtalk - Logging in: Authentication finished
+2014-02-08 12:46:54	@root	gtalk - Logging in: Server changed session resource string to `BitlBeeECC80580'
+2014-02-08 12:46:54	@root	gtalk - Logging in: Authenticated, requesting buddy list
+2014-02-08 12:46:55	@root	gtalk - Logging in: Logged in
+2014-02-08 12:46:55	-->	LaurenHasty (almighty.lsama@gmail.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	AdelWolf (3v7secgw31zio20d57fkjv7hwg@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	HanYongWunrow (2ehglzg884wc73qxfn3hqje6o7@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	TimothyBaldridge (11bx2i3c7bdkk0febn83vdddlg@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:46:55	--	Mode &bitlbee [+v TimothyBaldridge] by localhost
+2014-02-08 12:46:55	-->	MattJoiner (1nkqvgigylzcc197c85rqhk0te@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	Jeffrywith1e (jeffrywith1e@gmail.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	Jean-GabrielMailloux (holyspidoo@gmail.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	BrandonWilliams (0qfj7nu9wips03nw0khxf8tete@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:46:55	--	Mode &bitlbee [+v BrandonWilliams] by localhost
+2014-02-08 12:46:55	-->	RobbieBuchanan (robbie.buchanan@gmail.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	ArenSiekmeier (compwiztobe@gmail.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	JonSerino (jon.serino@gmail.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	CodyRobb (robb.cody@gmail.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	Tim (tkosanke@gmail.com) has joined &bitlbee
+2014-02-08 12:46:55	--	Mode &bitlbee [+v Tim] by localhost
+2014-02-08 12:46:55	-->	WilliamBlanksJr (2pi9crrm7nbj138op0ysotk06w@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	JamesCallahanIII (1kcd0ne398gwg0muuwxub1jnfw@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	MilezZaoral (milezaoral@gmail.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	AllisonMcWilliams (1m2kj1fo2s62c3li70y1wvb8yy@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	justingounili (29s1ohxe5z4cb0lfjymtvcvm73@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	jakeschweit (jake.schweit@gmail.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	TimboZero (00yi4btxhi7am300xh28jwmyzu@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	NoahTrebesch (384tuljteexsz2s93bz1qvygxm@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	CoreyHannula (msabasketball24@gmail.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	JakeTarren (1nfg4xpg9jnzi33vnlnsxdjlj4@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	TimSchoenheider (timrs2998@gmail.com) has joined &bitlbee
+2014-02-08 12:46:55	-->	CaptainAwesome (falloutie@gmail.com) has joined &bitlbee
+2014-02-08 12:46:56	-->	JoshDillard (0e0su8w0cqch12nk9ergwininx@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:46:57	@cdsboy	acc 1 off
+2014-02-08 12:46:57	@root	fb - Logging in: Signing off..
+2014-02-08 12:46:57	@root	fb - Logging in: If you're having problems logging in, try re-requesting an OAuth token: account fb set password ""
+2014-02-08 12:49:52	--	Mode &bitlbee [-v TimothyBaldridge] by localhost
+2014-02-08 12:51:39	-->	cdsboy (cdsboy@localhost) has joined &bitlbee
+2014-02-08 12:51:39	--	Mode &bitlbee [+Ct] by localhost
+2014-02-08 12:51:39	--	Nicks &bitlbee: [@cdsboy @root]
+2014-02-08 12:51:39	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2014-02-08 12:51:39	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2014-02-08 12:51:39	--	Topic set by root (root@localhost) on Sat, 08 Feb 2014 12:51:39
+2014-02-08 12:51:39	@root	Welcome to the BitlBee gateway!
+2014-02-08 12:51:39	@root	 
+2014-02-08 12:51:39	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2014-02-08 12:51:39	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2014-02-08 12:51:39	--	Mode &bitlbee [+Ct]
+2014-02-08 12:51:42	@cdsboy	identify cdsboy11
+2014-02-08 12:51:42	--	Mode &bitlbee [-C] by root
+2014-02-08 12:51:42	--	Mode &bitlbee [+C] by root
+2014-02-08 12:51:42	@root	Password accepted, settings and accounts loaded
+2014-02-08 12:51:43	@root	Trying to get all accounts connected...
+2014-02-08 12:51:43	@root	fb - Logging in: Connecting
+2014-02-08 12:51:43	@root	fb - Logging in: Connected to server, logging in
+2014-02-08 12:51:43	@root	fb - Logging in: Converting stream to TLS
+2014-02-08 12:51:43	@root	fb - Logging in: Connected to server, logging in
+2014-02-08 12:51:43	@root	gtalk - Logging in: Connecting
+2014-02-08 12:51:43	@root	gtalk - Logging in: Connected to server, logging in
+2014-02-08 12:51:44	@root	fb - Logging in: Authentication finished
+2014-02-08 12:51:44	@root	gtalk - Logging in: Converting stream to TLS
+2014-02-08 12:51:44	@root	gtalk - Logging in: Connected to server, logging in
+2014-02-08 12:51:44	@root	gtalk - Logging in: Authentication finished
+2014-02-08 12:51:44	@root	gtalk - Logging in: Server changed session resource string to `BitlBee814CA377'
+2014-02-08 12:51:44	@root	gtalk - Logging in: Authenticated, requesting buddy list
+2014-02-08 12:51:45	@root	gtalk - Logging in: Logged in
+2014-02-08 12:51:45	-->	LaurenHasty (almighty.lsama@gmail.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	AdelWolf (3v7secgw31zio20d57fkjv7hwg@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	HanYongWunrow (2ehglzg884wc73qxfn3hqje6o7@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	TimothyBaldridge (11bx2i3c7bdkk0febn83vdddlg@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	MattJoiner (1nkqvgigylzcc197c85rqhk0te@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	ArenSiekmeier (compwiztobe@gmail.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	MilezZaoral (milezaoral@gmail.com) has joined &bitlbee
+2014-02-08 12:51:45	--	Mode &bitlbee [+v MilezZaoral] by localhost
+2014-02-08 12:51:45	-->	CodyRobb (robb.cody@gmail.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	AllisonMcWilliams (1m2kj1fo2s62c3li70y1wvb8yy@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	RobbieBuchanan (robbie.buchanan@gmail.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	JonSerino (jon.serino@gmail.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	Tim (tkosanke@gmail.com) has joined &bitlbee
+2014-02-08 12:51:45	--	Mode &bitlbee [+v Tim] by localhost
+2014-02-08 12:51:45	-->	JamesCallahanIII (1kcd0ne398gwg0muuwxub1jnfw@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	WilliamBlanksJr (2pi9crrm7nbj138op0ysotk06w@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	justingounili (29s1ohxe5z4cb0lfjymtvcvm73@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	Jeffrywith1e (jeffrywith1e@gmail.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	CaptainAwesome (falloutie@gmail.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	Jean-GabrielMailloux (holyspidoo@gmail.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	BrandonWilliams (0qfj7nu9wips03nw0khxf8tete@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:51:45	--	Mode &bitlbee [+v BrandonWilliams] by localhost
+2014-02-08 12:51:45	-->	jakeschweit (jake.schweit@gmail.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	CoreyHannula (msabasketball24@gmail.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	NoahTrebesch (384tuljteexsz2s93bz1qvygxm@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	JakeTarren (1nfg4xpg9jnzi33vnlnsxdjlj4@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	TimboZero (00yi4btxhi7am300xh28jwmyzu@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	TimSchoenheider (timrs2998@gmail.com) has joined &bitlbee
+2014-02-08 12:51:45	-->	JoshDillard (0e0su8w0cqch12nk9ergwininx@public.talk.google.com) has joined &bitlbee
+2014-02-08 12:51:46	@cdsboy	acc 1 off
+2014-02-08 12:51:46	@root	fb - Logging in: Signing off..
+2014-02-08 12:51:46	@root	fb - Logging in: If you're having problems logging in, try re-requesting an OAuth token: account fb set password ""
+2014-02-08 12:51:49	--	Mode &bitlbee [+v Jeffrywith1e] by localhost
+2014-02-08 12:57:44	-->	hlbowlby (zoegirl10@gmail.com) has joined &bitlbee
+2014-02-08 12:57:44	--	Mode &bitlbee [+v hlbowlby] by localhost
+2014-02-08 13:08:11	-->	KyleJohnson (tuneharmonic@gmail.com) has joined &bitlbee
+2014-02-08 13:08:50	--	Mode &bitlbee [-v Jeffrywith1e] by localhost
+2014-02-08 13:09:03	--	Mode &bitlbee [+v CodyRobb] by localhost
+2014-02-08 13:11:37	--	Mode &bitlbee [-v CodyRobb] by localhost
+2014-02-08 13:13:29	@cdsboy	RobbieBuchanan: :D figured out weechat
+2014-02-08 13:14:00	--	Mode &bitlbee [+v CodyRobb] by localhost
+2014-02-08 13:14:11	RobbieBuchanan	cdsboy: Lol
+2014-02-08 13:15:05	--	Mode &bitlbee [-v CodyRobb] by localhost
+2014-02-08 13:17:39	--	Mode &bitlbee [+v CodyRobb] by localhost
+2014-02-08 13:18:33	--	Mode &bitlbee [-v CodyRobb] by localhost
+2014-02-08 13:30:49	--	Mode &bitlbee [-v hlbowlby] by localhost
+2014-02-08 13:32:31	--	Mode &bitlbee [+v Jeffrywith1e] by localhost
+2014-02-08 13:32:52	--	Mode &bitlbee [+v CodyRobb] by localhost
+2014-02-08 13:34:40	--	Mode &bitlbee [-v CodyRobb] by localhost
+2014-02-08 13:46:18	--	Mode &bitlbee [+v CodyRobb] by localhost
+2014-02-08 13:47:17	--	Mode &bitlbee [-v CodyRobb] by localhost
+2014-02-08 13:47:46	--	Mode &bitlbee [-v Jeffrywith1e] by localhost
+2014-02-08 13:50:00	--	Mode &bitlbee [+v hlbowlby] by localhost
+2014-02-08 14:05:04	--	Mode &bitlbee [-v hlbowlby] by localhost
+2014-02-08 14:05:51	--	Mode &bitlbee [+v Jeffrywith1e] by localhost
+2014-02-08 14:21:05	--	Mode &bitlbee [-v Jeffrywith1e] by localhost
+2014-02-08 14:24:37	--	Mode &bitlbee [+v Jeffrywith1e] by localhost
+2014-02-08 14:39:28	<--	hlbowlby (zoegirl10@gmail.com) has quit (Leaving...)
+2014-02-08 14:41:08	--	Mode &bitlbee [-v Jeffrywith1e] by localhost
+2014-02-08 14:50:26	--	Mode &bitlbee [+v CaptainAwesome] by localhost
+2014-02-08 15:06:15	-->	hlbowlby (zoegirl10@gmail.com) has joined &bitlbee
+2014-02-08 15:06:15	--	Mode &bitlbee [+v hlbowlby] by localhost
+2014-02-08 15:06:15	--	Mode &bitlbee [-v hlbowlby] by localhost
+2014-02-08 15:09:41	--	Mode &bitlbee [+v Jean-GabrielMailloux] by localhost
+2014-02-08 15:09:52	<--	hlbowlby (zoegirl10@gmail.com) has quit (Leaving...)
+2014-02-08 15:11:42	--	Mode &bitlbee [-v CaptainAwesome] by localhost
+2014-02-08 15:18:11	--	Mode &bitlbee [+v CaptainAwesome] by localhost
+2014-02-08 15:22:31	-->	JohnLawless (johnjacklawless@gmail.com) has joined &bitlbee
+2014-02-08 15:22:31	--	Mode &bitlbee [+v JohnLawless] by localhost
+2014-02-08 15:22:58	<--	CaptainAwesome (falloutie@gmail.com) has quit (Leaving...)
+2014-02-08 15:24:44	--	Mode &bitlbee [+v Jeffrywith1e] by localhost
+2014-02-08 15:24:49	--	Mode &bitlbee [-v Jean-GabrielMailloux] by localhost
+2014-02-08 15:28:37	<--	JohnLawless (johnjacklawless@gmail.com) has quit (Leaving...)
+2014-02-08 15:41:26	-->	JohnLawless (johnjacklawless@gmail.com) has joined &bitlbee
+2014-02-08 15:41:26	--	Mode &bitlbee [+v JohnLawless] by localhost
+2014-02-08 15:50:29	--	Mode &bitlbee [-v MilezZaoral] by localhost
+2014-02-08 15:56:33	--	Mode &bitlbee [-v JohnLawless] by localhost
+2014-02-08 15:59:01	--	Mode &bitlbee [+v MilezZaoral] by localhost
+2014-02-08 16:00:36	--	Mode &bitlbee [-v Jeffrywith1e] by localhost
+2014-02-08 16:07:10	--	Mode &bitlbee [+v Jeffrywith1e] by localhost
+2014-02-08 16:13:13	-->	hlbowlby (zoegirl10@gmail.com) has joined &bitlbee
+2014-02-08 16:13:13	--	Mode &bitlbee [+v hlbowlby] by localhost
+2014-02-08 16:13:13	--	Mode &bitlbee [-v hlbowlby] by localhost
+2014-02-08 16:16:25	<--	JohnLawless (johnjacklawless@gmail.com) has quit (Leaving...)
+2014-02-08 16:23:11	--	Mode &bitlbee [-v Jeffrywith1e] by localhost
+2014-02-08 16:27:45	--	Mode &bitlbee [+v hlbowlby] by localhost
+2014-02-08 16:31:20	--	Mode &bitlbee [-v BrandonWilliams] by localhost
+2014-02-08 16:34:12	-->	JohnLawless (johnjacklawless@gmail.com) has joined &bitlbee
+2014-02-08 16:34:12	--	Mode &bitlbee [+v JohnLawless] by localhost
+2014-02-08 16:34:38	<--	JohnLawless (johnjacklawless@gmail.com) has quit (Leaving...)
+2014-02-08 16:50:52	--	Mode &bitlbee [-v hlbowlby] by localhost
+2014-02-08 16:52:16	<--	hlbowlby (zoegirl10@gmail.com) has quit (Leaving...)
+2014-02-08 17:21:21	-->	hlbowlby (zoegirl10@gmail.com) has joined &bitlbee
+2014-02-08 17:21:21	--	Mode &bitlbee [+v hlbowlby] by localhost
+2014-02-08 17:21:21	--	Mode &bitlbee [-v hlbowlby] by localhost
+2014-02-08 17:24:55	<--	hlbowlby (zoegirl10@gmail.com) has quit (Leaving...)
+2014-02-08 17:26:04	--	Mode &bitlbee [-v MilezZaoral] by localhost
+2014-02-08 17:38:38	--	Mode &bitlbee [+v MilezZaoral] by localhost
+2014-02-08 17:44:01	--	Mode &bitlbee [-v MilezZaoral] by localhost
+2014-02-08 17:49:46	-->	EdwardHarrison (edweird@gmail.com) has joined &bitlbee
+2014-02-08 17:55:42	--	Mode &bitlbee [+v MilezZaoral] by localhost
+2014-02-08 18:10:05	--	Mode &bitlbee [-v MilezZaoral] by localhost
+2014-02-08 18:26:51	--	Mode &bitlbee [+v MilezZaoral] by localhost
+2014-02-08 19:03:38	--	Mode &bitlbee [+v Jeffrywith1e] by localhost
+2014-02-08 19:18:35	-->	JohnLawless (johnjacklawless@gmail.com) has joined &bitlbee
+2014-02-08 19:18:35	--	Mode &bitlbee [+v JohnLawless] by localhost
+2014-02-08 19:31:56	--	Mode &bitlbee [-v Jeffrywith1e] by localhost
+2014-02-08 19:35:24	--	Mode &bitlbee [-v JohnLawless] by localhost
+2014-02-08 20:11:37	--	Mode &bitlbee [-v MilezZaoral] by localhost
+2014-02-08 20:13:39	--	Mode &bitlbee [+v MilezZaoral] by localhost
+2014-02-08 20:57:51	--	Mode &bitlbee [-v MilezZaoral] by localhost
+2014-02-08 20:58:15	--	Mode &bitlbee [+v MilezZaoral] by localhost
+2014-02-08 21:03:01	--	Nicks &bitlbee: [@cdsboy @root +MilezZaoral +Tim AdelWolf AllisonMcWilliams ArenSiekmeier BrandonWilliams CodyRobb CoreyHannula EdwardHarrison HanYongWunrow jakeschweit JakeTarren JamesCallahanIII Jean-GabrielMailloux Jeffrywith1e JohnLawless JonSerino JoshDillard justingounili KyleJohnson LaurenHasty MattJoiner NoahTrebesch RobbieBuchanan TimboZero TimothyBaldridge TimSchoenheider WilliamBlanksJr]
+2014-02-08 21:03:01	--	Channel &bitlbee: 30 nicks (2 ops, 0 halfops, 2 voices, 26 normals)
+2014-02-08 21:03:03	--	Nicks &bitlbee: [@cdsboy @root +MilezZaoral +Tim AdelWolf AllisonMcWilliams ArenSiekmeier BrandonWilliams CodyRobb CoreyHannula EdwardHarrison HanYongWunrow jakeschweit JakeTarren JamesCallahanIII Jean-GabrielMailloux Jeffrywith1e JohnLawless JonSerino JoshDillard justingounili KyleJohnson LaurenHasty MattJoiner NoahTrebesch RobbieBuchanan TimboZero TimothyBaldridge TimSchoenheider WilliamBlanksJr]
+2014-02-08 21:03:03	--	Channel &bitlbee: 30 nicks (2 ops, 0 halfops, 2 voices, 26 normals)
+2014-02-08 21:03:05	--	Nicks &bitlbee: [@cdsboy @root +MilezZaoral +Tim AdelWolf AllisonMcWilliams ArenSiekmeier BrandonWilliams CodyRobb CoreyHannula EdwardHarrison HanYongWunrow jakeschweit JakeTarren JamesCallahanIII Jean-GabrielMailloux Jeffrywith1e JohnLawless JonSerino JoshDillard justingounili KyleJohnson LaurenHasty MattJoiner NoahTrebesch RobbieBuchanan TimboZero TimothyBaldridge TimSchoenheider WilliamBlanksJr]
+2014-02-08 21:03:05	--	Channel &bitlbee: 30 nicks (2 ops, 0 halfops, 2 voices, 26 normals)
+2014-02-08 21:03:07	--	Nicks &bitlbee: [@cdsboy @root +MilezZaoral +Tim AdelWolf AllisonMcWilliams ArenSiekmeier BrandonWilliams CodyRobb CoreyHannula EdwardHarrison HanYongWunrow jakeschweit JakeTarren JamesCallahanIII Jean-GabrielMailloux Jeffrywith1e JohnLawless JonSerino JoshDillard justingounili KyleJohnson LaurenHasty MattJoiner NoahTrebesch RobbieBuchanan TimboZero TimothyBaldridge TimSchoenheider WilliamBlanksJr]
+2014-02-08 21:03:07	--	Channel &bitlbee: 30 nicks (2 ops, 0 halfops, 2 voices, 26 normals)
+2014-02-08 21:17:42	-->	JayGroven (jeremy.groven@gmail.com) has joined &bitlbee
+2014-02-08 21:24:03	@cdsboy	acc 1 on
+2014-02-08 21:24:04	@root	fb - Logging in: Connecting
+2014-02-08 21:24:04	@root	fb - Logging in: Connected to server, logging in
+2014-02-08 21:24:04	@root	fb - Logging in: Converting stream to TLS
+2014-02-08 21:24:04	@root	fb - Logging in: Connected to server, logging in
+2014-02-08 21:24:05	@root	fb - Logging in: Authentication finished
+2014-02-08 21:25:25	@cdsboy	acc fb set oath on
+2014-02-08 21:25:25	@root	Setting `oath' does not exist.
+2014-02-08 21:25:31	@cdsboy	acc
+2014-02-08 21:25:31	@root	Not enough parameters given (need 1).
+2014-02-08 21:25:33	@cdsboy	acc list
+2014-02-08 21:25:33	@root	 0 (gtalk): jabber, cdsboy@gmail.com (connected)
+2014-02-08 21:25:33	@root	 1 (fb): jabber, bbowlby@chat.facebook.com (connecting)
+2014-02-08 21:25:33	@root	End of account list
+2014-02-08 21:25:52	@cdsboy	acc fb set oauth on
+2014-02-08 21:25:52	@root	oauth = `on'
+2014-02-08 21:26:04	@root	fb - Login error: Connection timeout
+2014-02-08 21:26:04	@root	fb - Logging in: Signing off..
+2014-02-08 21:26:04	@root	fb - Logging in: Reconnecting in 5 seconds..
+2014-02-08 21:26:09	@root	fb - Logging in: Connecting
+2014-02-08 21:26:09	@root	fb - Logging in: Connected to server, logging in
+2014-02-08 21:26:09	@root	fb - Logging in: Converting stream to TLS
+2014-02-08 21:26:09	@root	fb - Logging in: Connected to server, logging in
+2014-02-08 21:26:10	@root	fb - Logging in: Authentication finished
+2014-02-08 21:26:13	@cdsboy	acc fb on
+2014-02-08 21:26:13	@root	Account already online
+2014-02-08 21:26:15	@cdsboy	acc fb off
+2014-02-08 21:26:15	@root	fb - Logging in: Signing off..
+2014-02-08 21:26:15	@root	fb - Logging in: If you're having problems logging in, try re-requesting an OAuth token: account fb set password ""
+2014-02-08 21:26:20	@cdsboy	acc fb set password ""
+2014-02-08 21:26:20	@root	Setting changed successfully
+2014-02-08 21:26:24	@cdsboy	acc fb on
+2014-02-08 21:26:24	@root	fb - Logging in: Starting OAuth authentication
+2014-02-08 21:26:41	@root	fb - Logging in: Requesting OAuth access token
+2014-02-08 21:26:41	@root	fb - Logging in: Connecting
+2014-02-08 21:26:41	@root	fb - Logging in: Connected to server, logging in
+2014-02-08 21:26:42	@root	fb - Logging in: Converting stream to TLS
+2014-02-08 21:26:42	@root	fb - Logging in: Connected to server, logging in
+2014-02-08 21:26:42	@root	fb - Logging in: Authentication finished
+2014-02-08 21:27:06	--	Mode &bitlbee [+v Jean-GabrielMailloux] by localhost
+2014-02-08 21:27:51	@cdsboy	acc list
+2014-02-08 21:27:51	@root	 0 (gtalk): jabber, cdsboy@gmail.com (connected)
+2014-02-08 21:27:51	@root	 1 (fb): jabber, bbowlby@chat.facebook.com (connecting)
+2014-02-08 21:27:51	@root	End of account list
+2014-02-08 21:40:08	<--	JohnLawless (johnjacklawless@gmail.com) has quit (Leaving...)
+2014-02-08 21:40:54	-->	JohnLawless (johnjacklawless@gmail.com) has joined &bitlbee
+2014-02-08 21:40:54	--	Mode &bitlbee [+v JohnLawless] by localhost
+2014-02-08 21:41:25	<--	JohnLawless (johnjacklawless@gmail.com) has quit (Leaving...)
+2014-02-08 21:48:33	<--	JayGroven (jeremy.groven@gmail.com) has quit (Leaving...)
+2014-02-08 21:50:36	--	Mode &bitlbee [-v Jean-GabrielMailloux] by localhost
+2014-02-08 22:14:38	--	Mode &bitlbee [+v Jeffrywith1e] by localhost
+2014-02-08 22:31:39	--	Mode &bitlbee [-v Jeffrywith1e] by localhost
+2014-02-08 22:34:20	--	Mode &bitlbee [-v MilezZaoral] by localhost
+2014-02-08 22:34:27	--	Mode &bitlbee [+v MilezZaoral] by localhost
+2014-02-08 22:43:41	--	Mode &bitlbee [-v MilezZaoral] by localhost
+2014-02-08 22:45:23	--	Mode &bitlbee [+v MilezZaoral] by localhost
+2014-02-08 22:46:58	--	Mode &bitlbee [+v Jeffrywith1e] by localhost
+2014-02-08 22:57:36	--	Mode &bitlbee [-v MilezZaoral] by localhost
+2014-02-08 23:04:54	--	Mode &bitlbee [-v Jeffrywith1e] by localhost
+2014-02-08 23:06:46	--	Mode &bitlbee [+v MilezZaoral] by localhost
+2014-02-08 23:15:18	--	Mode &bitlbee [-v MilezZaoral] by localhost
+2014-02-08 23:41:16	--	Mode &bitlbee [+v CodyRobb] by localhost
+2014-02-08 23:47:51	--	Mode &bitlbee [-v CodyRobb] by localhost
+2014-02-08 23:48:46	--	Mode &bitlbee [+v CodyRobb] by localhost
+2014-02-08 23:49:09	--	Mode &bitlbee [+v MilezZaoral] by localhost
+2014-02-08 23:54:08	--	Mode &bitlbee [+v RobbieBuchanan] by localhost
+2014-02-09 00:09:09	--	Mode &bitlbee [-v RobbieBuchanan] by localhost
+2014-02-09 00:09:34	--	Mode &bitlbee [-v Tim] by localhost

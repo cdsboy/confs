@@ -1,0 +1,2354 @@
+2014-02-08 11:20:29		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, script, xfer
+2014-02-08 11:20:46		All servers:
+2014-02-08 11:20:46		   freenode
+2014-02-08 11:20:53	=!=	irc: command "nick" must be executed on irc buffer (server or channel)
+2014-02-08 11:23:18		[startup] (weechat.conf)
+2014-02-08 11:23:18		  weechat.startup.command_after_plugins = ""
+2014-02-08 11:23:18		  weechat.startup.command_before_plugins = ""
+2014-02-08 11:23:18		  weechat.startup.display_logo = on
+2014-02-08 11:23:18		  weechat.startup.display_version = on
+2014-02-08 11:23:18		  weechat.startup.sys_rlimit = ""
+2014-02-08 11:23:18		[look] (weechat.conf)
+2014-02-08 11:23:18		  weechat.look.align_end_of_lines = message
+2014-02-08 11:23:18		  weechat.look.bar_more_down = "++"
+2014-02-08 11:23:18		  weechat.look.bar_more_left = "<<"
+2014-02-08 11:23:18		  weechat.look.bar_more_right = ">>"
+2014-02-08 11:23:18		  weechat.look.bar_more_up = "--"
+2014-02-08 11:23:18		  weechat.look.buffer_notify_default = all
+2014-02-08 11:23:18		  weechat.look.buffer_time_format = "%H:%M:%S"
+2014-02-08 11:23:18		  weechat.look.color_basic_force_bold = off
+2014-02-08 11:23:18		  weechat.look.color_inactive_buffer = on
+2014-02-08 11:23:18		  weechat.look.color_inactive_message = on
+2014-02-08 11:23:18		  weechat.look.color_inactive_prefix = on
+2014-02-08 11:23:18		  weechat.look.color_inactive_prefix_buffer = on
+2014-02-08 11:23:18		  weechat.look.color_inactive_time = off
+2014-02-08 11:23:18		  weechat.look.color_inactive_window = on
+2014-02-08 11:23:18		  weechat.look.color_nick_offline = off
+2014-02-08 11:23:18		  weechat.look.color_pairs_auto_reset = 5
+2014-02-08 11:23:18		  weechat.look.color_real_white = off
+2014-02-08 11:23:18		  weechat.look.command_chars = ""
+2014-02-08 11:23:18		  weechat.look.confirm_quit = off
+2014-02-08 11:23:18		  weechat.look.day_change = on
+2014-02-08 11:23:18		  weechat.look.day_change_message_1date = "-- %a, %d %b %Y --"
+2014-02-08 11:23:18		  weechat.look.day_change_message_2dates = "-- %%a, %%d %%b %%Y (%a, %d %b %Y) --"
+2014-02-08 11:23:18		  weechat.look.eat_newline_glitch = off
+2014-02-08 11:23:18		  weechat.look.emphasized_attributes = ""
+2014-02-08 11:23:18		  weechat.look.highlight = ""
+2014-02-08 11:23:18		  weechat.look.highlight_regex = ""
+2014-02-08 11:23:18		  weechat.look.highlight_tags = ""
+2014-02-08 11:23:18		  weechat.look.hotlist_add_buffer_if_away = on
+2014-02-08 11:23:18		  weechat.look.hotlist_buffer_separator = ", "
+2014-02-08 11:23:18		  weechat.look.hotlist_count_max = 2
+2014-02-08 11:23:18		  weechat.look.hotlist_count_min_msg = 2
+2014-02-08 11:23:18		  weechat.look.hotlist_names_count = 3
+2014-02-08 11:23:18		  weechat.look.hotlist_names_length = 0
+2014-02-08 11:23:18		  weechat.look.hotlist_names_level = 12
+2014-02-08 11:23:18		  weechat.look.hotlist_names_merged_buffers = off
+2014-02-08 11:23:18		  weechat.look.hotlist_prefix = "H: "
+2014-02-08 11:23:18		  weechat.look.hotlist_short_names = on
+2014-02-08 11:23:18		  weechat.look.hotlist_sort = group_time_asc
+2014-02-08 11:23:18		  weechat.look.hotlist_suffix = ""
+2014-02-08 11:23:18		  weechat.look.hotlist_unique_numbers = on
+2014-02-08 11:23:18		  weechat.look.input_cursor_scroll = 20
+2014-02-08 11:23:18		  weechat.look.input_share = none
+2014-02-08 11:23:18		  weechat.look.input_share_overwrite = off
+2014-02-08 11:23:18		  weechat.look.input_undo_max = 32
+2014-02-08 11:23:18		  weechat.look.item_buffer_filter = "*"
+2014-02-08 11:23:18		  weechat.look.item_time_format = "%H:%M"
+2014-02-08 11:23:18		  weechat.look.jump_current_to_previous_buffer = on
+2014-02-08 11:23:18		  weechat.look.jump_previous_buffer_when_closing = on
+2014-02-08 11:23:18		  weechat.look.jump_smart_back_to_buffer = on
+2014-02-08 11:23:18		  weechat.look.key_bind_safe = on
+2014-02-08 11:23:18		  weechat.look.mouse = off
+2014-02-08 11:23:18		  weechat.look.mouse_timer_delay = 100
+2014-02-08 11:23:18		  weechat.look.nick_prefix = ""
+2014-02-08 11:23:18		  weechat.look.nick_suffix = ""
+2014-02-08 11:23:18		  weechat.look.paste_bracketed = off
+2014-02-08 11:23:18		  weechat.look.paste_bracketed_timer_delay = 10
+2014-02-08 11:23:18		  weechat.look.paste_max_lines = 1
+2014-02-08 11:23:18		  weechat.look.prefix_action = " *"
+2014-02-08 11:23:18		  weechat.look.prefix_align = right
+2014-02-08 11:23:18		  weechat.look.prefix_align_max = 0
+2014-02-08 11:23:18		  weechat.look.prefix_align_min = 0
+2014-02-08 11:23:18		  weechat.look.prefix_align_more = "+"
+2014-02-08 11:23:18		  weechat.look.prefix_align_more_after = on
+2014-02-08 11:23:18		  weechat.look.prefix_buffer_align = right
+2014-02-08 11:23:18		  weechat.look.prefix_buffer_align_max = 0
+2014-02-08 11:23:18		  weechat.look.prefix_buffer_align_more = "+"
+2014-02-08 11:23:18		  weechat.look.prefix_buffer_align_more_after = on
+2014-02-08 11:23:18		  weechat.look.prefix_error = "=!="
+2014-02-08 11:23:18		  weechat.look.prefix_join = "-->"
+2014-02-08 11:23:18		  weechat.look.prefix_network = "--"
+2014-02-08 11:23:18		  weechat.look.prefix_quit = "<--"
+2014-02-08 11:23:18		  weechat.look.prefix_same_nick = ""
+2014-02-08 11:23:18		  weechat.look.prefix_suffix = "|"
+2014-02-08 11:23:18		  weechat.look.read_marker = line
+2014-02-08 11:23:18		  weechat.look.read_marker_always_show = off
+2014-02-08 11:23:18		  weechat.look.read_marker_string = "- "
+2014-02-08 11:23:18		  weechat.look.save_config_on_exit = on
+2014-02-08 11:23:18		  weechat.look.save_layout_on_exit = none
+2014-02-08 11:23:18		  weechat.look.scroll_amount = 3
+2014-02-08 11:23:18		  weechat.look.scroll_bottom_after_switch = off
+2014-02-08 11:23:18		  weechat.look.scroll_page_percent = 100
+2014-02-08 11:23:18		  weechat.look.search_text_not_found_alert = on
+2014-02-08 11:23:18		  weechat.look.separator_horizontal = "-"
+2014-02-08 11:23:18		  weechat.look.separator_vertical = ""
+2014-02-08 11:23:18		  weechat.look.set_title = on
+2014-02-08 11:23:18		  weechat.look.time_format = "%a, %d %b %Y %T"
+2014-02-08 11:23:18		  weechat.look.window_separator_horizontal = on
+2014-02-08 11:23:18		  weechat.look.window_separator_vertical = on
+2014-02-08 11:23:18		[color] (weechat.conf)
+2014-02-08 11:23:18		  weechat.color.bar_more = lightmagenta
+2014-02-08 11:23:18		  weechat.color.chat = default
+2014-02-08 11:23:18		  weechat.color.chat_bg = default
+2014-02-08 11:23:18		  weechat.color.chat_buffer = white
+2014-02-08 11:23:18		  weechat.color.chat_channel = white
+2014-02-08 11:23:18		  weechat.color.chat_day_change = cyan
+2014-02-08 11:23:18		  weechat.color.chat_delimiters = green
+2014-02-08 11:23:18		  weechat.color.chat_highlight = yellow
+2014-02-08 11:23:18		  weechat.color.chat_highlight_bg = magenta
+2014-02-08 11:23:18		  weechat.color.chat_host = cyan
+2014-02-08 11:23:18		  weechat.color.chat_inactive_buffer = darkgray
+2014-02-08 11:23:18		  weechat.color.chat_inactive_window = darkgray
+2014-02-08 11:23:18		  weechat.color.chat_nick = lightcyan
+2014-02-08 11:23:18		  weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue"
+2014-02-08 11:23:18		  weechat.color.chat_nick_offline = darkgray
+2014-02-08 11:23:18		  weechat.color.chat_nick_offline_highlight = default
+2014-02-08 11:23:18		  weechat.color.chat_nick_offline_highlight_bg = darkgray
+2014-02-08 11:23:18		  weechat.color.chat_nick_other = cyan
+2014-02-08 11:23:18		  weechat.color.chat_nick_prefix = green
+2014-02-08 11:23:18		  weechat.color.chat_nick_self = white
+2014-02-08 11:23:18		  weechat.color.chat_nick_suffix = green
+2014-02-08 11:23:18		  weechat.color.chat_prefix_action = white
+2014-02-08 11:23:18		  weechat.color.chat_prefix_buffer = brown
+2014-02-08 11:23:18		  weechat.color.chat_prefix_buffer_inactive_buffer = darkgray
+2014-02-08 11:23:18		  weechat.color.chat_prefix_error = yellow
+2014-02-08 11:23:18		  weechat.color.chat_prefix_join = lightgreen
+2014-02-08 11:23:18		  weechat.color.chat_prefix_more = lightmagenta
+2014-02-08 11:23:18		  weechat.color.chat_prefix_network = magenta
+2014-02-08 11:23:18		  weechat.color.chat_prefix_quit = lightred
+2014-02-08 11:23:18		  weechat.color.chat_prefix_suffix = green
+2014-02-08 11:23:18		  weechat.color.chat_read_marker = magenta
+2014-02-08 11:23:18		  weechat.color.chat_read_marker_bg = default
+2014-02-08 11:23:18		  weechat.color.chat_server = brown
+2014-02-08 11:23:18		  weechat.color.chat_tags = red
+2014-02-08 11:23:18		  weechat.color.chat_text_found = yellow
+2014-02-08 11:23:18		  weechat.color.chat_text_found_bg = lightmagenta
+2014-02-08 11:23:18		  weechat.color.chat_time = default
+2014-02-08 11:23:18		  weechat.color.chat_time_delimiters = brown
+2014-02-08 11:23:18		  weechat.color.chat_value = cyan
+2014-02-08 11:23:18		  weechat.color.emphasized = yellow
+2014-02-08 11:23:18		  weechat.color.emphasized_bg = magenta
+2014-02-08 11:23:18		  weechat.color.input_actions = lightgreen
+2014-02-08 11:23:18		  weechat.color.input_text_not_found = red
+2014-02-08 11:23:18		  weechat.color.nicklist_away = cyan
+2014-02-08 11:23:18		  weechat.color.nicklist_group = green
+2014-02-08 11:23:18		  weechat.color.nicklist_offline = blue
+2014-02-08 11:23:18		  weechat.color.separator = blue
+2014-02-08 11:23:18		  weechat.color.status_count_highlight = magenta
+2014-02-08 11:23:18		  weechat.color.status_count_msg = brown
+2014-02-08 11:23:18		  weechat.color.status_count_other = default
+2014-02-08 11:23:18		  weechat.color.status_count_private = green
+2014-02-08 11:23:18		  weechat.color.status_data_highlight = lightmagenta
+2014-02-08 11:23:18		  weechat.color.status_data_msg = yellow
+2014-02-08 11:23:18		  weechat.color.status_data_other = default
+2014-02-08 11:23:18		  weechat.color.status_data_private = lightgreen
+2014-02-08 11:23:18		  weechat.color.status_filter = green
+2014-02-08 11:23:18		  weechat.color.status_more = yellow
+2014-02-08 11:23:18		  weechat.color.status_name = white
+2014-02-08 11:23:18		  weechat.color.status_name_ssl = lightgreen
+2014-02-08 11:23:18		  weechat.color.status_number = yellow
+2014-02-08 11:23:18		  weechat.color.status_time = default
+2014-02-08 11:23:18		[completion] (weechat.conf)
+2014-02-08 11:23:18		  weechat.completion.base_word_until_cursor = on
+2014-02-08 11:23:18		  weechat.completion.default_template = "%(nicks)|%(irc_channels)"
+2014-02-08 11:23:18		  weechat.completion.nick_add_space = on
+2014-02-08 11:23:18		  weechat.completion.nick_completer = ":"
+2014-02-08 11:23:18		  weechat.completion.nick_first_only = off
+2014-02-08 11:23:18		  weechat.completion.nick_ignore_chars = "[]`_-^"
+2014-02-08 11:23:18		  weechat.completion.partial_completion_alert = on
+2014-02-08 11:23:18		  weechat.completion.partial_completion_command = off
+2014-02-08 11:23:18		  weechat.completion.partial_completion_command_arg = off
+2014-02-08 11:23:18		  weechat.completion.partial_completion_count = on
+2014-02-08 11:23:18		  weechat.completion.partial_completion_other = off
+2014-02-08 11:23:18		[history] (weechat.conf)
+2014-02-08 11:23:18		  weechat.history.display_default = 5
+2014-02-08 11:23:18		  weechat.history.max_buffer_lines_minutes = 0
+2014-02-08 11:23:18		  weechat.history.max_buffer_lines_number = 4096
+2014-02-08 11:23:18		  weechat.history.max_commands = 100
+2014-02-08 11:23:18		  weechat.history.max_visited_buffers = 50
+2014-02-08 11:23:18		[network] (weechat.conf)
+2014-02-08 11:23:18		  weechat.network.connection_timeout = 60
+2014-02-08 11:23:18		  weechat.network.gnutls_ca_file = "/etc/ssl/certs/ca-certificates.crt"
+2014-02-08 11:23:18		  weechat.network.gnutls_handshake_timeout = 30
+2014-02-08 11:23:18		  weechat.network.proxy_curl = ""
+2014-02-08 11:23:18		[plugin] (weechat.conf)
+2014-02-08 11:23:18		  weechat.plugin.autoload = "*"
+2014-02-08 11:23:18		  weechat.plugin.debug = off
+2014-02-08 11:23:18		  weechat.plugin.extension = ".so,.dll"
+2014-02-08 11:23:18		  weechat.plugin.path = "%h/plugins"
+2014-02-08 11:23:18		  weechat.plugin.save_config_on_unload = on
+2014-02-08 11:23:18		[bar] (weechat.conf)
+2014-02-08 11:23:18		  weechat.bar.input.color_bg = default
+2014-02-08 11:23:18		  weechat.bar.input.color_delim = cyan
+2014-02-08 11:23:18		  weechat.bar.input.color_fg = default
+2014-02-08 11:23:18		  weechat.bar.input.conditions = ""
+2014-02-08 11:23:18		  weechat.bar.input.filling_left_right = vertical
+2014-02-08 11:23:18		  weechat.bar.input.filling_top_bottom = horizontal
+2014-02-08 11:23:18		  weechat.bar.input.hidden = off
+2014-02-08 11:23:18		  weechat.bar.input.items = "[input_prompt]+(away),[input_search],[input_paste],input_text"
+2014-02-08 11:23:18		  weechat.bar.input.position = bottom
+2014-02-08 11:23:18		  weechat.bar.input.priority = 1000
+2014-02-08 11:23:18		  weechat.bar.input.separator = off
+2014-02-08 11:23:18		  weechat.bar.input.size = 1
+2014-02-08 11:23:18		  weechat.bar.input.size_max = 0
+2014-02-08 11:23:18		  weechat.bar.input.type = window
+2014-02-08 11:23:18		  weechat.bar.nicklist.color_bg = default
+2014-02-08 11:23:18		  weechat.bar.nicklist.color_delim = cyan
+2014-02-08 11:23:18		  weechat.bar.nicklist.color_fg = default
+2014-02-08 11:23:18		  weechat.bar.nicklist.conditions = "${nicklist}"
+2014-02-08 11:23:18		  weechat.bar.nicklist.filling_left_right = vertical
+2014-02-08 11:23:18		  weechat.bar.nicklist.filling_top_bottom = columns_vertical
+2014-02-08 11:23:18		  weechat.bar.nicklist.hidden = off
+2014-02-08 11:23:18		  weechat.bar.nicklist.items = "buffer_nicklist"
+2014-02-08 11:23:18		  weechat.bar.nicklist.position = right
+2014-02-08 11:23:18		  weechat.bar.nicklist.priority = 200
+2014-02-08 11:23:18		  weechat.bar.nicklist.separator = on
+2014-02-08 11:23:18		  weechat.bar.nicklist.size = 0
+2014-02-08 11:23:18		  weechat.bar.nicklist.size_max = 0
+2014-02-08 11:23:18		  weechat.bar.nicklist.type = window
+2014-02-08 11:23:18		  weechat.bar.status.color_bg = blue
+2014-02-08 11:23:18		  weechat.bar.status.color_delim = cyan
+2014-02-08 11:23:18		  weechat.bar.status.color_fg = default
+2014-02-08 11:23:18		  weechat.bar.status.conditions = ""
+2014-02-08 11:23:18		  weechat.bar.status.filling_left_right = vertical
+2014-02-08 11:23:18		  weechat.bar.status.filling_top_bottom = horizontal
+2014-02-08 11:23:18		  weechat.bar.status.hidden = off
+2014-02-08 11:23:18		  weechat.bar.status.items = "[time],[buffer_count],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_filter,[lag],[hotlist],completion,scroll"
+2014-02-08 11:23:18		  weechat.bar.status.position = bottom
+2014-02-08 11:23:18		  weechat.bar.status.priority = 500
+2014-02-08 11:23:18		  weechat.bar.status.separator = off
+2014-02-08 11:23:18		  weechat.bar.status.size = 1
+2014-02-08 11:23:18		  weechat.bar.status.size_max = 0
+2014-02-08 11:23:18		  weechat.bar.status.type = window
+2014-02-08 11:23:18		  weechat.bar.title.color_bg = blue
+2014-02-08 11:23:18		  weechat.bar.title.color_delim = cyan
+2014-02-08 11:23:18		  weechat.bar.title.color_fg = default
+2014-02-08 11:23:18		  weechat.bar.title.conditions = ""
+2014-02-08 11:23:18		  weechat.bar.title.filling_left_right = vertical
+2014-02-08 11:23:18		  weechat.bar.title.filling_top_bottom = horizontal
+2014-02-08 11:23:18		  weechat.bar.title.hidden = off
+2014-02-08 11:23:18		  weechat.bar.title.items = "buffer_title"
+2014-02-08 11:23:18		  weechat.bar.title.position = top
+2014-02-08 11:23:18		  weechat.bar.title.priority = 500
+2014-02-08 11:23:18		  weechat.bar.title.separator = off
+2014-02-08 11:23:18		  weechat.bar.title.size = 1
+2014-02-08 11:23:18		  weechat.bar.title.size_max = 0
+2014-02-08 11:23:18		  weechat.bar.title.type = window
+2014-02-08 11:23:18		235 options (matching with "weechat.*")
+2014-02-08 11:23:57		Option changed: weechat.bar.nicklist.hidden = on  (default: off)
+2014-02-08 11:24:14	=!=	Error: unknown command "title" (type /help for help)
+2014-02-08 11:26:26		Option changed: weechat.bar.status.items = "buffer_number+:+buffer_name,scroll"  (default: "[time],[buffer_count],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_filter,[lag],[hotlist],completion,scroll")
+2014-02-08 11:32:46	=!=	Error: unknown command "weeget" (type /help for help)
+2014-02-08 11:33:09		[core]
+2014-02-08 11:33:09		  away     command  filter   key      plugin   repeat   unset    wait   
+2014-02-08 11:33:09		  bar      cursor   help     layout   proxy    save     upgrade  window 
+2014-02-08 11:33:09		  buffer   debug    history  mouse    quit     secure   uptime 
+2014-02-08 11:33:09		  color    eval     input    mute     reload   set      version
+2014-02-08 11:33:09		[script]
+2014-02-08 11:33:09		  script
+2014-02-08 11:33:09		[relay]
+2014-02-08 11:33:09		  relay
+2014-02-08 11:33:09		[xfer]
+2014-02-08 11:33:09		  me  xfer
+2014-02-08 11:33:09		[rmodifier]
+2014-02-08 11:33:09		  rmodifier
+2014-02-08 11:33:09		[irc]
+2014-02-08 11:33:09		  admin       disconnect  lusers      part        sapart      unban     
+2014-02-08 11:33:09		  allchan     halfop      map         ping        saquit      userhost  
+2014-02-08 11:33:09		  allserv     ignore      me          pong        server      users     
+2014-02-08 11:33:09		  ban         info        mode        query       service     version   
+2014-02-08 11:33:09		  connect     invite      motd        quiet       servlist    voice     
+2014-02-08 11:33:09		  ctcp        ison        msg         quote       squery      wallchops 
+2014-02-08 11:33:09		  cycle       join        names       reconnect   squit       wallops   
+2014-02-08 11:33:09		  dcc         kick        nick        rehash      stats       who       
+2014-02-08 11:33:09		  dehalfop    kickban     notice      restart     summon      whois     
+2014-02-08 11:33:09		  deop        kill        notify      sajoin      time        whowas    
+2014-02-08 11:33:09		  devoice     links       op          samode      topic     
+2014-02-08 11:33:09		  die         list        oper        sanick      trace     
+2014-02-08 11:33:09		[logger]
+2014-02-08 11:33:09		  logger
+2014-02-08 11:33:09		[aspell]
+2014-02-08 11:33:09		  aspell
+2014-02-08 11:33:09		[alias]
+2014-02-08 11:33:09		  AAWAY    BYE      EXIT     LEAVE    REDRAW   UMODE    WI     
+2014-02-08 11:33:09		  alias    C        IG       M        SAY      unalias  WII    
+2014-02-08 11:33:09		  AME      CHAT     J        MUB      SIGNOFF  V        WW     
+2014-02-08 11:33:09		  AMSG     CL       K        N        T        W      
+2014-02-08 11:33:09		  ANICK    CLOSE    KB       Q        UB       WC     
+2014-02-08 11:33:09		[perl]
+2014-02-08 11:33:09		  perl
+2014-02-08 11:33:09		[charset]
+2014-02-08 11:33:09		  charset
+2014-02-08 11:33:09		[python]
+2014-02-08 11:33:09		  python
+2014-02-08 11:34:04		script: downloading list of scripts...
+2014-02-08 11:34:05		script: 270 scripts for WeeChat 0.4.2
+2014-02-08 11:34:19		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2014-02-08 11:34:19		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2014-02-08 11:37:14		[bar] (weechat.conf)
+2014-02-08 11:37:14		  weechat.bar.buffers.color_bg = default
+2014-02-08 11:37:14		  weechat.bar.buffers.color_delim = default
+2014-02-08 11:37:14		  weechat.bar.buffers.color_fg = default
+2014-02-08 11:37:14		  weechat.bar.buffers.conditions = ""
+2014-02-08 11:37:14		  weechat.bar.buffers.filling_left_right = vertical
+2014-02-08 11:37:14		  weechat.bar.buffers.filling_top_bottom = columns_vertical
+2014-02-08 11:37:14		  weechat.bar.buffers.hidden = off
+2014-02-08 11:37:14		  weechat.bar.buffers.items = "buffers"  (default: "")
+2014-02-08 11:37:14		  weechat.bar.buffers.position = left
+2014-02-08 11:37:14		  weechat.bar.buffers.priority = 0
+2014-02-08 11:37:14		  weechat.bar.buffers.separator = on
+2014-02-08 11:37:14		  weechat.bar.buffers.size = 0
+2014-02-08 11:37:14		  weechat.bar.buffers.size_max = 0
+2014-02-08 11:37:14		  weechat.bar.buffers.type = root
+2014-02-08 11:37:14		14 options (matching with "weechat.bar.buffers.*")
+2014-02-08 11:39:44	=!=	Error: option "weechat.bar.position" not found
+2014-02-08 11:39:53		Option changed: weechat.bar.buffers.position = top  (default: left)
+2014-02-08 11:40:08		Option changed: weechat.bar.buffers.filling_top_bottom = horizontal  (default: columns_vertical)
+2014-02-08 11:40:53	=!=	Error: option "weechat.bar.buffers.seperator" not found
+2014-02-08 11:41:01		Option changed: weechat.bar.buffers.separator = off  (default: on)
+2014-02-08 11:43:29		Option changed: weechat.bar.buffers.color_delim = white  (default: default)
+2014-02-08 11:43:45		Option changed: weechat.bar.buffers.color_delim = green  (default: default)
+2014-02-08 11:44:13		Option changed: weechat.bar.buffers.color_delim = default
+2014-02-08 11:44:58	=!=	Option "weechat.input.*" not found (tip: you can use "*" at beginning and/or end of option to see a sublist)
+2014-02-08 11:45:30		Option changed: weechat.bar.input.items = "+  » +,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2014-02-08 11:45:40		Option changed: weechat.bar.input.items = "+  »+,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2014-02-08 11:46:32		[bar] (weechat.conf)
+2014-02-08 11:46:32		  weechat.bar.status.color_bg = blue
+2014-02-08 11:46:32		  weechat.bar.status.color_delim = cyan
+2014-02-08 11:46:32		  weechat.bar.status.color_fg = default
+2014-02-08 11:46:32		  weechat.bar.status.conditions = ""
+2014-02-08 11:46:32		  weechat.bar.status.filling_left_right = vertical
+2014-02-08 11:46:32		  weechat.bar.status.filling_top_bottom = horizontal
+2014-02-08 11:46:32		  weechat.bar.status.hidden = off
+2014-02-08 11:46:32		  weechat.bar.status.items = "buffer_number+:+buffer_name,scroll"  (default: "[time],[buffer_count],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_filter,[lag],[hotlist],completion,scroll")
+2014-02-08 11:46:32		  weechat.bar.status.position = bottom
+2014-02-08 11:46:32		  weechat.bar.status.priority = 500
+2014-02-08 11:46:32		  weechat.bar.status.separator = off
+2014-02-08 11:46:32		  weechat.bar.status.size = 1
+2014-02-08 11:46:32		  weechat.bar.status.size_max = 0
+2014-02-08 11:46:32		  weechat.bar.status.type = window
+2014-02-08 11:46:32		14 options (matching with "weechat.bar.status.*")
+2014-02-08 11:46:44		Option changed: weechat.bar.status.hidden = on  (default: off)
+2014-02-08 11:50:08		[color] (buffers.conf)
+2014-02-08 11:50:08		  buffers.color.current_bg = red
+2014-02-08 11:50:08		  buffers.color.current_fg = lightcyan
+2014-02-08 11:50:08		  buffers.color.default_bg = default
+2014-02-08 11:50:08		  buffers.color.default_fg = default
+2014-02-08 11:50:08		  buffers.color.hotlist_highlight_bg = default
+2014-02-08 11:50:08		  buffers.color.hotlist_highlight_fg = magenta
+2014-02-08 11:50:08		  buffers.color.hotlist_low_bg = default
+2014-02-08 11:50:08		  buffers.color.hotlist_low_fg = white
+2014-02-08 11:50:08		  buffers.color.hotlist_message_bg = default
+2014-02-08 11:50:08		  buffers.color.hotlist_message_fg = yellow
+2014-02-08 11:50:08		  buffers.color.hotlist_private_bg = default
+2014-02-08 11:50:08		  buffers.color.hotlist_private_fg = lightgreen
+2014-02-08 11:50:08		  buffers.color.none_channel_bg = default
+2014-02-08 11:50:08		  buffers.color.none_channel_fg = default
+2014-02-08 11:50:08		  buffers.color.number = lightgreen
+2014-02-08 11:50:08		  buffers.color.number_char = lightgreen
+2014-02-08 11:50:08		  buffers.color.prefix_bufname = default
+2014-02-08 11:50:08		  buffers.color.queries_default_bg = default
+2014-02-08 11:50:08		  buffers.color.queries_default_fg = default
+2014-02-08 11:50:08		  buffers.color.queries_highlight_bg = default
+2014-02-08 11:50:08		  buffers.color.queries_highlight_fg = default
+2014-02-08 11:50:08		  buffers.color.queries_message_bg = default
+2014-02-08 11:50:08		  buffers.color.queries_message_fg = default
+2014-02-08 11:50:08		  buffers.color.suffix_bufname = default
+2014-02-08 11:50:08		  buffers.color.whitelist_default_bg = default
+2014-02-08 11:50:08		  buffers.color.whitelist_default_fg = default
+2014-02-08 11:50:08		  buffers.color.whitelist_highlight_bg = default
+2014-02-08 11:50:08		  buffers.color.whitelist_highlight_fg = default
+2014-02-08 11:50:08		  buffers.color.whitelist_low_bg = default
+2014-02-08 11:50:08		  buffers.color.whitelist_low_fg = default
+2014-02-08 11:50:08		  buffers.color.whitelist_message_bg = default
+2014-02-08 11:50:08		  buffers.color.whitelist_message_fg = default
+2014-02-08 11:50:08		  buffers.color.whitelist_private_bg = default
+2014-02-08 11:50:08		  buffers.color.whitelist_private_fg = default
+2014-02-08 11:50:08		[look] (buffers.conf)
+2014-02-08 11:50:08		  buffers.look.core_to_front = off
+2014-02-08 11:50:08		  buffers.look.detach = 0
+2014-02-08 11:50:08		  buffers.look.detach_buffer_immediately = ""
+2014-02-08 11:50:08		  buffers.look.detach_display_window_number = off
+2014-02-08 11:50:08		  buffers.look.detach_displayed_buffers = on
+2014-02-08 11:50:08		  buffers.look.detach_free_content = off
+2014-02-08 11:50:08		  buffers.look.detach_query = off
+2014-02-08 11:50:08		  buffers.look.hide_merged_buffers = none
+2014-02-08 11:50:08		  buffers.look.hotlist_counter = off
+2014-02-08 11:50:08		  buffers.look.immune_detach_buffers = ""
+2014-02-08 11:50:08		  buffers.look.indenting = off
+2014-02-08 11:50:08		  buffers.look.indenting_number = on
+2014-02-08 11:50:08		  buffers.look.jump_prev_next_visited_buffer = off
+2014-02-08 11:50:08		  buffers.look.mark_inactive = off
+2014-02-08 11:50:08		  buffers.look.mouse_move_buffer = on
+2014-02-08 11:50:08		  buffers.look.name_crop_suffix = "+"
+2014-02-08 11:50:08		  buffers.look.name_size_max = 0
+2014-02-08 11:50:08		  buffers.look.number_char = "."
+2014-02-08 11:50:08		  buffers.look.prefix = off
+2014-02-08 11:50:08		  buffers.look.prefix_bufname = ""
+2014-02-08 11:50:08		  buffers.look.prefix_empty = on
+2014-02-08 11:50:08		  buffers.look.prefix_for_query = ""
+2014-02-08 11:50:08		  buffers.look.short_names = on
+2014-02-08 11:50:08		  buffers.look.show_lag = off
+2014-02-08 11:50:08		  buffers.look.show_number = on
+2014-02-08 11:50:08		  buffers.look.sort = number
+2014-02-08 11:50:08		  buffers.look.suffix_bufname = ""
+2014-02-08 11:50:08		  buffers.look.toogle_bar = on
+2014-02-08 11:50:08		  buffers.look.whitelist_buffers = ""
+2014-02-08 11:50:08		63 options (matching with "buffers.*")
+2014-02-08 11:50:22		Option changed: buffers.color.current_bg = default  (default: red)
+2014-02-08 11:51:26	=!=	Error: failed to set option "buffers.color.hotlist_low_fg"
+2014-02-08 11:52:44		Option changed: buffers.look.number_char = "|"  (default: ".")
+2014-02-08 11:53:22	=!=	Error: failed to set option "buffers.color.number"
+2014-02-08 11:53:34		Option changed: buffers.color.number = gray  (default: lightgreen)
+2014-02-08 11:53:54		Option changed: buffers.color.number_char = gray  (default: lightgreen)
+2014-02-08 11:54:03		Option changed: buffers.color.number_char = darkgray  (default: lightgreen)
+2014-02-08 11:54:11		Option changed: buffers.color.number = darkgray  (default: lightgreen)
+2014-02-08 11:54:25		Option changed: buffers.color.number = gray  (default: lightgreen)
+2014-02-08 11:54:30		Option changed: buffers.color.number_char = gray  (default: lightgreen)
+2014-02-08 11:54:37		Option changed: buffers.color.number = darkgray  (default: lightgreen)
+2014-02-08 11:54:42		Option changed: buffers.color.number_char = darkgray  (default: lightgreen)
+2014-02-08 11:55:04		Option changed: buffers.color.hotlist_low_fg = darkgray  (default: white)
+2014-02-08 11:56:04		Option changed: buffers.color.hotlist_message_fg = white  (default: yellow)
+2014-02-08 11:58:01		perl: scripts unloaded
+2014-02-08 11:58:01		fifo: pipe closed
+2014-02-08 12:02:18		perl scripts loaded: buffers
+2014-02-08 12:02:18		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, script, xfer
+2014-02-08 12:05:41		[color] (buffers.conf)
+2014-02-08 12:05:41		  buffers.color.current_bg = default  (default: red)
+2014-02-08 12:05:41		  buffers.color.current_fg = lightcyan
+2014-02-08 12:05:41		  buffers.color.default_bg = default
+2014-02-08 12:05:41		  buffers.color.default_fg = default
+2014-02-08 12:05:41		  buffers.color.hotlist_highlight_bg = default
+2014-02-08 12:05:41		  buffers.color.hotlist_highlight_fg = magenta
+2014-02-08 12:05:41		  buffers.color.hotlist_low_bg = default
+2014-02-08 12:05:41		  buffers.color.hotlist_low_fg = darkgray  (default: white)
+2014-02-08 12:05:41		  buffers.color.hotlist_message_bg = default
+2014-02-08 12:05:41		  buffers.color.hotlist_message_fg = white  (default: yellow)
+2014-02-08 12:05:41		  buffers.color.hotlist_private_bg = default
+2014-02-08 12:05:41		  buffers.color.hotlist_private_fg = lightgreen
+2014-02-08 12:05:41		  buffers.color.none_channel_bg = default
+2014-02-08 12:05:41		  buffers.color.none_channel_fg = default
+2014-02-08 12:05:41		  buffers.color.number = darkgray  (default: lightgreen)
+2014-02-08 12:05:41		  buffers.color.number_char = darkgray  (default: lightgreen)
+2014-02-08 12:05:41		  buffers.color.prefix_bufname = default
+2014-02-08 12:05:41		  buffers.color.queries_default_bg = default
+2014-02-08 12:05:41		  buffers.color.queries_default_fg = default
+2014-02-08 12:05:41		  buffers.color.queries_highlight_bg = default
+2014-02-08 12:05:41		  buffers.color.queries_highlight_fg = default
+2014-02-08 12:05:41		  buffers.color.queries_message_bg = default
+2014-02-08 12:05:41		  buffers.color.queries_message_fg = default
+2014-02-08 12:05:41		  buffers.color.suffix_bufname = default
+2014-02-08 12:05:41		  buffers.color.whitelist_default_bg = default
+2014-02-08 12:05:41		  buffers.color.whitelist_default_fg = default
+2014-02-08 12:05:41		  buffers.color.whitelist_highlight_bg = default
+2014-02-08 12:05:41		  buffers.color.whitelist_highlight_fg = default
+2014-02-08 12:05:41		  buffers.color.whitelist_low_bg = default
+2014-02-08 12:05:41		  buffers.color.whitelist_low_fg = default
+2014-02-08 12:05:41		  buffers.color.whitelist_message_bg = default
+2014-02-08 12:05:41		  buffers.color.whitelist_message_fg = default
+2014-02-08 12:05:41		  buffers.color.whitelist_private_bg = default
+2014-02-08 12:05:41		  buffers.color.whitelist_private_fg = default
+2014-02-08 12:05:41		34 options (matching with "buffers.color.*")
+2014-02-08 12:05:50		Option changed: buffers.color.current_fg = white  (default: lightcyan)
+2014-02-08 12:05:58	=!=	Error: failed to set option "buffers.color.current_fg"
+2014-02-08 12:06:34		[look] (buffers.conf)
+2014-02-08 12:06:34		  buffers.look.core_to_front = off
+2014-02-08 12:06:34		  buffers.look.detach = 0
+2014-02-08 12:06:34		  buffers.look.detach_buffer_immediately = ""
+2014-02-08 12:06:34		  buffers.look.detach_display_window_number = off
+2014-02-08 12:06:34		  buffers.look.detach_displayed_buffers = on
+2014-02-08 12:06:34		  buffers.look.detach_free_content = off
+2014-02-08 12:06:34		  buffers.look.detach_query = off
+2014-02-08 12:06:34		  buffers.look.hide_merged_buffers = none
+2014-02-08 12:06:34		  buffers.look.hotlist_counter = off
+2014-02-08 12:06:34		  buffers.look.immune_detach_buffers = ""
+2014-02-08 12:06:34		  buffers.look.indenting = off
+2014-02-08 12:06:34		  buffers.look.indenting_number = on
+2014-02-08 12:06:34		  buffers.look.jump_prev_next_visited_buffer = off
+2014-02-08 12:06:34		  buffers.look.mark_inactive = off
+2014-02-08 12:06:34		  buffers.look.mouse_move_buffer = on
+2014-02-08 12:06:34		  buffers.look.name_crop_suffix = "+"
+2014-02-08 12:06:34		  buffers.look.name_size_max = 0
+2014-02-08 12:06:34		  buffers.look.number_char = "|"  (default: ".")
+2014-02-08 12:06:34		  buffers.look.prefix = off
+2014-02-08 12:06:34		  buffers.look.prefix_bufname = ""
+2014-02-08 12:06:34		  buffers.look.prefix_empty = on
+2014-02-08 12:06:34		  buffers.look.prefix_for_query = ""
+2014-02-08 12:06:34		  buffers.look.short_names = on
+2014-02-08 12:06:34		  buffers.look.show_lag = off
+2014-02-08 12:06:34		  buffers.look.show_number = on
+2014-02-08 12:06:34		  buffers.look.sort = number
+2014-02-08 12:06:34		  buffers.look.suffix_bufname = ""
+2014-02-08 12:06:34		  buffers.look.toogle_bar = on
+2014-02-08 12:06:34		  buffers.look.whitelist_buffers = ""
+2014-02-08 12:06:34		29 options (matching with "buffers.look.*")
+2014-02-08 12:07:56		[bar] (weechat.conf)
+2014-02-08 12:07:56		  weechat.bar.buffers.color_bg = default
+2014-02-08 12:07:56		  weechat.bar.buffers.color_delim = default
+2014-02-08 12:07:56		  weechat.bar.buffers.color_fg = default
+2014-02-08 12:07:56		  weechat.bar.buffers.conditions = ""
+2014-02-08 12:07:56		  weechat.bar.buffers.filling_left_right = vertical
+2014-02-08 12:07:56		  weechat.bar.buffers.filling_top_bottom = horizontal
+2014-02-08 12:07:56		  weechat.bar.buffers.hidden = off  (default: on)
+2014-02-08 12:07:56		  weechat.bar.buffers.items = "buffers"  (default: "")
+2014-02-08 12:07:56		  weechat.bar.buffers.position = top
+2014-02-08 12:07:56		  weechat.bar.buffers.priority = 0
+2014-02-08 12:07:56		  weechat.bar.buffers.separator = off
+2014-02-08 12:07:56		  weechat.bar.buffers.size = 0
+2014-02-08 12:07:56		  weechat.bar.buffers.size_max = 0
+2014-02-08 12:07:56		  weechat.bar.buffers.type = root
+2014-02-08 12:07:56		  weechat.bar.input.color_bg = default
+2014-02-08 12:07:56		  weechat.bar.input.color_delim = cyan
+2014-02-08 12:07:56		  weechat.bar.input.color_fg = default
+2014-02-08 12:07:56		  weechat.bar.input.conditions = ""
+2014-02-08 12:07:56		  weechat.bar.input.filling_left_right = vertical
+2014-02-08 12:07:56		  weechat.bar.input.filling_top_bottom = horizontal
+2014-02-08 12:07:56		  weechat.bar.input.hidden = off
+2014-02-08 12:07:56		  weechat.bar.input.items = "+  »+,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2014-02-08 12:07:56		  weechat.bar.input.position = bottom
+2014-02-08 12:07:56		  weechat.bar.input.priority = 1000
+2014-02-08 12:07:56		  weechat.bar.input.separator = off
+2014-02-08 12:07:56		  weechat.bar.input.size = 1
+2014-02-08 12:07:56		  weechat.bar.input.size_max = 0
+2014-02-08 12:07:56		  weechat.bar.input.type = window
+2014-02-08 12:07:56		  weechat.bar.nicklist.color_bg = default
+2014-02-08 12:07:56		  weechat.bar.nicklist.color_delim = cyan
+2014-02-08 12:07:56		  weechat.bar.nicklist.color_fg = default
+2014-02-08 12:07:56		  weechat.bar.nicklist.conditions = "${nicklist}"
+2014-02-08 12:07:56		  weechat.bar.nicklist.filling_left_right = vertical
+2014-02-08 12:07:56		  weechat.bar.nicklist.filling_top_bottom = columns_vertical
+2014-02-08 12:07:56		  weechat.bar.nicklist.hidden = on
+2014-02-08 12:07:56		  weechat.bar.nicklist.items = "buffer_nicklist"
+2014-02-08 12:07:56		  weechat.bar.nicklist.position = right
+2014-02-08 12:07:56		  weechat.bar.nicklist.priority = 200
+2014-02-08 12:07:56		  weechat.bar.nicklist.separator = on
+2014-02-08 12:07:56		  weechat.bar.nicklist.size = 0
+2014-02-08 12:07:56		  weechat.bar.nicklist.size_max = 0
+2014-02-08 12:07:56		  weechat.bar.nicklist.type = window
+2014-02-08 12:07:56		  weechat.bar.status.color_bg = blue
+2014-02-08 12:07:56		  weechat.bar.status.color_delim = cyan
+2014-02-08 12:07:56		  weechat.bar.status.color_fg = default
+2014-02-08 12:07:56		  weechat.bar.status.conditions = ""
+2014-02-08 12:07:56		  weechat.bar.status.filling_left_right = vertical
+2014-02-08 12:07:56		  weechat.bar.status.filling_top_bottom = horizontal
+2014-02-08 12:07:56		  weechat.bar.status.hidden = on
+2014-02-08 12:07:56		  weechat.bar.status.items = "buffer_number+:+buffer_name,scroll"  (default: "[time],[buffer_count],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_filter,[lag],[hotlist],completion,scroll")
+2014-02-08 12:07:56		  weechat.bar.status.position = bottom
+2014-02-08 12:07:56		  weechat.bar.status.priority = 500
+2014-02-08 12:07:56		  weechat.bar.status.separator = off
+2014-02-08 12:07:56		  weechat.bar.status.size = 1
+2014-02-08 12:07:56		  weechat.bar.status.size_max = 0
+2014-02-08 12:07:56		  weechat.bar.status.type = window
+2014-02-08 12:07:56		  weechat.bar.title.color_bg = blue
+2014-02-08 12:07:56		  weechat.bar.title.color_delim = cyan
+2014-02-08 12:07:56		  weechat.bar.title.color_fg = default
+2014-02-08 12:07:56		  weechat.bar.title.conditions = ""
+2014-02-08 12:07:56		  weechat.bar.title.filling_left_right = vertical
+2014-02-08 12:07:56		  weechat.bar.title.filling_top_bottom = horizontal
+2014-02-08 12:07:56		  weechat.bar.title.hidden = off
+2014-02-08 12:07:56		  weechat.bar.title.items = "buffer_title"
+2014-02-08 12:07:56		  weechat.bar.title.position = top
+2014-02-08 12:07:56		  weechat.bar.title.priority = 500
+2014-02-08 12:07:56		  weechat.bar.title.separator = off
+2014-02-08 12:07:56		  weechat.bar.title.size = 1
+2014-02-08 12:07:56		  weechat.bar.title.size_max = 0
+2014-02-08 12:07:56		  weechat.bar.title.type = window
+2014-02-08 12:07:56		70 options (matching with "weechat.bar.*")
+2014-02-08 12:08:08		Option changed: weechat.bar.title.color_bg = default  (default: blue)
+2014-02-08 12:10:03		[bar] (weechat.conf)
+2014-02-08 12:10:03		  weechat.bar.buffers.color_bg = default
+2014-02-08 12:10:03		  weechat.bar.buffers.color_delim = default
+2014-02-08 12:10:03		  weechat.bar.buffers.color_fg = default
+2014-02-08 12:10:03		  weechat.bar.buffers.conditions = ""
+2014-02-08 12:10:03		  weechat.bar.buffers.filling_left_right = vertical
+2014-02-08 12:10:03		  weechat.bar.buffers.filling_top_bottom = horizontal
+2014-02-08 12:10:03		  weechat.bar.buffers.hidden = off  (default: on)
+2014-02-08 12:10:03		  weechat.bar.buffers.items = "buffers"  (default: "")
+2014-02-08 12:10:03		  weechat.bar.buffers.position = top
+2014-02-08 12:10:03		  weechat.bar.buffers.priority = 0
+2014-02-08 12:10:03		  weechat.bar.buffers.separator = off
+2014-02-08 12:10:03		  weechat.bar.buffers.size = 0
+2014-02-08 12:10:03		  weechat.bar.buffers.size_max = 0
+2014-02-08 12:10:03		  weechat.bar.buffers.type = root
+2014-02-08 12:10:03		  weechat.bar.input.color_bg = default
+2014-02-08 12:10:03		  weechat.bar.input.color_delim = cyan
+2014-02-08 12:10:03		  weechat.bar.input.color_fg = default
+2014-02-08 12:10:03		  weechat.bar.input.conditions = ""
+2014-02-08 12:10:03		  weechat.bar.input.filling_left_right = vertical
+2014-02-08 12:10:03		  weechat.bar.input.filling_top_bottom = horizontal
+2014-02-08 12:10:03		  weechat.bar.input.hidden = off
+2014-02-08 12:10:03		  weechat.bar.input.items = "+  »+,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2014-02-08 12:10:03		  weechat.bar.input.position = bottom
+2014-02-08 12:10:03		  weechat.bar.input.priority = 1000
+2014-02-08 12:10:03		  weechat.bar.input.separator = off
+2014-02-08 12:10:03		  weechat.bar.input.size = 1
+2014-02-08 12:10:03		  weechat.bar.input.size_max = 0
+2014-02-08 12:10:03		  weechat.bar.input.type = window
+2014-02-08 12:10:03		  weechat.bar.nicklist.color_bg = default
+2014-02-08 12:10:03		  weechat.bar.nicklist.color_delim = cyan
+2014-02-08 12:10:03		  weechat.bar.nicklist.color_fg = default
+2014-02-08 12:10:03		  weechat.bar.nicklist.conditions = "${nicklist}"
+2014-02-08 12:10:03		  weechat.bar.nicklist.filling_left_right = vertical
+2014-02-08 12:10:03		  weechat.bar.nicklist.filling_top_bottom = columns_vertical
+2014-02-08 12:10:03		  weechat.bar.nicklist.hidden = on
+2014-02-08 12:10:03		  weechat.bar.nicklist.items = "buffer_nicklist"
+2014-02-08 12:10:03		  weechat.bar.nicklist.position = right
+2014-02-08 12:10:03		  weechat.bar.nicklist.priority = 200
+2014-02-08 12:10:03		  weechat.bar.nicklist.separator = on
+2014-02-08 12:10:03		  weechat.bar.nicklist.size = 0
+2014-02-08 12:10:03		  weechat.bar.nicklist.size_max = 0
+2014-02-08 12:10:03		  weechat.bar.nicklist.type = window
+2014-02-08 12:10:03		  weechat.bar.status.color_bg = blue
+2014-02-08 12:10:03		  weechat.bar.status.color_delim = cyan
+2014-02-08 12:10:03		  weechat.bar.status.color_fg = default
+2014-02-08 12:10:03		  weechat.bar.status.conditions = ""
+2014-02-08 12:10:03		  weechat.bar.status.filling_left_right = vertical
+2014-02-08 12:10:03		  weechat.bar.status.filling_top_bottom = horizontal
+2014-02-08 12:10:03		  weechat.bar.status.hidden = on
+2014-02-08 12:10:03		  weechat.bar.status.items = "buffer_number+:+buffer_name,scroll"  (default: "[time],[buffer_count],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_filter,[lag],[hotlist],completion,scroll")
+2014-02-08 12:10:03		  weechat.bar.status.position = bottom
+2014-02-08 12:10:03		  weechat.bar.status.priority = 500
+2014-02-08 12:10:03		  weechat.bar.status.separator = off
+2014-02-08 12:10:03		  weechat.bar.status.size = 1
+2014-02-08 12:10:03		  weechat.bar.status.size_max = 0
+2014-02-08 12:10:03		  weechat.bar.status.type = window
+2014-02-08 12:10:03		  weechat.bar.title.color_bg = default  (default: blue)
+2014-02-08 12:10:03		  weechat.bar.title.color_delim = cyan
+2014-02-08 12:10:03		  weechat.bar.title.color_fg = default
+2014-02-08 12:10:03		  weechat.bar.title.conditions = ""
+2014-02-08 12:10:03		  weechat.bar.title.filling_left_right = vertical
+2014-02-08 12:10:03		  weechat.bar.title.filling_top_bottom = horizontal
+2014-02-08 12:10:03		  weechat.bar.title.hidden = off
+2014-02-08 12:10:03		  weechat.bar.title.items = "buffer_title"
+2014-02-08 12:10:03		  weechat.bar.title.position = top
+2014-02-08 12:10:03		  weechat.bar.title.priority = 500
+2014-02-08 12:10:03		  weechat.bar.title.separator = off
+2014-02-08 12:10:03		  weechat.bar.title.size = 1
+2014-02-08 12:10:03		  weechat.bar.title.size_max = 0
+2014-02-08 12:10:03		  weechat.bar.title.type = window
+2014-02-08 12:10:03		70 options (matching with "weechat.bar.*")
+2014-02-08 12:10:49		Option changed: weechat.bar.input.color_delim = green  (default: cyan)
+2014-02-08 12:11:30	=!=	Error: option "weechat.color.char_nick_colors" not found
+2014-02-08 12:11:46		Option changed: weechat.color.chat_nick_colors = "white"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2014-02-08 12:12:22	=!=	Error: option "weechat.colors.chat_nick_self" not found
+2014-02-08 12:12:35		Option changed: weechat.color.chat_nick_self = cyan  (default: white)
+2014-02-08 12:14:24		Option changed: weechat.bar.title.items = "buffer_name:+,buffer_title"  (default: "buffer_title")
+2014-02-08 12:15:04		Option changed: weechat.bar.title.items = "[buffer_name]+,buffer_title"  (default: "buffer_title")
+2014-02-08 12:19:39	=!=	Error: failed to set option "weechat.color.chat_time"
+2014-02-08 12:19:50		Option changed: weechat.color.chat_time = gray  (default: default)
+2014-02-08 12:20:01		Option changed: weechat.color.chat_time = darkgray  (default: default)
+2014-02-08 12:20:46		Option changed: weechat.color.chat_time = white  (default: default)
+2014-02-08 12:20:49	=!=	Error: failed to set option "weechat.color.chat_time"
+2014-02-08 12:20:55		Option changed: weechat.color.chat_time = default
+2014-02-08 12:21:01	=!=	Error: option "weechat.color.chat_time_delim" not found
+2014-02-08 12:21:08		Option changed: weechat.color.chat_time_delimiters = default  (default: brown)
+2014-02-08 12:21:13		Option changed: weechat.color.chat_time_delimiters = gray  (default: brown)
+2014-02-08 12:21:38	=!=	Option "weechat.lool.*" not found (tip: you can use "*" at beginning and/or end of option to see a sublist)
+2014-02-08 12:21:42		[look] (weechat.conf)
+2014-02-08 12:21:42		  weechat.look.align_end_of_lines = message
+2014-02-08 12:21:42		  weechat.look.bar_more_down = "++"
+2014-02-08 12:21:42		  weechat.look.bar_more_left = "<<"
+2014-02-08 12:21:42		  weechat.look.bar_more_right = ">>"
+2014-02-08 12:21:42		  weechat.look.bar_more_up = "--"
+2014-02-08 12:21:42		  weechat.look.buffer_notify_default = all
+2014-02-08 12:21:42		  weechat.look.buffer_time_format = "%H:%M:%S"
+2014-02-08 12:21:42		  weechat.look.color_basic_force_bold = off
+2014-02-08 12:21:42		  weechat.look.color_inactive_buffer = on
+2014-02-08 12:21:42		  weechat.look.color_inactive_message = on
+2014-02-08 12:21:42		  weechat.look.color_inactive_prefix = on
+2014-02-08 12:21:42		  weechat.look.color_inactive_prefix_buffer = on
+2014-02-08 12:21:42		  weechat.look.color_inactive_time = off
+2014-02-08 12:21:42		  weechat.look.color_inactive_window = on
+2014-02-08 12:21:42		  weechat.look.color_nick_offline = off
+2014-02-08 12:21:42		  weechat.look.color_pairs_auto_reset = 5
+2014-02-08 12:21:42		  weechat.look.color_real_white = off
+2014-02-08 12:21:42		  weechat.look.command_chars = ""
+2014-02-08 12:21:42		  weechat.look.confirm_quit = off
+2014-02-08 12:21:42		  weechat.look.day_change = on
+2014-02-08 12:21:42		  weechat.look.day_change_message_1date = "-- %a, %d %b %Y --"
+2014-02-08 12:21:42		  weechat.look.day_change_message_2dates = "-- %%a, %%d %%b %%Y (%a, %d %b %Y) --"
+2014-02-08 12:21:42		  weechat.look.eat_newline_glitch = off
+2014-02-08 12:21:42		  weechat.look.emphasized_attributes = ""
+2014-02-08 12:21:42		  weechat.look.highlight = ""
+2014-02-08 12:21:42		  weechat.look.highlight_regex = ""
+2014-02-08 12:21:42		  weechat.look.highlight_tags = ""
+2014-02-08 12:21:42		  weechat.look.hotlist_add_buffer_if_away = on
+2014-02-08 12:21:42		  weechat.look.hotlist_buffer_separator = ", "
+2014-02-08 12:21:42		  weechat.look.hotlist_count_max = 2
+2014-02-08 12:21:42		  weechat.look.hotlist_count_min_msg = 2
+2014-02-08 12:21:42		  weechat.look.hotlist_names_count = 3
+2014-02-08 12:21:42		  weechat.look.hotlist_names_length = 0
+2014-02-08 12:21:42		  weechat.look.hotlist_names_level = 12
+2014-02-08 12:21:42		  weechat.look.hotlist_names_merged_buffers = off
+2014-02-08 12:21:42		  weechat.look.hotlist_prefix = "H: "
+2014-02-08 12:21:42		  weechat.look.hotlist_short_names = on
+2014-02-08 12:21:42		  weechat.look.hotlist_sort = group_time_asc
+2014-02-08 12:21:42		  weechat.look.hotlist_suffix = ""
+2014-02-08 12:21:42		  weechat.look.hotlist_unique_numbers = on
+2014-02-08 12:21:42		  weechat.look.input_cursor_scroll = 20
+2014-02-08 12:21:42		  weechat.look.input_share = none
+2014-02-08 12:21:42		  weechat.look.input_share_overwrite = off
+2014-02-08 12:21:42		  weechat.look.input_undo_max = 32
+2014-02-08 12:21:42		  weechat.look.item_buffer_filter = "*"
+2014-02-08 12:21:42		  weechat.look.item_time_format = "%H:%M"
+2014-02-08 12:21:42		  weechat.look.jump_current_to_previous_buffer = on
+2014-02-08 12:21:42		  weechat.look.jump_previous_buffer_when_closing = on
+2014-02-08 12:21:42		  weechat.look.jump_smart_back_to_buffer = on
+2014-02-08 12:21:42		  weechat.look.key_bind_safe = on
+2014-02-08 12:21:42		  weechat.look.mouse = off
+2014-02-08 12:21:42		  weechat.look.mouse_timer_delay = 100
+2014-02-08 12:21:42		  weechat.look.nick_prefix = ""
+2014-02-08 12:21:42		  weechat.look.nick_suffix = ""
+2014-02-08 12:21:42		  weechat.look.paste_bracketed = off
+2014-02-08 12:21:42		  weechat.look.paste_bracketed_timer_delay = 10
+2014-02-08 12:21:42		  weechat.look.paste_max_lines = 1
+2014-02-08 12:21:42		  weechat.look.prefix_action = " *"
+2014-02-08 12:21:42		  weechat.look.prefix_align = right
+2014-02-08 12:21:42		  weechat.look.prefix_align_max = 0
+2014-02-08 12:21:42		  weechat.look.prefix_align_min = 0
+2014-02-08 12:21:42		  weechat.look.prefix_align_more = "+"
+2014-02-08 12:21:42		  weechat.look.prefix_align_more_after = on
+2014-02-08 12:21:42		  weechat.look.prefix_buffer_align = right
+2014-02-08 12:21:42		  weechat.look.prefix_buffer_align_max = 0
+2014-02-08 12:21:42		  weechat.look.prefix_buffer_align_more = "+"
+2014-02-08 12:21:42		  weechat.look.prefix_buffer_align_more_after = on
+2014-02-08 12:21:42		  weechat.look.prefix_error = "=!="
+2014-02-08 12:21:42		  weechat.look.prefix_join = "-->"
+2014-02-08 12:21:42		  weechat.look.prefix_network = "--"
+2014-02-08 12:21:42		  weechat.look.prefix_quit = "<--"
+2014-02-08 12:21:42		  weechat.look.prefix_same_nick = ""
+2014-02-08 12:21:42		  weechat.look.prefix_suffix = "|"
+2014-02-08 12:21:42		  weechat.look.read_marker = line
+2014-02-08 12:21:42		  weechat.look.read_marker_always_show = off
+2014-02-08 12:21:42		  weechat.look.read_marker_string = "- "
+2014-02-08 12:21:42		  weechat.look.save_config_on_exit = on
+2014-02-08 12:21:42		  weechat.look.save_layout_on_exit = none
+2014-02-08 12:21:42		  weechat.look.scroll_amount = 3
+2014-02-08 12:21:42		  weechat.look.scroll_bottom_after_switch = off
+2014-02-08 12:21:42		  weechat.look.scroll_page_percent = 100
+2014-02-08 12:21:42		  weechat.look.search_text_not_found_alert = on
+2014-02-08 12:21:42		  weechat.look.separator_horizontal = "-"
+2014-02-08 12:21:42		  weechat.look.separator_vertical = ""
+2014-02-08 12:21:42		  weechat.look.set_title = on
+2014-02-08 12:21:42		  weechat.look.time_format = "%a, %d %b %Y %T"
+2014-02-08 12:21:42		  weechat.look.window_separator_horizontal = on
+2014-02-08 12:21:42		  weechat.look.window_separator_vertical = on
+2014-02-08 12:21:42		88 options (matching with "weechat.look.*")
+2014-02-08 12:22:01		Option changed: weechat.look.buffer_time_format = "%H:%M"  (default: "%H:%M:%S")
+2014-02-08 12:22:36		Option changed: weechat.look.bar_more_down = "▼"  (default: "++")
+2014-02-08 12:22:58		Option changed: weechat.look.bar_more_left = "◀"  (default: "<<")
+2014-02-08 12:23:08		Option changed: weechat.look.bar_more_right = "▶"  (default: ">>")
+2014-02-08 12:23:17		Option changed: weechat.look.bar_more_up = "▲"  (default: "--")
+2014-02-08 12:25:22		[bar] (weechat.conf)
+2014-02-08 12:25:22		  weechat.bar.buffers.color_bg = default
+2014-02-08 12:25:22		  weechat.bar.buffers.color_delim = default
+2014-02-08 12:25:22		  weechat.bar.buffers.color_fg = default
+2014-02-08 12:25:22		  weechat.bar.buffers.conditions = ""
+2014-02-08 12:25:22		  weechat.bar.buffers.filling_left_right = vertical
+2014-02-08 12:25:22		  weechat.bar.buffers.filling_top_bottom = horizontal
+2014-02-08 12:25:22		  weechat.bar.buffers.hidden = off  (default: on)
+2014-02-08 12:25:22		  weechat.bar.buffers.items = "buffers"  (default: "")
+2014-02-08 12:25:22		  weechat.bar.buffers.position = top
+2014-02-08 12:25:22		  weechat.bar.buffers.priority = 0
+2014-02-08 12:25:22		  weechat.bar.buffers.separator = off
+2014-02-08 12:25:22		  weechat.bar.buffers.size = 0
+2014-02-08 12:25:22		  weechat.bar.buffers.size_max = 0
+2014-02-08 12:25:22		  weechat.bar.buffers.type = root
+2014-02-08 12:25:22		  weechat.bar.input.color_bg = default
+2014-02-08 12:25:22		  weechat.bar.input.color_delim = green  (default: cyan)
+2014-02-08 12:25:22		  weechat.bar.input.color_fg = default
+2014-02-08 12:25:22		  weechat.bar.input.conditions = ""
+2014-02-08 12:25:22		  weechat.bar.input.filling_left_right = vertical
+2014-02-08 12:25:22		  weechat.bar.input.filling_top_bottom = horizontal
+2014-02-08 12:25:22		  weechat.bar.input.hidden = off
+2014-02-08 12:25:22		  weechat.bar.input.items = "+  »+,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2014-02-08 12:25:22		  weechat.bar.input.position = bottom
+2014-02-08 12:25:22		  weechat.bar.input.priority = 1000
+2014-02-08 12:25:22		  weechat.bar.input.separator = off
+2014-02-08 12:25:22		  weechat.bar.input.size = 1
+2014-02-08 12:25:22		  weechat.bar.input.size_max = 0
+2014-02-08 12:25:22		  weechat.bar.input.type = window
+2014-02-08 12:25:22		  weechat.bar.nicklist.color_bg = default
+2014-02-08 12:25:22		  weechat.bar.nicklist.color_delim = cyan
+2014-02-08 12:25:22		  weechat.bar.nicklist.color_fg = default
+2014-02-08 12:25:22		  weechat.bar.nicklist.conditions = "${nicklist}"
+2014-02-08 12:25:22		  weechat.bar.nicklist.filling_left_right = vertical
+2014-02-08 12:25:22		  weechat.bar.nicklist.filling_top_bottom = columns_vertical
+2014-02-08 12:25:22		  weechat.bar.nicklist.hidden = on
+2014-02-08 12:25:22		  weechat.bar.nicklist.items = "buffer_nicklist"
+2014-02-08 12:25:22		  weechat.bar.nicklist.position = right
+2014-02-08 12:25:22		  weechat.bar.nicklist.priority = 200
+2014-02-08 12:25:22		  weechat.bar.nicklist.separator = on
+2014-02-08 12:25:22		  weechat.bar.nicklist.size = 0
+2014-02-08 12:25:22		  weechat.bar.nicklist.size_max = 0
+2014-02-08 12:25:22		  weechat.bar.nicklist.type = window
+2014-02-08 12:25:22		  weechat.bar.status.color_bg = blue
+2014-02-08 12:25:22		  weechat.bar.status.color_delim = cyan
+2014-02-08 12:25:22		  weechat.bar.status.color_fg = default
+2014-02-08 12:25:22		  weechat.bar.status.conditions = ""
+2014-02-08 12:25:22		  weechat.bar.status.filling_left_right = vertical
+2014-02-08 12:25:22		  weechat.bar.status.filling_top_bottom = horizontal
+2014-02-08 12:25:22		  weechat.bar.status.hidden = on
+2014-02-08 12:25:22		  weechat.bar.status.items = "buffer_number+:+buffer_name,scroll"  (default: "[time],[buffer_count],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_filter,[lag],[hotlist],completion,scroll")
+2014-02-08 12:25:22		  weechat.bar.status.position = bottom
+2014-02-08 12:25:22		  weechat.bar.status.priority = 500
+2014-02-08 12:25:22		  weechat.bar.status.separator = off
+2014-02-08 12:25:22		  weechat.bar.status.size = 1
+2014-02-08 12:25:22		  weechat.bar.status.size_max = 0
+2014-02-08 12:25:22		  weechat.bar.status.type = window
+2014-02-08 12:25:22		  weechat.bar.title.color_bg = default  (default: blue)
+2014-02-08 12:25:22		  weechat.bar.title.color_delim = cyan
+2014-02-08 12:25:22		  weechat.bar.title.color_fg = default
+2014-02-08 12:25:22		  weechat.bar.title.conditions = ""
+2014-02-08 12:25:22		  weechat.bar.title.filling_left_right = vertical
+2014-02-08 12:25:22		  weechat.bar.title.filling_top_bottom = horizontal
+2014-02-08 12:25:22		  weechat.bar.title.hidden = off
+2014-02-08 12:25:22		  weechat.bar.title.items = "[buffer_name]+,buffer_title"  (default: "buffer_title")
+2014-02-08 12:25:22		  weechat.bar.title.position = top
+2014-02-08 12:25:22		  weechat.bar.title.priority = 500
+2014-02-08 12:25:22		  weechat.bar.title.separator = off
+2014-02-08 12:25:22		  weechat.bar.title.size = 1
+2014-02-08 12:25:22		  weechat.bar.title.size_max = 0
+2014-02-08 12:25:22		  weechat.bar.title.type = window
+2014-02-08 12:25:22		70 options (matching with "weechat.bar.*")
+2014-02-08 12:26:11	=!=	Error: option "weechat.bar.input" not found
+2014-02-08 12:26:31		Option changed: weechat.bar.input.items = "scroll,+»,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2014-02-08 12:26:41		Option changed: weechat.bar.input.items = "scroll,+ »,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2014-02-08 12:28:47		[color] (weechat.conf)
+2014-02-08 12:28:47		  weechat.color.bar_more = lightmagenta
+2014-02-08 12:28:47		  weechat.color.chat = default
+2014-02-08 12:28:47		  weechat.color.chat_bg = default
+2014-02-08 12:28:47		  weechat.color.chat_buffer = white
+2014-02-08 12:28:47		  weechat.color.chat_channel = white
+2014-02-08 12:28:47		  weechat.color.chat_day_change = cyan
+2014-02-08 12:28:47		  weechat.color.chat_delimiters = green
+2014-02-08 12:28:47		  weechat.color.chat_highlight = yellow
+2014-02-08 12:28:47		  weechat.color.chat_highlight_bg = magenta
+2014-02-08 12:28:47		  weechat.color.chat_host = cyan
+2014-02-08 12:28:47		  weechat.color.chat_inactive_buffer = darkgray
+2014-02-08 12:28:47		  weechat.color.chat_inactive_window = darkgray
+2014-02-08 12:28:47		  weechat.color.chat_nick = lightcyan
+2014-02-08 12:28:47		  weechat.color.chat_nick_colors = "white"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2014-02-08 12:28:47		  weechat.color.chat_nick_offline = darkgray
+2014-02-08 12:28:47		  weechat.color.chat_nick_offline_highlight = default
+2014-02-08 12:28:47		  weechat.color.chat_nick_offline_highlight_bg = darkgray
+2014-02-08 12:28:47		  weechat.color.chat_nick_other = cyan
+2014-02-08 12:28:47		  weechat.color.chat_nick_prefix = green
+2014-02-08 12:28:47		  weechat.color.chat_nick_self = cyan  (default: white)
+2014-02-08 12:28:47		  weechat.color.chat_nick_suffix = green
+2014-02-08 12:28:47		  weechat.color.chat_prefix_action = white
+2014-02-08 12:28:47		  weechat.color.chat_prefix_buffer = brown
+2014-02-08 12:28:47		  weechat.color.chat_prefix_buffer_inactive_buffer = darkgray
+2014-02-08 12:28:47		  weechat.color.chat_prefix_error = yellow
+2014-02-08 12:28:47		  weechat.color.chat_prefix_join = lightgreen
+2014-02-08 12:28:47		  weechat.color.chat_prefix_more = lightmagenta
+2014-02-08 12:28:47		  weechat.color.chat_prefix_network = magenta
+2014-02-08 12:28:47		  weechat.color.chat_prefix_quit = lightred
+2014-02-08 12:28:47		  weechat.color.chat_prefix_suffix = green
+2014-02-08 12:28:47		  weechat.color.chat_read_marker = magenta
+2014-02-08 12:28:47		  weechat.color.chat_read_marker_bg = default
+2014-02-08 12:28:47		  weechat.color.chat_server = brown
+2014-02-08 12:28:47		  weechat.color.chat_tags = red
+2014-02-08 12:28:47		  weechat.color.chat_text_found = yellow
+2014-02-08 12:28:47		  weechat.color.chat_text_found_bg = lightmagenta
+2014-02-08 12:28:47		  weechat.color.chat_time = default
+2014-02-08 12:28:47		  weechat.color.chat_time_delimiters = gray  (default: brown)
+2014-02-08 12:28:47		  weechat.color.chat_value = cyan
+2014-02-08 12:28:47		  weechat.color.emphasized = yellow
+2014-02-08 12:28:47		  weechat.color.emphasized_bg = magenta
+2014-02-08 12:28:47		  weechat.color.input_actions = lightgreen
+2014-02-08 12:28:47		  weechat.color.input_text_not_found = red
+2014-02-08 12:28:47		  weechat.color.nicklist_away = cyan
+2014-02-08 12:28:47		  weechat.color.nicklist_group = green
+2014-02-08 12:28:47		  weechat.color.nicklist_offline = blue
+2014-02-08 12:28:47		  weechat.color.separator = blue
+2014-02-08 12:28:47		  weechat.color.status_count_highlight = magenta
+2014-02-08 12:28:47		  weechat.color.status_count_msg = brown
+2014-02-08 12:28:47		  weechat.color.status_count_other = default
+2014-02-08 12:28:47		  weechat.color.status_count_private = green
+2014-02-08 12:28:47		  weechat.color.status_data_highlight = lightmagenta
+2014-02-08 12:28:47		  weechat.color.status_data_msg = yellow
+2014-02-08 12:28:47		  weechat.color.status_data_other = default
+2014-02-08 12:28:47		  weechat.color.status_data_private = lightgreen
+2014-02-08 12:28:47		  weechat.color.status_filter = green
+2014-02-08 12:28:47		  weechat.color.status_more = yellow
+2014-02-08 12:28:47		  weechat.color.status_name = white
+2014-02-08 12:28:47		  weechat.color.status_name_ssl = lightgreen
+2014-02-08 12:28:47		  weechat.color.status_number = yellow
+2014-02-08 12:28:47		  weechat.color.status_time = default
+2014-02-08 12:28:47		61 options (matching with "weechat.color.*")
+2014-02-08 12:29:08		Option changed: weechat.color.chat_highlight_bg = default  (default: magenta)
+2014-02-08 12:29:31		Option changed: weechat.color.chat_highlight = magenta  (default: yellow)
+2014-02-08 12:30:07		Option changed: weechat.color.chat_nick_colors = "default"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2014-02-08 12:34:40		[bar] (weechat.conf)
+2014-02-08 12:34:40		  weechat.bar.buffers.color_bg = default
+2014-02-08 12:34:40		  weechat.bar.buffers.color_delim = default
+2014-02-08 12:34:40		  weechat.bar.buffers.color_fg = default
+2014-02-08 12:34:40		  weechat.bar.buffers.conditions = ""
+2014-02-08 12:34:40		  weechat.bar.buffers.filling_left_right = vertical
+2014-02-08 12:34:40		  weechat.bar.buffers.filling_top_bottom = horizontal
+2014-02-08 12:34:40		  weechat.bar.buffers.hidden = off  (default: on)
+2014-02-08 12:34:40		  weechat.bar.buffers.items = "buffers"  (default: "")
+2014-02-08 12:34:40		  weechat.bar.buffers.position = top
+2014-02-08 12:34:40		  weechat.bar.buffers.priority = 0
+2014-02-08 12:34:40		  weechat.bar.buffers.separator = off
+2014-02-08 12:34:40		  weechat.bar.buffers.size = 0
+2014-02-08 12:34:40		  weechat.bar.buffers.size_max = 0
+2014-02-08 12:34:40		  weechat.bar.buffers.type = root
+2014-02-08 12:34:40		  weechat.bar.input.color_bg = default
+2014-02-08 12:34:40		  weechat.bar.input.color_delim = green  (default: cyan)
+2014-02-08 12:34:40		  weechat.bar.input.color_fg = default
+2014-02-08 12:34:40		  weechat.bar.input.conditions = ""
+2014-02-08 12:34:40		  weechat.bar.input.filling_left_right = vertical
+2014-02-08 12:34:40		  weechat.bar.input.filling_top_bottom = horizontal
+2014-02-08 12:34:40		  weechat.bar.input.hidden = off
+2014-02-08 12:34:40		  weechat.bar.input.items = "scroll,+ »,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2014-02-08 12:34:40		  weechat.bar.input.position = bottom
+2014-02-08 12:34:40		  weechat.bar.input.priority = 1000
+2014-02-08 12:34:40		  weechat.bar.input.separator = off
+2014-02-08 12:34:40		  weechat.bar.input.size = 1
+2014-02-08 12:34:40		  weechat.bar.input.size_max = 0
+2014-02-08 12:34:40		  weechat.bar.input.type = window
+2014-02-08 12:34:40		  weechat.bar.nicklist.color_bg = default
+2014-02-08 12:34:40		  weechat.bar.nicklist.color_delim = cyan
+2014-02-08 12:34:40		  weechat.bar.nicklist.color_fg = default
+2014-02-08 12:34:40		  weechat.bar.nicklist.conditions = "${nicklist}"
+2014-02-08 12:34:40		  weechat.bar.nicklist.filling_left_right = vertical
+2014-02-08 12:34:40		  weechat.bar.nicklist.filling_top_bottom = columns_vertical
+2014-02-08 12:34:40		  weechat.bar.nicklist.hidden = on
+2014-02-08 12:34:40		  weechat.bar.nicklist.items = "buffer_nicklist"
+2014-02-08 12:34:40		  weechat.bar.nicklist.position = right
+2014-02-08 12:34:40		  weechat.bar.nicklist.priority = 200
+2014-02-08 12:34:40		  weechat.bar.nicklist.separator = on
+2014-02-08 12:34:40		  weechat.bar.nicklist.size = 0
+2014-02-08 12:34:40		  weechat.bar.nicklist.size_max = 0
+2014-02-08 12:34:40		  weechat.bar.nicklist.type = window
+2014-02-08 12:34:40		  weechat.bar.status.color_bg = blue
+2014-02-08 12:34:40		  weechat.bar.status.color_delim = cyan
+2014-02-08 12:34:40		  weechat.bar.status.color_fg = default
+2014-02-08 12:34:40		  weechat.bar.status.conditions = ""
+2014-02-08 12:34:40		  weechat.bar.status.filling_left_right = vertical
+2014-02-08 12:34:40		  weechat.bar.status.filling_top_bottom = horizontal
+2014-02-08 12:34:40		  weechat.bar.status.hidden = on
+2014-02-08 12:34:40		  weechat.bar.status.items = "buffer_number+:+buffer_name,scroll"  (default: "[time],[buffer_count],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_filter,[lag],[hotlist],completion,scroll")
+2014-02-08 12:34:40		  weechat.bar.status.position = bottom
+2014-02-08 12:34:40		  weechat.bar.status.priority = 500
+2014-02-08 12:34:40		  weechat.bar.status.separator = off
+2014-02-08 12:34:40		  weechat.bar.status.size = 1
+2014-02-08 12:34:40		  weechat.bar.status.size_max = 0
+2014-02-08 12:34:40		  weechat.bar.status.type = window
+2014-02-08 12:34:40		  weechat.bar.title.color_bg = default  (default: blue)
+2014-02-08 12:34:40		  weechat.bar.title.color_delim = cyan
+2014-02-08 12:34:40		  weechat.bar.title.color_fg = default
+2014-02-08 12:34:40		  weechat.bar.title.conditions = ""
+2014-02-08 12:34:40		  weechat.bar.title.filling_left_right = vertical
+2014-02-08 12:34:40		  weechat.bar.title.filling_top_bottom = horizontal
+2014-02-08 12:34:40		  weechat.bar.title.hidden = off
+2014-02-08 12:34:40		  weechat.bar.title.items = "[buffer_name]+,buffer_title"  (default: "buffer_title")
+2014-02-08 12:34:40		  weechat.bar.title.position = top
+2014-02-08 12:34:40		  weechat.bar.title.priority = 500
+2014-02-08 12:34:40		  weechat.bar.title.separator = off
+2014-02-08 12:34:40		  weechat.bar.title.size = 1
+2014-02-08 12:34:40		  weechat.bar.title.size_max = 0
+2014-02-08 12:34:40		  weechat.bar.title.type = window
+2014-02-08 12:34:40		70 options (matching with "weechat.bar.*")
+2014-02-08 12:35:08		Option changed: weechat.bar.title.items = "[${color:darkgray}buffer_name]+,buffer_title"  (default: "buffer_title")
+2014-02-08 12:36:12		Option changed: weechat.bar.title.items = "[${color:0}buffer_name]+,buffer_title"  (default: "buffer_title")
+2014-02-08 12:36:50		Option changed: weechat.bar.title.items = "[buffer_name]+,buffer_title"  (default: "buffer_title")
+2014-02-08 12:40:03		[color] (weechat.conf)
+2014-02-08 12:40:03		  weechat.color.bar_more = lightmagenta
+2014-02-08 12:40:03		  weechat.color.chat = default
+2014-02-08 12:40:03		  weechat.color.chat_bg = default
+2014-02-08 12:40:03		  weechat.color.chat_buffer = white
+2014-02-08 12:40:03		  weechat.color.chat_channel = white
+2014-02-08 12:40:03		  weechat.color.chat_day_change = cyan
+2014-02-08 12:40:03		  weechat.color.chat_delimiters = green
+2014-02-08 12:40:03		  weechat.color.chat_highlight = magenta  (default: yellow)
+2014-02-08 12:40:03		  weechat.color.chat_highlight_bg = default  (default: magenta)
+2014-02-08 12:40:03		  weechat.color.chat_host = cyan
+2014-02-08 12:40:03		  weechat.color.chat_inactive_buffer = darkgray
+2014-02-08 12:40:03		  weechat.color.chat_inactive_window = darkgray
+2014-02-08 12:40:03		  weechat.color.chat_nick = lightcyan
+2014-02-08 12:40:03		  weechat.color.chat_nick_colors = "default"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2014-02-08 12:40:03		  weechat.color.chat_nick_offline = darkgray
+2014-02-08 12:40:03		  weechat.color.chat_nick_offline_highlight = default
+2014-02-08 12:40:03		  weechat.color.chat_nick_offline_highlight_bg = darkgray
+2014-02-08 12:40:03		  weechat.color.chat_nick_other = cyan
+2014-02-08 12:40:03		  weechat.color.chat_nick_prefix = green
+2014-02-08 12:40:03		  weechat.color.chat_nick_self = cyan  (default: white)
+2014-02-08 12:40:03		  weechat.color.chat_nick_suffix = green
+2014-02-08 12:40:03		  weechat.color.chat_prefix_action = white
+2014-02-08 12:40:03		  weechat.color.chat_prefix_buffer = brown
+2014-02-08 12:40:03		  weechat.color.chat_prefix_buffer_inactive_buffer = darkgray
+2014-02-08 12:40:03		  weechat.color.chat_prefix_error = yellow
+2014-02-08 12:40:03		  weechat.color.chat_prefix_join = lightgreen
+2014-02-08 12:40:03		  weechat.color.chat_prefix_more = lightmagenta
+2014-02-08 12:40:03		  weechat.color.chat_prefix_network = magenta
+2014-02-08 12:40:03		  weechat.color.chat_prefix_quit = lightred
+2014-02-08 12:40:03		  weechat.color.chat_prefix_suffix = green
+2014-02-08 12:40:03		  weechat.color.chat_read_marker = magenta
+2014-02-08 12:40:03		  weechat.color.chat_read_marker_bg = default
+2014-02-08 12:40:03		  weechat.color.chat_server = brown
+2014-02-08 12:40:03		  weechat.color.chat_tags = red
+2014-02-08 12:40:03		  weechat.color.chat_text_found = yellow
+2014-02-08 12:40:03		  weechat.color.chat_text_found_bg = lightmagenta
+2014-02-08 12:40:03		  weechat.color.chat_time = default
+2014-02-08 12:40:03		  weechat.color.chat_time_delimiters = gray  (default: brown)
+2014-02-08 12:40:03		  weechat.color.chat_value = cyan
+2014-02-08 12:40:03		  weechat.color.emphasized = yellow
+2014-02-08 12:40:03		  weechat.color.emphasized_bg = magenta
+2014-02-08 12:40:03		  weechat.color.input_actions = lightgreen
+2014-02-08 12:40:03		  weechat.color.input_text_not_found = red
+2014-02-08 12:40:03		  weechat.color.nicklist_away = cyan
+2014-02-08 12:40:03		  weechat.color.nicklist_group = green
+2014-02-08 12:40:03		  weechat.color.nicklist_offline = blue
+2014-02-08 12:40:03		  weechat.color.separator = blue
+2014-02-08 12:40:03		  weechat.color.status_count_highlight = magenta
+2014-02-08 12:40:03		  weechat.color.status_count_msg = brown
+2014-02-08 12:40:03		  weechat.color.status_count_other = default
+2014-02-08 12:40:03		  weechat.color.status_count_private = green
+2014-02-08 12:40:03		  weechat.color.status_data_highlight = lightmagenta
+2014-02-08 12:40:03		  weechat.color.status_data_msg = yellow
+2014-02-08 12:40:03		  weechat.color.status_data_other = default
+2014-02-08 12:40:03		  weechat.color.status_data_private = lightgreen
+2014-02-08 12:40:03		  weechat.color.status_filter = green
+2014-02-08 12:40:03		  weechat.color.status_more = yellow
+2014-02-08 12:40:03		  weechat.color.status_name = white
+2014-02-08 12:40:03		  weechat.color.status_name_ssl = lightgreen
+2014-02-08 12:40:03		  weechat.color.status_number = yellow
+2014-02-08 12:40:03		  weechat.color.status_time = default
+2014-02-08 12:40:03		61 options (matching with "weechat.color.*")
+2014-02-08 12:40:57		Option changed: weechat.color.chat_nick_suffix = gray  (default: green)
+2014-02-08 12:41:25		Option changed: weechat.color.chat_nick_suffix = gray  (default: green)
+2014-02-08 12:43:04		Option changed: weechat.color.chat_nick_suffix = green
+2014-02-08 12:43:15		Option changed: weechat.color.chat_nick_self = gray  (default: white)
+2014-02-08 12:43:27		Option changed: weechat.color.chat_nick_self = default  (default: white)
+2014-02-08 12:43:54	=!=	Error: unknown command "plugins" (type /help for help)
+2014-02-08 12:43:56		Plugins loaded:
+2014-02-08 12:43:56		  script: Scripts manager
+2014-02-08 12:43:56		  relay: Relay WeeChat data to remote application (irc/weechat protocols)
+2014-02-08 12:43:56		  xfer: DCC file transfer and direct chat
+2014-02-08 12:43:56		  rmodifier: String modifier with regular expressions
+2014-02-08 12:43:56		  irc: IRC (Internet Relay Chat) protocol
+2014-02-08 12:43:56		  logger: Log buffers to files
+2014-02-08 12:43:56		  aspell: Spell checker for input (with Aspell)
+2014-02-08 12:43:56		  fifo: FIFO pipe for remote control
+2014-02-08 12:43:56		  alias: Alias commands
+2014-02-08 12:43:56		  perl: Support of perl scripts
+2014-02-08 12:43:56		  charset: Charset conversions
+2014-02-08 12:43:56		  python: Support of python scripts
+2014-02-08 12:44:00	=!=	Error: unknown option for "plugin" command
+2014-02-08 12:44:27	=!=	Error: unknown command "scripts" (type /help for help)
+2014-02-08 12:45:55		Options saved to sec.conf
+2014-02-08 12:45:55		Options saved to weechat.conf
+2014-02-08 12:45:55		Options saved to plugins.conf
+2014-02-08 12:45:55		Options saved to script.conf
+2014-02-08 12:45:55		Options saved to relay.conf
+2014-02-08 12:45:55		Options saved to xfer.conf
+2014-02-08 12:45:55		Options saved to rmodifier.conf
+2014-02-08 12:45:55		Options saved to irc.conf
+2014-02-08 12:45:55		Options saved to logger.conf
+2014-02-08 12:45:55		Options saved to aspell.conf
+2014-02-08 12:45:55		Options saved to alias.conf
+2014-02-08 12:45:55		Options saved to buffers.conf
+2014-02-08 12:45:55		Options saved to charset.conf
+2014-02-08 12:46:02		perl: scripts unloaded
+2014-02-08 12:46:02		fifo: pipe closed
+2014-02-08 12:46:10		perl scripts loaded: buffers
+2014-02-08 12:46:10		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, script, xfer
+2014-02-08 12:46:34		[irc]  /server  list|listfull [<server>]
+2014-02-08 12:46:34		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2014-02-08 12:46:34		                copy|rename <server> <new_name>
+2014-02-08 12:46:34		                del|keep <server>
+2014-02-08 12:46:34		                deloutq|jump|raw
+2014-02-08 12:46:34		list, add or remove IRC servers
+2014-02-08 12:46:34		    list: list servers (without argument, this list is displayed)
+2014-02-08 12:46:34		listfull: list servers with detailed info for each server
+2014-02-08 12:46:34		     add: create a new server
+2014-02-08 12:46:34		  server: server name, for internal and display use
+2014-02-08 12:46:34		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2014-02-08 12:46:34		    temp: create temporary server (not saved)
+2014-02-08 12:46:34		  option: set option for server (for boolean option, value can be omitted)
+2014-02-08 12:46:34		nooption: set boolean option to 'off' (for example: -nossl)
+2014-02-08 12:46:34		    copy: duplicate a server
+2014-02-08 12:46:34		  rename: rename a server
+2014-02-08 12:46:34		    keep: keep server in config file (for temporary servers only)
+2014-02-08 12:46:34		     del: delete a server
+2014-02-08 12:46:34		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2014-02-08 12:46:34		    jump: jump to server buffer
+2014-02-08 12:46:34		     raw: open buffer with raw IRC data
+2014-02-08 12:46:34		Examples:
+2014-02-08 12:46:34		  /server listfull
+2014-02-08 12:46:34		  /server add oftc irc.oftc.net/6697 -ssl -autoconnect
+2014-02-08 12:46:34		  /server add oftc6 irc6.oftc.net/6697 -ipv6 -ssl
+2014-02-08 12:46:34		  /server add freenode2 chat.eu.freenode.net/6667,chat.us.freenode.net/6667
+2014-02-08 12:46:34		  /server add freenode3 irc.freenode.net -password=mypass
+2014-02-08 12:46:34		  /server copy oftc oftcbis
+2014-02-08 12:46:34		  /server rename oftc newoftc
+2014-02-08 12:46:34		  /server del freenode
+2014-02-08 12:46:34		  /server deloutq
+2014-02-08 12:46:43		irc: server bitlbee created
+2014-02-08 12:46:46	=!=	Error: unknown command "conect" (type /help for help)
+2014-02-08 12:51:23		perl: scripts unloaded
+2014-02-08 12:51:23		fifo: pipe closed
+2014-02-08 12:51:39		perl scripts loaded: buffers
+2014-02-08 12:51:39		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, script, xfer
+2014-02-08 12:54:29		[look] (weechat.conf)
+2014-02-08 12:54:29		  weechat.look.align_end_of_lines = message
+2014-02-08 12:54:29		  weechat.look.bar_more_down = "▼"  (default: "++")
+2014-02-08 12:54:29		  weechat.look.bar_more_left = "◀"  (default: "<<")
+2014-02-08 12:54:29		  weechat.look.bar_more_right = "▶"  (default: ">>")
+2014-02-08 12:54:29		  weechat.look.bar_more_up = "▲"  (default: "--")
+2014-02-08 12:54:29		  weechat.look.buffer_notify_default = all
+2014-02-08 12:54:29		  weechat.look.buffer_time_format = "%H:%M"  (default: "%H:%M:%S")
+2014-02-08 12:54:29		  weechat.look.color_basic_force_bold = off
+2014-02-08 12:54:29		  weechat.look.color_inactive_buffer = on
+2014-02-08 12:54:29		  weechat.look.color_inactive_message = on
+2014-02-08 12:54:29		  weechat.look.color_inactive_prefix = on
+2014-02-08 12:54:29		  weechat.look.color_inactive_prefix_buffer = on
+2014-02-08 12:54:29		  weechat.look.color_inactive_time = off
+2014-02-08 12:54:29		  weechat.look.color_inactive_window = on
+2014-02-08 12:54:29		  weechat.look.color_nick_offline = off
+2014-02-08 12:54:29		  weechat.look.color_pairs_auto_reset = 5
+2014-02-08 12:54:29		  weechat.look.color_real_white = off
+2014-02-08 12:54:29		  weechat.look.command_chars = ""
+2014-02-08 12:54:29		  weechat.look.confirm_quit = off
+2014-02-08 12:54:29		  weechat.look.day_change = on
+2014-02-08 12:54:29		  weechat.look.day_change_message_1date = "-- %a, %d %b %Y --"
+2014-02-08 12:54:29		  weechat.look.day_change_message_2dates = "-- %%a, %%d %%b %%Y (%a, %d %b %Y) --"
+2014-02-08 12:54:29		  weechat.look.eat_newline_glitch = off
+2014-02-08 12:54:29		  weechat.look.emphasized_attributes = ""
+2014-02-08 12:54:29		  weechat.look.highlight = ""
+2014-02-08 12:54:29		  weechat.look.highlight_regex = ""
+2014-02-08 12:54:29		  weechat.look.highlight_tags = ""
+2014-02-08 12:54:29		  weechat.look.hotlist_add_buffer_if_away = on
+2014-02-08 12:54:29		  weechat.look.hotlist_buffer_separator = ", "
+2014-02-08 12:54:29		  weechat.look.hotlist_count_max = 2
+2014-02-08 12:54:29		  weechat.look.hotlist_count_min_msg = 2
+2014-02-08 12:54:29		  weechat.look.hotlist_names_count = 3
+2014-02-08 12:54:29		  weechat.look.hotlist_names_length = 0
+2014-02-08 12:54:29		  weechat.look.hotlist_names_level = 12
+2014-02-08 12:54:29		  weechat.look.hotlist_names_merged_buffers = off
+2014-02-08 12:54:29		  weechat.look.hotlist_prefix = "H: "
+2014-02-08 12:54:29		  weechat.look.hotlist_short_names = on
+2014-02-08 12:54:29		  weechat.look.hotlist_sort = group_time_asc
+2014-02-08 12:54:29		  weechat.look.hotlist_suffix = ""
+2014-02-08 12:54:29		  weechat.look.hotlist_unique_numbers = on
+2014-02-08 12:54:29		  weechat.look.input_cursor_scroll = 20
+2014-02-08 12:54:29		  weechat.look.input_share = none
+2014-02-08 12:54:29		  weechat.look.input_share_overwrite = off
+2014-02-08 12:54:29		  weechat.look.input_undo_max = 32
+2014-02-08 12:54:29		  weechat.look.item_buffer_filter = "*"
+2014-02-08 12:54:29		  weechat.look.item_time_format = "%H:%M"
+2014-02-08 12:54:29		  weechat.look.jump_current_to_previous_buffer = on
+2014-02-08 12:54:29		  weechat.look.jump_previous_buffer_when_closing = on
+2014-02-08 12:54:29		  weechat.look.jump_smart_back_to_buffer = on
+2014-02-08 12:54:29		  weechat.look.key_bind_safe = on
+2014-02-08 12:54:29		  weechat.look.mouse = off
+2014-02-08 12:54:29		  weechat.look.mouse_timer_delay = 100
+2014-02-08 12:54:29		  weechat.look.nick_prefix = ""
+2014-02-08 12:54:29		  weechat.look.nick_suffix = ""
+2014-02-08 12:54:29		  weechat.look.paste_bracketed = off
+2014-02-08 12:54:29		  weechat.look.paste_bracketed_timer_delay = 10
+2014-02-08 12:54:29		  weechat.look.paste_max_lines = 1
+2014-02-08 12:54:29		  weechat.look.prefix_action = " *"
+2014-02-08 12:54:29		  weechat.look.prefix_align = right
+2014-02-08 12:54:29		  weechat.look.prefix_align_max = 0
+2014-02-08 12:54:29		  weechat.look.prefix_align_min = 0
+2014-02-08 12:54:29		  weechat.look.prefix_align_more = "+"
+2014-02-08 12:54:29		  weechat.look.prefix_align_more_after = on
+2014-02-08 12:54:29		  weechat.look.prefix_buffer_align = right
+2014-02-08 12:54:29		  weechat.look.prefix_buffer_align_max = 0
+2014-02-08 12:54:29		  weechat.look.prefix_buffer_align_more = "+"
+2014-02-08 12:54:29		  weechat.look.prefix_buffer_align_more_after = on
+2014-02-08 12:54:29		  weechat.look.prefix_error = "=!="
+2014-02-08 12:54:29		  weechat.look.prefix_join = "-->"
+2014-02-08 12:54:29		  weechat.look.prefix_network = "--"
+2014-02-08 12:54:29		  weechat.look.prefix_quit = "<--"
+2014-02-08 12:54:29		  weechat.look.prefix_same_nick = ""
+2014-02-08 12:54:29		  weechat.look.prefix_suffix = "|"
+2014-02-08 12:54:29		  weechat.look.read_marker = line
+2014-02-08 12:54:29		  weechat.look.read_marker_always_show = off
+2014-02-08 12:54:29		  weechat.look.read_marker_string = "- "
+2014-02-08 12:54:29		  weechat.look.save_config_on_exit = on
+2014-02-08 12:54:29		  weechat.look.save_layout_on_exit = none
+2014-02-08 12:54:29		  weechat.look.scroll_amount = 3
+2014-02-08 12:54:29		  weechat.look.scroll_bottom_after_switch = off
+2014-02-08 12:54:29		  weechat.look.scroll_page_percent = 100
+2014-02-08 12:54:29		  weechat.look.search_text_not_found_alert = on
+2014-02-08 12:54:29		  weechat.look.separator_horizontal = "-"
+2014-02-08 12:54:29		  weechat.look.separator_vertical = ""
+2014-02-08 12:54:29		  weechat.look.set_title = on
+2014-02-08 12:54:29		  weechat.look.time_format = "%a, %d %b %Y %T"
+2014-02-08 12:54:29		  weechat.look.window_separator_horizontal = on
+2014-02-08 12:54:29		  weechat.look.window_separator_vertical = on
+2014-02-08 12:54:29		88 options (matching with "weechat.look.*")
+2014-02-08 12:54:34		[bar] (weechat.conf)
+2014-02-08 12:54:34		  weechat.bar.buffers.color_bg = default
+2014-02-08 12:54:34		  weechat.bar.buffers.color_delim = default
+2014-02-08 12:54:34		  weechat.bar.buffers.color_fg = default
+2014-02-08 12:54:34		  weechat.bar.buffers.conditions = ""
+2014-02-08 12:54:34		  weechat.bar.buffers.filling_left_right = vertical
+2014-02-08 12:54:34		  weechat.bar.buffers.filling_top_bottom = horizontal
+2014-02-08 12:54:34		  weechat.bar.buffers.hidden = off  (default: on)
+2014-02-08 12:54:34		  weechat.bar.buffers.items = "buffers"  (default: "")
+2014-02-08 12:54:34		  weechat.bar.buffers.position = top
+2014-02-08 12:54:34		  weechat.bar.buffers.priority = 0
+2014-02-08 12:54:34		  weechat.bar.buffers.separator = off
+2014-02-08 12:54:34		  weechat.bar.buffers.size = 0
+2014-02-08 12:54:34		  weechat.bar.buffers.size_max = 0
+2014-02-08 12:54:34		  weechat.bar.buffers.type = root
+2014-02-08 12:54:34		  weechat.bar.input.color_bg = default
+2014-02-08 12:54:34		  weechat.bar.input.color_delim = green
+2014-02-08 12:54:34		  weechat.bar.input.color_fg = default
+2014-02-08 12:54:34		  weechat.bar.input.conditions = ""
+2014-02-08 12:54:34		  weechat.bar.input.filling_left_right = vertical
+2014-02-08 12:54:34		  weechat.bar.input.filling_top_bottom = horizontal
+2014-02-08 12:54:34		  weechat.bar.input.hidden = off
+2014-02-08 12:54:34		  weechat.bar.input.items = "scroll,+ »,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2014-02-08 12:54:34		  weechat.bar.input.position = bottom
+2014-02-08 12:54:34		  weechat.bar.input.priority = 1000
+2014-02-08 12:54:34		  weechat.bar.input.separator = off
+2014-02-08 12:54:34		  weechat.bar.input.size = 1
+2014-02-08 12:54:34		  weechat.bar.input.size_max = 0
+2014-02-08 12:54:34		  weechat.bar.input.type = window
+2014-02-08 12:54:34		  weechat.bar.nicklist.color_bg = default
+2014-02-08 12:54:34		  weechat.bar.nicklist.color_delim = cyan
+2014-02-08 12:54:34		  weechat.bar.nicklist.color_fg = default
+2014-02-08 12:54:34		  weechat.bar.nicklist.conditions = "${nicklist}"
+2014-02-08 12:54:34		  weechat.bar.nicklist.filling_left_right = vertical
+2014-02-08 12:54:34		  weechat.bar.nicklist.filling_top_bottom = columns_vertical
+2014-02-08 12:54:34		  weechat.bar.nicklist.hidden = on
+2014-02-08 12:54:34		  weechat.bar.nicklist.items = "buffer_nicklist"
+2014-02-08 12:54:34		  weechat.bar.nicklist.position = right
+2014-02-08 12:54:34		  weechat.bar.nicklist.priority = 200
+2014-02-08 12:54:34		  weechat.bar.nicklist.separator = on
+2014-02-08 12:54:34		  weechat.bar.nicklist.size = 0
+2014-02-08 12:54:34		  weechat.bar.nicklist.size_max = 0
+2014-02-08 12:54:34		  weechat.bar.nicklist.type = window
+2014-02-08 12:54:34		  weechat.bar.status.color_bg = blue
+2014-02-08 12:54:34		  weechat.bar.status.color_delim = cyan
+2014-02-08 12:54:34		  weechat.bar.status.color_fg = default
+2014-02-08 12:54:34		  weechat.bar.status.conditions = ""
+2014-02-08 12:54:34		  weechat.bar.status.filling_left_right = vertical
+2014-02-08 12:54:34		  weechat.bar.status.filling_top_bottom = horizontal
+2014-02-08 12:54:34		  weechat.bar.status.hidden = on
+2014-02-08 12:54:34		  weechat.bar.status.items = "buffer_number+:+buffer_name,scroll"  (default: "[time],[buffer_count],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_filter,[lag],[hotlist],completion,scroll")
+2014-02-08 12:54:34		  weechat.bar.status.position = bottom
+2014-02-08 12:54:34		  weechat.bar.status.priority = 500
+2014-02-08 12:54:34		  weechat.bar.status.separator = off
+2014-02-08 12:54:34		  weechat.bar.status.size = 1
+2014-02-08 12:54:34		  weechat.bar.status.size_max = 0
+2014-02-08 12:54:34		  weechat.bar.status.type = window
+2014-02-08 12:54:34		  weechat.bar.title.color_bg = default
+2014-02-08 12:54:34		  weechat.bar.title.color_delim = cyan
+2014-02-08 12:54:34		  weechat.bar.title.color_fg = default
+2014-02-08 12:54:34		  weechat.bar.title.conditions = ""
+2014-02-08 12:54:34		  weechat.bar.title.filling_left_right = vertical
+2014-02-08 12:54:34		  weechat.bar.title.filling_top_bottom = horizontal
+2014-02-08 12:54:34		  weechat.bar.title.hidden = off
+2014-02-08 12:54:34		  weechat.bar.title.items = "[buffer_name]+,buffer_title"  (default: "buffer_title")
+2014-02-08 12:54:34		  weechat.bar.title.position = top
+2014-02-08 12:54:34		  weechat.bar.title.priority = 500
+2014-02-08 12:54:34		  weechat.bar.title.separator = off
+2014-02-08 12:54:34		  weechat.bar.title.size = 1
+2014-02-08 12:54:34		  weechat.bar.title.size_max = 0
+2014-02-08 12:54:34		  weechat.bar.title.type = window
+2014-02-08 12:54:34		70 options (matching with "weechat.bar.*")
+2014-02-08 12:54:43		Option changed: weechat.bar.title.items = "buffer_title"
+2014-02-08 12:58:15		Option changed: weechat.look.prefix_align_max = 9  (default: 0)
+2014-02-08 12:58:27		Option changed: weechat.look.prefix_align_max = 8  (default: 0)
+2014-02-08 13:16:41		Plugins loaded:
+2014-02-08 13:16:41		  script: Scripts manager
+2014-02-08 13:16:41		  relay: Relay WeeChat data to remote application (irc/weechat protocols)
+2014-02-08 13:16:41		  xfer: DCC file transfer and direct chat
+2014-02-08 13:16:41		  rmodifier: String modifier with regular expressions
+2014-02-08 13:16:41		  irc: IRC (Internet Relay Chat) protocol
+2014-02-08 13:16:41		  logger: Log buffers to files
+2014-02-08 13:16:41		  aspell: Spell checker for input (with Aspell)
+2014-02-08 13:16:41		  fifo: FIFO pipe for remote control
+2014-02-08 13:16:41		  alias: Alias commands
+2014-02-08 13:16:41		  perl: Support of perl scripts
+2014-02-08 13:16:41		  charset: Charset conversions
+2014-02-08 13:16:41		  python: Support of python scripts
+2014-02-08 13:16:52		[script]  /script  list [-o|-i]
+2014-02-08 13:16:52		                   search <text>
+2014-02-08 13:16:52		                   show <script>
+2014-02-08 13:16:52		                   load|unload|reload <script> [<script>...]
+2014-02-08 13:16:52		                   autoload|noautoload|toggleautoload <script> [<script>...]
+2014-02-08 13:16:52		                   install|remove|installremove|hold [-q] <script> [<script>...]
+2014-02-08 13:16:52		                   upgrade
+2014-02-08 13:16:52		                   update
+2014-02-08 13:16:52		WeeChat scripts manager
+2014-02-08 13:16:52		          list: list loaded scripts (all languages)
+2014-02-08 13:16:52		            -o: send list of loaded scripts to buffer
+2014-02-08 13:16:52		            -i: copy list of loaded scripts in command line (for sending to buffer)
+2014-02-08 13:16:52		        search: search scripts by tags or text and display result on scripts buffer
+2014-02-08 13:16:52		          show: show detailed info about a script
+2014-02-08 13:16:52		          load: load script(s)
+2014-02-08 13:16:52		        unload: unload script(s)
+2014-02-08 13:16:52		        reload: reload script(s)
+2014-02-08 13:16:52		      autoload: autoload the script
+2014-02-08 13:16:52		    noautoload: do not autoload the script
+2014-02-08 13:16:52		toggleautoload: toggle autoload
+2014-02-08 13:16:52		       install: install/upgrade script(s)
+2014-02-08 13:16:52		        remove: remove script(s)
+2014-02-08 13:16:52		 installremove: install or remove script(s), depending on current state
+2014-02-08 13:16:52		          hold: hold/unhold script(s) (a script held will not be upgraded any more and cannot be removed)
+2014-02-08 13:16:52		            -q: quiet mode: do not display messages
+2014-02-08 13:16:52		       upgrade: upgrade all installed scripts which are obsolete (new version available)
+2014-02-08 13:16:52		        update: update local scripts cache
+2014-02-08 13:16:52		Without argument, this command opens a buffer with list of scripts.
+2014-02-08 13:16:52		On script buffer, the possible status for each script are:
+2014-02-08 13:16:52		  * i a H r N
+2014-02-08 13:16:52		  | | | | | |
+2014-02-08 13:16:52		  | | | | | obsolete (new version available)
+2014-02-08 13:16:52		  | | | | running (loaded)
+2014-02-08 13:16:52		  | | | held
+2014-02-08 13:16:52		  | | autoloaded
+2014-02-08 13:16:52		  | installed
+2014-02-08 13:16:52		  popular script
+2014-02-08 13:16:52		Keys on script buffer:
+2014-02-08 13:16:52		  alt+i  install script
+2014-02-08 13:16:52		  alt+r  remove script
+2014-02-08 13:16:52		  alt+l  load script
+2014-02-08 13:16:52		  alt+L  reload script
+2014-02-08 13:16:52		  alt+u  unload script
+2014-02-08 13:16:52		  alt+A  autoload script
+2014-02-08 13:16:52		  alt+h  (un)hold script
+2014-02-08 13:16:52		  alt+v  view script
+2014-02-08 13:16:52		Input allowed on script buffer:
+2014-02-08 13:16:52		  i/r/l/L/u/h  action on script (same as keys above)
+2014-02-08 13:16:52		  q            close buffer
+2014-02-08 13:16:52		  $            refresh buffer
+2014-02-08 13:16:52		  s:x,y        sort buffer using keys x and y (see /help script.look.sort)
+2014-02-08 13:16:52		  s:           reset sort (use default sort)
+2014-02-08 13:16:52		  word(s)      filter scripts: search word(s) in scripts (description, tags, ...)
+2014-02-08 13:16:52		  *            remove filter
+2014-02-08 13:16:52		Mouse actions on script buffer:
+2014-02-08 13:16:52		  wheel         scroll list
+2014-02-08 13:16:52		  left button   select script
+2014-02-08 13:16:52		  right button  install/remove script
+2014-02-08 13:16:52		Examples:
+2014-02-08 13:16:52		  /script search url
+2014-02-08 13:16:52		  /script install iset.pl buffers.pl
+2014-02-08 13:16:52		  /script remove iset.pl
+2014-02-08 13:16:52		  /script hold urlserver.py
+2014-02-08 13:16:52		  /script reload urlserver
+2014-02-08 13:16:52		  /script upgrade
+2014-02-08 13:55:24		Options saved to sec.conf
+2014-02-08 13:55:24		Options saved to weechat.conf
+2014-02-08 13:55:24		Options saved to plugins.conf
+2014-02-08 13:55:24		Options saved to script.conf
+2014-02-08 13:55:24		Options saved to relay.conf
+2014-02-08 13:55:24		Options saved to xfer.conf
+2014-02-08 13:55:24		Options saved to rmodifier.conf
+2014-02-08 13:55:24		Options saved to irc.conf
+2014-02-08 13:55:24		Options saved to logger.conf
+2014-02-08 13:55:24		Options saved to aspell.conf
+2014-02-08 13:55:24		Options saved to alias.conf
+2014-02-08 13:55:24		Options saved to buffers.conf
+2014-02-08 13:55:24		Options saved to charset.conf
+2014-02-08 19:15:53	=!=	Option "buffer.*" not found (tip: you can use "*" at beginning and/or end of option to see a sublist)
+2014-02-08 19:15:57		[color] (buffers.conf)
+2014-02-08 19:15:57		  buffers.color.current_bg = default  (default: red)
+2014-02-08 19:15:57		  buffers.color.current_fg = white  (default: lightcyan)
+2014-02-08 19:15:57		  buffers.color.default_bg = default
+2014-02-08 19:15:57		  buffers.color.default_fg = default
+2014-02-08 19:15:57		  buffers.color.hotlist_highlight_bg = default
+2014-02-08 19:15:57		  buffers.color.hotlist_highlight_fg = magenta
+2014-02-08 19:15:57		  buffers.color.hotlist_low_bg = default
+2014-02-08 19:15:57		  buffers.color.hotlist_low_fg = darkgray  (default: white)
+2014-02-08 19:15:57		  buffers.color.hotlist_message_bg = default
+2014-02-08 19:15:57		  buffers.color.hotlist_message_fg = white  (default: yellow)
+2014-02-08 19:15:57		  buffers.color.hotlist_private_bg = default
+2014-02-08 19:15:57		  buffers.color.hotlist_private_fg = lightgreen
+2014-02-08 19:15:57		  buffers.color.none_channel_bg = default
+2014-02-08 19:15:57		  buffers.color.none_channel_fg = default
+2014-02-08 19:15:57		  buffers.color.number = darkgray  (default: lightgreen)
+2014-02-08 19:15:57		  buffers.color.number_char = darkgray  (default: lightgreen)
+2014-02-08 19:15:57		  buffers.color.prefix_bufname = default
+2014-02-08 19:15:57		  buffers.color.queries_default_bg = default
+2014-02-08 19:15:57		  buffers.color.queries_default_fg = default
+2014-02-08 19:15:57		  buffers.color.queries_highlight_bg = default
+2014-02-08 19:15:57		  buffers.color.queries_highlight_fg = default
+2014-02-08 19:15:57		  buffers.color.queries_message_bg = default
+2014-02-08 19:15:57		  buffers.color.queries_message_fg = default
+2014-02-08 19:15:57		  buffers.color.suffix_bufname = default
+2014-02-08 19:15:57		  buffers.color.whitelist_default_bg = default
+2014-02-08 19:15:57		  buffers.color.whitelist_default_fg = default
+2014-02-08 19:15:57		  buffers.color.whitelist_highlight_bg = default
+2014-02-08 19:15:57		  buffers.color.whitelist_highlight_fg = default
+2014-02-08 19:15:57		  buffers.color.whitelist_low_bg = default
+2014-02-08 19:15:57		  buffers.color.whitelist_low_fg = default
+2014-02-08 19:15:57		  buffers.color.whitelist_message_bg = default
+2014-02-08 19:15:57		  buffers.color.whitelist_message_fg = default
+2014-02-08 19:15:57		  buffers.color.whitelist_private_bg = default
+2014-02-08 19:15:57		  buffers.color.whitelist_private_fg = default
+2014-02-08 19:15:57		[look] (buffers.conf)
+2014-02-08 19:15:57		  buffers.look.core_to_front = off
+2014-02-08 19:15:57		  buffers.look.detach = 0
+2014-02-08 19:15:57		  buffers.look.detach_buffer_immediately = ""
+2014-02-08 19:15:57		  buffers.look.detach_display_window_number = off
+2014-02-08 19:15:57		  buffers.look.detach_displayed_buffers = on
+2014-02-08 19:15:57		  buffers.look.detach_free_content = off
+2014-02-08 19:15:57		  buffers.look.detach_query = off
+2014-02-08 19:15:57		  buffers.look.hide_merged_buffers = none
+2014-02-08 19:15:57		  buffers.look.hotlist_counter = off
+2014-02-08 19:15:57		  buffers.look.immune_detach_buffers = ""
+2014-02-08 19:15:57		  buffers.look.indenting = off
+2014-02-08 19:15:57		  buffers.look.indenting_number = on
+2014-02-08 19:15:57		  buffers.look.jump_prev_next_visited_buffer = off
+2014-02-08 19:15:57		  buffers.look.mark_inactive = off
+2014-02-08 19:15:57		  buffers.look.mouse_move_buffer = on
+2014-02-08 19:15:57		  buffers.look.name_crop_suffix = "+"
+2014-02-08 19:15:57		  buffers.look.name_size_max = 0
+2014-02-08 19:15:57		  buffers.look.number_char = "|"  (default: ".")
+2014-02-08 19:15:57		  buffers.look.prefix = off
+2014-02-08 19:15:57		  buffers.look.prefix_bufname = ""
+2014-02-08 19:15:57		  buffers.look.prefix_empty = on
+2014-02-08 19:15:57		  buffers.look.prefix_for_query = ""
+2014-02-08 19:15:57		  buffers.look.short_names = on
+2014-02-08 19:15:57		  buffers.look.show_lag = off
+2014-02-08 19:15:57		  buffers.look.show_number = on
+2014-02-08 19:15:57		  buffers.look.sort = number
+2014-02-08 19:15:57		  buffers.look.suffix_bufname = ""
+2014-02-08 19:15:57		  buffers.look.toogle_bar = on
+2014-02-08 19:15:57		  buffers.look.whitelist_buffers = ""
+2014-02-08 19:15:57		63 options (matching with "buffers.*")
+2014-02-08 19:16:32		Option changed: buffers.color.current_fg = default  (default: lightcyan)
+2014-02-08 19:16:46		[bar] (weechat.conf)
+2014-02-08 19:16:46		  weechat.bar.buffers.color_bg = default
+2014-02-08 19:16:46		  weechat.bar.buffers.color_delim = default
+2014-02-08 19:16:46		  weechat.bar.buffers.color_fg = default
+2014-02-08 19:16:46		  weechat.bar.buffers.conditions = ""
+2014-02-08 19:16:46		  weechat.bar.buffers.filling_left_right = vertical
+2014-02-08 19:16:46		  weechat.bar.buffers.filling_top_bottom = horizontal
+2014-02-08 19:16:46		  weechat.bar.buffers.hidden = off  (default: on)
+2014-02-08 19:16:46		  weechat.bar.buffers.items = "buffers"  (default: "")
+2014-02-08 19:16:46		  weechat.bar.buffers.position = top
+2014-02-08 19:16:46		  weechat.bar.buffers.priority = 0
+2014-02-08 19:16:46		  weechat.bar.buffers.separator = off
+2014-02-08 19:16:46		  weechat.bar.buffers.size = 0
+2014-02-08 19:16:46		  weechat.bar.buffers.size_max = 0
+2014-02-08 19:16:46		  weechat.bar.buffers.type = root
+2014-02-08 19:16:46		  weechat.bar.input.color_bg = default
+2014-02-08 19:16:46		  weechat.bar.input.color_delim = green
+2014-02-08 19:16:46		  weechat.bar.input.color_fg = default
+2014-02-08 19:16:46		  weechat.bar.input.conditions = ""
+2014-02-08 19:16:46		  weechat.bar.input.filling_left_right = vertical
+2014-02-08 19:16:46		  weechat.bar.input.filling_top_bottom = horizontal
+2014-02-08 19:16:46		  weechat.bar.input.hidden = off
+2014-02-08 19:16:46		  weechat.bar.input.items = "scroll,+ »,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2014-02-08 19:16:46		  weechat.bar.input.position = bottom
+2014-02-08 19:16:46		  weechat.bar.input.priority = 1000
+2014-02-08 19:16:46		  weechat.bar.input.separator = off
+2014-02-08 19:16:46		  weechat.bar.input.size = 1
+2014-02-08 19:16:46		  weechat.bar.input.size_max = 0
+2014-02-08 19:16:46		  weechat.bar.input.type = window
+2014-02-08 19:16:46		  weechat.bar.nicklist.color_bg = default
+2014-02-08 19:16:46		  weechat.bar.nicklist.color_delim = cyan
+2014-02-08 19:16:46		  weechat.bar.nicklist.color_fg = default
+2014-02-08 19:16:46		  weechat.bar.nicklist.conditions = "${nicklist}"
+2014-02-08 19:16:46		  weechat.bar.nicklist.filling_left_right = vertical
+2014-02-08 19:16:46		  weechat.bar.nicklist.filling_top_bottom = columns_vertical
+2014-02-08 19:16:46		  weechat.bar.nicklist.hidden = on
+2014-02-08 19:16:46		  weechat.bar.nicklist.items = "buffer_nicklist"
+2014-02-08 19:16:46		  weechat.bar.nicklist.position = right
+2014-02-08 19:16:46		  weechat.bar.nicklist.priority = 200
+2014-02-08 19:16:46		  weechat.bar.nicklist.separator = on
+2014-02-08 19:16:46		  weechat.bar.nicklist.size = 0
+2014-02-08 19:16:46		  weechat.bar.nicklist.size_max = 0
+2014-02-08 19:16:46		  weechat.bar.nicklist.type = window
+2014-02-08 19:16:46		  weechat.bar.status.color_bg = blue
+2014-02-08 19:16:46		  weechat.bar.status.color_delim = cyan
+2014-02-08 19:16:46		  weechat.bar.status.color_fg = default
+2014-02-08 19:16:46		  weechat.bar.status.conditions = ""
+2014-02-08 19:16:46		  weechat.bar.status.filling_left_right = vertical
+2014-02-08 19:16:46		  weechat.bar.status.filling_top_bottom = horizontal
+2014-02-08 19:16:46		  weechat.bar.status.hidden = on
+2014-02-08 19:16:46		  weechat.bar.status.items = "buffer_number+:+buffer_name,scroll"  (default: "[time],[buffer_count],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_filter,[lag],[hotlist],completion,scroll")
+2014-02-08 19:16:46		  weechat.bar.status.position = bottom
+2014-02-08 19:16:46		  weechat.bar.status.priority = 500
+2014-02-08 19:16:46		  weechat.bar.status.separator = off
+2014-02-08 19:16:46		  weechat.bar.status.size = 1
+2014-02-08 19:16:46		  weechat.bar.status.size_max = 0
+2014-02-08 19:16:46		  weechat.bar.status.type = window
+2014-02-08 19:16:46		  weechat.bar.title.color_bg = default
+2014-02-08 19:16:46		  weechat.bar.title.color_delim = cyan
+2014-02-08 19:16:46		  weechat.bar.title.color_fg = default
+2014-02-08 19:16:46		  weechat.bar.title.conditions = ""
+2014-02-08 19:16:46		  weechat.bar.title.filling_left_right = vertical
+2014-02-08 19:16:46		  weechat.bar.title.filling_top_bottom = horizontal
+2014-02-08 19:16:46		  weechat.bar.title.hidden = off
+2014-02-08 19:16:46		  weechat.bar.title.items = "buffer_title"
+2014-02-08 19:16:46		  weechat.bar.title.position = top
+2014-02-08 19:16:46		  weechat.bar.title.priority = 500
+2014-02-08 19:16:46		  weechat.bar.title.separator = off
+2014-02-08 19:16:46		  weechat.bar.title.size = 1
+2014-02-08 19:16:46		  weechat.bar.title.size_max = 0
+2014-02-08 19:16:46		  weechat.bar.title.type = window
+2014-02-08 19:16:46		70 options (matching with "weechat.bar.*")
+2014-02-08 19:18:13		Option changed: weechat.bar.input.items = "scroll,[buffer_count],[buffer_plugin],+ »+,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2014-02-08 19:18:45		Option changed: weechat.bar.input.items = "scroll,[buffer_plugin],[hotlist],+ »+,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2014-02-08 19:19:13		Option changed: weechat.bar.input.items = "scroll,[buffer_plugin],[hotlist],[lag],+ »+,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2014-02-08 19:19:44		Option changed: weechat.bar.input.items = "scroll,[hotlist],[lag],+ »+,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2014-02-08 19:48:33		[startup] (weechat.conf)
+2014-02-08 19:48:33		  weechat.startup.command_after_plugins = ""
+2014-02-08 19:48:33		  weechat.startup.command_before_plugins = ""
+2014-02-08 19:48:33		  weechat.startup.display_logo = on
+2014-02-08 19:48:33		  weechat.startup.display_version = on
+2014-02-08 19:48:33		  weechat.startup.sys_rlimit = ""
+2014-02-08 19:48:33		[look] (weechat.conf)
+2014-02-08 19:48:33		  weechat.look.align_end_of_lines = message
+2014-02-08 19:48:33		  weechat.look.bar_more_down = "▼"  (default: "++")
+2014-02-08 19:48:33		  weechat.look.bar_more_left = "◀"  (default: "<<")
+2014-02-08 19:48:33		  weechat.look.bar_more_right = "▶"  (default: ">>")
+2014-02-08 19:48:33		  weechat.look.bar_more_up = "▲"  (default: "--")
+2014-02-08 19:48:33		  weechat.look.buffer_notify_default = all
+2014-02-08 19:48:33		  weechat.look.buffer_time_format = "%H:%M"  (default: "%H:%M:%S")
+2014-02-08 19:48:33		  weechat.look.color_basic_force_bold = off
+2014-02-08 19:48:33		  weechat.look.color_inactive_buffer = on
+2014-02-08 19:48:33		  weechat.look.color_inactive_message = on
+2014-02-08 19:48:33		  weechat.look.color_inactive_prefix = on
+2014-02-08 19:48:33		  weechat.look.color_inactive_prefix_buffer = on
+2014-02-08 19:48:33		  weechat.look.color_inactive_time = off
+2014-02-08 19:48:33		  weechat.look.color_inactive_window = on
+2014-02-08 19:48:33		  weechat.look.color_nick_offline = off
+2014-02-08 19:48:33		  weechat.look.color_pairs_auto_reset = 5
+2014-02-08 19:48:33		  weechat.look.color_real_white = off
+2014-02-08 19:48:33		  weechat.look.command_chars = ""
+2014-02-08 19:48:33		  weechat.look.confirm_quit = off
+2014-02-08 19:48:33		  weechat.look.day_change = on
+2014-02-08 19:48:33		  weechat.look.day_change_message_1date = "-- %a, %d %b %Y --"
+2014-02-08 19:48:33		  weechat.look.day_change_message_2dates = "-- %%a, %%d %%b %%Y (%a, %d %b %Y) --"
+2014-02-08 19:48:33		  weechat.look.eat_newline_glitch = off
+2014-02-08 19:48:33		  weechat.look.emphasized_attributes = ""
+2014-02-08 19:48:33		  weechat.look.highlight = ""
+2014-02-08 19:48:33		  weechat.look.highlight_regex = ""
+2014-02-08 19:48:33		  weechat.look.highlight_tags = ""
+2014-02-08 19:48:33		  weechat.look.hotlist_add_buffer_if_away = on
+2014-02-08 19:48:33		  weechat.look.hotlist_buffer_separator = ", "
+2014-02-08 19:48:33		  weechat.look.hotlist_count_max = 2
+2014-02-08 19:48:33		  weechat.look.hotlist_count_min_msg = 2
+2014-02-08 19:48:33		  weechat.look.hotlist_names_count = 3
+2014-02-08 19:48:33		  weechat.look.hotlist_names_length = 0
+2014-02-08 19:48:33		  weechat.look.hotlist_names_level = 12
+2014-02-08 19:48:33		  weechat.look.hotlist_names_merged_buffers = off
+2014-02-08 19:48:33		  weechat.look.hotlist_prefix = "H: "
+2014-02-08 19:48:33		  weechat.look.hotlist_short_names = on
+2014-02-08 19:48:33		  weechat.look.hotlist_sort = group_time_asc
+2014-02-08 19:48:33		  weechat.look.hotlist_suffix = ""
+2014-02-08 19:48:33		  weechat.look.hotlist_unique_numbers = on
+2014-02-08 19:48:33		  weechat.look.input_cursor_scroll = 20
+2014-02-08 19:48:33		  weechat.look.input_share = none
+2014-02-08 19:48:33		  weechat.look.input_share_overwrite = off
+2014-02-08 19:48:33		  weechat.look.input_undo_max = 32
+2014-02-08 19:48:33		  weechat.look.item_buffer_filter = "*"
+2014-02-08 19:48:33		  weechat.look.item_time_format = "%H:%M"
+2014-02-08 19:48:33		  weechat.look.jump_current_to_previous_buffer = on
+2014-02-08 19:48:33		  weechat.look.jump_previous_buffer_when_closing = on
+2014-02-08 19:48:33		  weechat.look.jump_smart_back_to_buffer = on
+2014-02-08 19:48:33		  weechat.look.key_bind_safe = on
+2014-02-08 19:48:33		  weechat.look.mouse = off
+2014-02-08 19:48:33		  weechat.look.mouse_timer_delay = 100
+2014-02-08 19:48:33		  weechat.look.nick_prefix = ""
+2014-02-08 19:48:33		  weechat.look.nick_suffix = ""
+2014-02-08 19:48:33		  weechat.look.paste_bracketed = off
+2014-02-08 19:48:33		  weechat.look.paste_bracketed_timer_delay = 10
+2014-02-08 19:48:33		  weechat.look.paste_max_lines = 1
+2014-02-08 19:48:33		  weechat.look.prefix_action = " *"
+2014-02-08 19:48:33		  weechat.look.prefix_align = right
+2014-02-08 19:48:33		  weechat.look.prefix_align_max = 8  (default: 0)
+2014-02-08 19:48:33		  weechat.look.prefix_align_min = 0
+2014-02-08 19:48:33		  weechat.look.prefix_align_more = "+"
+2014-02-08 19:48:33		  weechat.look.prefix_align_more_after = on
+2014-02-08 19:48:33		  weechat.look.prefix_buffer_align = right
+2014-02-08 19:48:33		  weechat.look.prefix_buffer_align_max = 0
+2014-02-08 19:48:33		  weechat.look.prefix_buffer_align_more = "+"
+2014-02-08 19:48:33		  weechat.look.prefix_buffer_align_more_after = on
+2014-02-08 19:48:33		  weechat.look.prefix_error = "=!="
+2014-02-08 19:48:33		  weechat.look.prefix_join = "-->"
+2014-02-08 19:48:33		  weechat.look.prefix_network = "--"
+2014-02-08 19:48:33		  weechat.look.prefix_quit = "<--"
+2014-02-08 19:48:33		  weechat.look.prefix_same_nick = ""
+2014-02-08 19:48:33		  weechat.look.prefix_suffix = "|"
+2014-02-08 19:48:33		  weechat.look.read_marker = line
+2014-02-08 19:48:33		  weechat.look.read_marker_always_show = off
+2014-02-08 19:48:33		  weechat.look.read_marker_string = "- "
+2014-02-08 19:48:33		  weechat.look.save_config_on_exit = on
+2014-02-08 19:48:33		  weechat.look.save_layout_on_exit = none
+2014-02-08 19:48:33		  weechat.look.scroll_amount = 3
+2014-02-08 19:48:33		  weechat.look.scroll_bottom_after_switch = off
+2014-02-08 19:48:33		  weechat.look.scroll_page_percent = 100
+2014-02-08 19:48:33		  weechat.look.search_text_not_found_alert = on
+2014-02-08 19:48:33		  weechat.look.separator_horizontal = "-"
+2014-02-08 19:48:33		  weechat.look.separator_vertical = ""
+2014-02-08 19:48:33		  weechat.look.set_title = on
+2014-02-08 19:48:33		  weechat.look.time_format = "%a, %d %b %Y %T"
+2014-02-08 19:48:33		  weechat.look.window_separator_horizontal = on
+2014-02-08 19:48:33		  weechat.look.window_separator_vertical = on
+2014-02-08 19:48:33		[color] (weechat.conf)
+2014-02-08 19:48:33		  weechat.color.bar_more = lightmagenta
+2014-02-08 19:48:33		  weechat.color.chat = default
+2014-02-08 19:48:33		  weechat.color.chat_bg = default
+2014-02-08 19:48:33		  weechat.color.chat_buffer = white
+2014-02-08 19:48:33		  weechat.color.chat_channel = white
+2014-02-08 19:48:33		  weechat.color.chat_day_change = cyan
+2014-02-08 19:48:33		  weechat.color.chat_delimiters = green
+2014-02-08 19:48:33		  weechat.color.chat_highlight = magenta  (default: yellow)
+2014-02-08 19:48:33		  weechat.color.chat_highlight_bg = default  (default: magenta)
+2014-02-08 19:48:33		  weechat.color.chat_host = cyan
+2014-02-08 19:48:33		  weechat.color.chat_inactive_buffer = darkgray
+2014-02-08 19:48:33		  weechat.color.chat_inactive_window = darkgray
+2014-02-08 19:48:33		  weechat.color.chat_nick = lightcyan
+2014-02-08 19:48:33		  weechat.color.chat_nick_colors = "default"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2014-02-08 19:48:33		  weechat.color.chat_nick_offline = darkgray
+2014-02-08 19:48:33		  weechat.color.chat_nick_offline_highlight = default
+2014-02-08 19:48:33		  weechat.color.chat_nick_offline_highlight_bg = darkgray
+2014-02-08 19:48:33		  weechat.color.chat_nick_other = cyan
+2014-02-08 19:48:33		  weechat.color.chat_nick_prefix = green
+2014-02-08 19:48:33		  weechat.color.chat_nick_self = default  (default: white)
+2014-02-08 19:48:33		  weechat.color.chat_nick_suffix = green
+2014-02-08 19:48:33		  weechat.color.chat_prefix_action = white
+2014-02-08 19:48:33		  weechat.color.chat_prefix_buffer = brown
+2014-02-08 19:48:33		  weechat.color.chat_prefix_buffer_inactive_buffer = darkgray
+2014-02-08 19:48:33		  weechat.color.chat_prefix_error = yellow
+2014-02-08 19:48:33		  weechat.color.chat_prefix_join = lightgreen
+2014-02-08 19:48:33		  weechat.color.chat_prefix_more = lightmagenta
+2014-02-08 19:48:33		  weechat.color.chat_prefix_network = magenta
+2014-02-08 19:48:33		  weechat.color.chat_prefix_quit = lightred
+2014-02-08 19:48:33		  weechat.color.chat_prefix_suffix = green
+2014-02-08 19:48:33		  weechat.color.chat_read_marker = magenta
+2014-02-08 19:48:33		  weechat.color.chat_read_marker_bg = default
+2014-02-08 19:48:33		  weechat.color.chat_server = brown
+2014-02-08 19:48:33		  weechat.color.chat_tags = red
+2014-02-08 19:48:33		  weechat.color.chat_text_found = yellow
+2014-02-08 19:48:33		  weechat.color.chat_text_found_bg = lightmagenta
+2014-02-08 19:48:33		  weechat.color.chat_time = default
+2014-02-08 19:48:33		  weechat.color.chat_time_delimiters = gray  (default: brown)
+2014-02-08 19:48:33		  weechat.color.chat_value = cyan
+2014-02-08 19:48:33		  weechat.color.emphasized = yellow
+2014-02-08 19:48:33		  weechat.color.emphasized_bg = magenta
+2014-02-08 19:48:33		  weechat.color.input_actions = lightgreen
+2014-02-08 19:48:33		  weechat.color.input_text_not_found = red
+2014-02-08 19:48:33		  weechat.color.nicklist_away = cyan
+2014-02-08 19:48:33		  weechat.color.nicklist_group = green
+2014-02-08 19:48:33		  weechat.color.nicklist_offline = blue
+2014-02-08 19:48:33		  weechat.color.separator = blue
+2014-02-08 19:48:33		  weechat.color.status_count_highlight = magenta
+2014-02-08 19:48:33		  weechat.color.status_count_msg = brown
+2014-02-08 19:48:33		  weechat.color.status_count_other = default
+2014-02-08 19:48:33		  weechat.color.status_count_private = green
+2014-02-08 19:48:33		  weechat.color.status_data_highlight = lightmagenta
+2014-02-08 19:48:33		  weechat.color.status_data_msg = yellow
+2014-02-08 19:48:33		  weechat.color.status_data_other = default
+2014-02-08 19:48:33		  weechat.color.status_data_private = lightgreen
+2014-02-08 19:48:33		  weechat.color.status_filter = green
+2014-02-08 19:48:33		  weechat.color.status_more = yellow
+2014-02-08 19:48:33		  weechat.color.status_name = white
+2014-02-08 19:48:33		  weechat.color.status_name_ssl = lightgreen
+2014-02-08 19:48:33		  weechat.color.status_number = yellow
+2014-02-08 19:48:33		  weechat.color.status_time = default
+2014-02-08 19:48:33		[completion] (weechat.conf)
+2014-02-08 19:48:33		  weechat.completion.base_word_until_cursor = on
+2014-02-08 19:48:33		  weechat.completion.default_template = "%(nicks)|%(irc_channels)"
+2014-02-08 19:48:33		  weechat.completion.nick_add_space = on
+2014-02-08 19:48:33		  weechat.completion.nick_completer = ":"
+2014-02-08 19:48:33		  weechat.completion.nick_first_only = off
+2014-02-08 19:48:33		  weechat.completion.nick_ignore_chars = "[]`_-^"
+2014-02-08 19:48:33		  weechat.completion.partial_completion_alert = on
+2014-02-08 19:48:33		  weechat.completion.partial_completion_command = off
+2014-02-08 19:48:33		  weechat.completion.partial_completion_command_arg = off
+2014-02-08 19:48:33		  weechat.completion.partial_completion_count = on
+2014-02-08 19:48:33		  weechat.completion.partial_completion_other = off
+2014-02-08 19:48:33		[history] (weechat.conf)
+2014-02-08 19:48:33		  weechat.history.display_default = 5
+2014-02-08 19:48:33		  weechat.history.max_buffer_lines_minutes = 0
+2014-02-08 19:48:33		  weechat.history.max_buffer_lines_number = 4096
+2014-02-08 19:48:33		  weechat.history.max_commands = 100
+2014-02-08 19:48:33		  weechat.history.max_visited_buffers = 50
+2014-02-08 19:48:33		[network] (weechat.conf)
+2014-02-08 19:48:33		  weechat.network.connection_timeout = 60
+2014-02-08 19:48:33		  weechat.network.gnutls_ca_file = "/etc/ssl/certs/ca-certificates.crt"
+2014-02-08 19:48:33		  weechat.network.gnutls_handshake_timeout = 30
+2014-02-08 19:48:33		  weechat.network.proxy_curl = ""
+2014-02-08 19:48:33		[plugin] (weechat.conf)
+2014-02-08 19:48:33		  weechat.plugin.autoload = "*"
+2014-02-08 19:48:33		  weechat.plugin.debug = off
+2014-02-08 19:48:33		  weechat.plugin.extension = ".so,.dll"
+2014-02-08 19:48:33		  weechat.plugin.path = "%h/plugins"
+2014-02-08 19:48:33		  weechat.plugin.save_config_on_unload = on
+2014-02-08 19:48:33		[bar] (weechat.conf)
+2014-02-08 19:48:33		  weechat.bar.buffers.color_bg = default
+2014-02-08 19:48:33		  weechat.bar.buffers.color_delim = default
+2014-02-08 19:48:33		  weechat.bar.buffers.color_fg = default
+2014-02-08 19:48:33		  weechat.bar.buffers.conditions = ""
+2014-02-08 19:48:33		  weechat.bar.buffers.filling_left_right = vertical
+2014-02-08 19:48:33		  weechat.bar.buffers.filling_top_bottom = horizontal
+2014-02-08 19:48:33		  weechat.bar.buffers.hidden = off  (default: on)
+2014-02-08 19:48:33		  weechat.bar.buffers.items = "buffers"  (default: "")
+2014-02-08 19:48:33		  weechat.bar.buffers.position = top
+2014-02-08 19:48:33		  weechat.bar.buffers.priority = 0
+2014-02-08 19:48:33		  weechat.bar.buffers.separator = off
+2014-02-08 19:48:33		  weechat.bar.buffers.size = 0
+2014-02-08 19:48:33		  weechat.bar.buffers.size_max = 0
+2014-02-08 19:48:33		  weechat.bar.buffers.type = root
+2014-02-08 19:48:33		  weechat.bar.input.color_bg = default
+2014-02-08 19:48:33		  weechat.bar.input.color_delim = green
+2014-02-08 19:48:33		  weechat.bar.input.color_fg = default
+2014-02-08 19:48:33		  weechat.bar.input.conditions = ""
+2014-02-08 19:48:33		  weechat.bar.input.filling_left_right = vertical
+2014-02-08 19:48:33		  weechat.bar.input.filling_top_bottom = horizontal
+2014-02-08 19:48:33		  weechat.bar.input.hidden = off
+2014-02-08 19:48:33		  weechat.bar.input.items = "scroll,[hotlist],[lag],+ »+,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2014-02-08 19:48:33		  weechat.bar.input.position = bottom
+2014-02-08 19:48:33		  weechat.bar.input.priority = 1000
+2014-02-08 19:48:33		  weechat.bar.input.separator = off
+2014-02-08 19:48:33		  weechat.bar.input.size = 1
+2014-02-08 19:48:33		  weechat.bar.input.size_max = 0
+2014-02-08 19:48:33		  weechat.bar.input.type = window
+2014-02-08 19:48:33		  weechat.bar.nicklist.color_bg = default
+2014-02-08 19:48:33		  weechat.bar.nicklist.color_delim = cyan
+2014-02-08 19:48:33		  weechat.bar.nicklist.color_fg = default
+2014-02-08 19:48:33		  weechat.bar.nicklist.conditions = "${nicklist}"
+2014-02-08 19:48:33		  weechat.bar.nicklist.filling_left_right = vertical
+2014-02-08 19:48:33		  weechat.bar.nicklist.filling_top_bottom = columns_vertical
+2014-02-08 19:48:33		  weechat.bar.nicklist.hidden = on
+2014-02-08 19:48:33		  weechat.bar.nicklist.items = "buffer_nicklist"
+2014-02-08 19:48:33		  weechat.bar.nicklist.position = right
+2014-02-08 19:48:33		  weechat.bar.nicklist.priority = 200
+2014-02-08 19:48:33		  weechat.bar.nicklist.separator = on
+2014-02-08 19:48:33		  weechat.bar.nicklist.size = 0
+2014-02-08 19:48:33		  weechat.bar.nicklist.size_max = 0
+2014-02-08 19:48:33		  weechat.bar.nicklist.type = window
+2014-02-08 19:48:33		  weechat.bar.status.color_bg = blue
+2014-02-08 19:48:33		  weechat.bar.status.color_delim = cyan
+2014-02-08 19:48:33		  weechat.bar.status.color_fg = default
+2014-02-08 19:48:33		  weechat.bar.status.conditions = ""
+2014-02-08 19:48:33		  weechat.bar.status.filling_left_right = vertical
+2014-02-08 19:48:33		  weechat.bar.status.filling_top_bottom = horizontal
+2014-02-08 19:48:33		  weechat.bar.status.hidden = on
+2014-02-08 19:48:33		  weechat.bar.status.items = "buffer_number+:+buffer_name,scroll"  (default: "[time],[buffer_count],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_filter,[lag],[hotlist],completion,scroll")
+2014-02-08 19:48:33		  weechat.bar.status.position = bottom
+2014-02-08 19:48:33		  weechat.bar.status.priority = 500
+2014-02-08 19:48:33		  weechat.bar.status.separator = off
+2014-02-08 19:48:33		  weechat.bar.status.size = 1
+2014-02-08 19:48:33		  weechat.bar.status.size_max = 0
+2014-02-08 19:48:33		  weechat.bar.status.type = window
+2014-02-08 19:48:33		  weechat.bar.title.color_bg = default
+2014-02-08 19:48:33		  weechat.bar.title.color_delim = cyan
+2014-02-08 19:48:33		  weechat.bar.title.color_fg = default
+2014-02-08 19:48:33		  weechat.bar.title.conditions = ""
+2014-02-08 19:48:33		  weechat.bar.title.filling_left_right = vertical
+2014-02-08 19:48:33		  weechat.bar.title.filling_top_bottom = horizontal
+2014-02-08 19:48:33		  weechat.bar.title.hidden = off
+2014-02-08 19:48:33		  weechat.bar.title.items = "buffer_title"
+2014-02-08 19:48:33		  weechat.bar.title.position = top
+2014-02-08 19:48:33		  weechat.bar.title.priority = 500
+2014-02-08 19:48:33		  weechat.bar.title.separator = off
+2014-02-08 19:48:33		  weechat.bar.title.size = 1
+2014-02-08 19:48:33		  weechat.bar.title.size_max = 0
+2014-02-08 19:48:33		  weechat.bar.title.type = window
+2014-02-08 19:48:33		249 options (matching with "weechat.*")
+2014-02-08 19:49:45	=!=	Error: option "weechat.look.hostlist_boffer_separator" not found
+2014-02-08 19:49:54	=!=	Error: option "weechat.look.hostlist_buffer_separator" not found
+2014-02-08 19:50:01		Option changed: weechat.look.hotlist_buffer_separator = " "  (default: ", ")
+2014-02-08 19:51:21		Notify changed for "core.weechat": "all" to "message"
+2014-02-08 19:51:21		Notify changed for "irc.server.bitlbee": "all" to "message"
+2014-02-08 19:51:21		Notify changed for "irc.server.freenode": "all" to "message"
+2014-02-08 19:51:21		Notify changed for "irc.bitlbee.&bitlbee": "all" to "message"
+2014-02-08 19:51:21		Notify changed for "irc.freenode.#reddit-anime": "all" to "message"
+2014-02-08 19:51:21		Notify changed for "irc.freenode.##vaperhangout": "all" to "message"
+2014-02-08 19:51:21		Notify changed for "irc.freenode.##nicfix": "all" to "message"
+2014-02-08 19:51:21		Notify changed for "irc.bitlbee.JonSerino": "all" to "message"
+2014-02-08 19:51:21		Option changed: weechat.look.buffer_notify_default = message  (default: all)
+2014-02-08 19:58:50		Options saved to sec.conf
+2014-02-08 19:58:50		Options saved to weechat.conf
+2014-02-08 19:58:50		Options saved to plugins.conf
+2014-02-08 19:58:50		Options saved to script.conf
+2014-02-08 19:58:50		Options saved to relay.conf
+2014-02-08 19:58:50		Options saved to xfer.conf
+2014-02-08 19:58:50		Options saved to rmodifier.conf
+2014-02-08 19:58:50		Options saved to irc.conf
+2014-02-08 19:58:50		Options saved to logger.conf
+2014-02-08 19:58:50		Options saved to aspell.conf
+2014-02-08 19:58:50		Options saved to alias.conf
+2014-02-08 19:58:50		Options saved to buffers.conf
+2014-02-08 19:58:50		Options saved to charset.conf
+2014-02-08 20:02:25		List of bars:
+2014-02-08 20:02:25		  input: window, bottom, height: 1
+2014-02-08 20:02:25		  title: window, top, height: 1
+2014-02-08 20:02:25		  status: (hidden) window, bottom, height: 1
+2014-02-08 20:02:25		  nicklist: (hidden) window, right, width: auto
+2014-02-08 20:02:25		  buffers: root, top, height: auto
+2014-02-08 20:04:15		Option changed: weechat.look.hotlist_buffer_separator = ","  (default: ", ")
+2014-02-08 20:06:08	=!=	Option "weechat.hotlist.*" not found (tip: you can use "*" at beginning and/or end of option to see a sublist)
+2014-02-08 20:06:17		[look] (weechat.conf)
+2014-02-08 20:06:17		  weechat.look.align_end_of_lines = message
+2014-02-08 20:06:17		  weechat.look.bar_more_down = "▼"  (default: "++")
+2014-02-08 20:06:17		  weechat.look.bar_more_left = "◀"  (default: "<<")
+2014-02-08 20:06:17		  weechat.look.bar_more_right = "▶"  (default: ">>")
+2014-02-08 20:06:17		  weechat.look.bar_more_up = "▲"  (default: "--")
+2014-02-08 20:06:17		  weechat.look.buffer_notify_default = message  (default: all)
+2014-02-08 20:06:17		  weechat.look.buffer_time_format = "%H:%M"  (default: "%H:%M:%S")
+2014-02-08 20:06:17		  weechat.look.color_basic_force_bold = off
+2014-02-08 20:06:17		  weechat.look.color_inactive_buffer = on
+2014-02-08 20:06:17		  weechat.look.color_inactive_message = on
+2014-02-08 20:06:17		  weechat.look.color_inactive_prefix = on
+2014-02-08 20:06:17		  weechat.look.color_inactive_prefix_buffer = on
+2014-02-08 20:06:17		  weechat.look.color_inactive_time = off
+2014-02-08 20:06:17		  weechat.look.color_inactive_window = on
+2014-02-08 20:06:17		  weechat.look.color_nick_offline = off
+2014-02-08 20:06:17		  weechat.look.color_pairs_auto_reset = 5
+2014-02-08 20:06:17		  weechat.look.color_real_white = off
+2014-02-08 20:06:17		  weechat.look.command_chars = ""
+2014-02-08 20:06:17		  weechat.look.confirm_quit = off
+2014-02-08 20:06:17		  weechat.look.day_change = on
+2014-02-08 20:06:17		  weechat.look.day_change_message_1date = "-- %a, %d %b %Y --"
+2014-02-08 20:06:17		  weechat.look.day_change_message_2dates = "-- %%a, %%d %%b %%Y (%a, %d %b %Y) --"
+2014-02-08 20:06:17		  weechat.look.eat_newline_glitch = off
+2014-02-08 20:06:17		  weechat.look.emphasized_attributes = ""
+2014-02-08 20:06:17		  weechat.look.highlight = ""
+2014-02-08 20:06:17		  weechat.look.highlight_regex = ""
+2014-02-08 20:06:17		  weechat.look.highlight_tags = ""
+2014-02-08 20:06:17		  weechat.look.hotlist_add_buffer_if_away = on
+2014-02-08 20:06:17		  weechat.look.hotlist_buffer_separator = ","  (default: ", ")
+2014-02-08 20:06:17		  weechat.look.hotlist_count_max = 2
+2014-02-08 20:06:17		  weechat.look.hotlist_count_min_msg = 2
+2014-02-08 20:06:17		  weechat.look.hotlist_names_count = 3
+2014-02-08 20:06:17		  weechat.look.hotlist_names_length = 0
+2014-02-08 20:06:17		  weechat.look.hotlist_names_level = 12
+2014-02-08 20:06:17		  weechat.look.hotlist_names_merged_buffers = off
+2014-02-08 20:06:17		  weechat.look.hotlist_prefix = "H: "
+2014-02-08 20:06:17		  weechat.look.hotlist_short_names = on
+2014-02-08 20:06:17		  weechat.look.hotlist_sort = group_time_asc
+2014-02-08 20:06:17		  weechat.look.hotlist_suffix = ""
+2014-02-08 20:06:17		  weechat.look.hotlist_unique_numbers = on
+2014-02-08 20:06:17		  weechat.look.input_cursor_scroll = 20
+2014-02-08 20:06:17		  weechat.look.input_share = none
+2014-02-08 20:06:17		  weechat.look.input_share_overwrite = off
+2014-02-08 20:06:17		  weechat.look.input_undo_max = 32
+2014-02-08 20:06:17		  weechat.look.item_buffer_filter = "*"
+2014-02-08 20:06:17		  weechat.look.item_time_format = "%H:%M"
+2014-02-08 20:06:17		  weechat.look.jump_current_to_previous_buffer = on
+2014-02-08 20:06:17		  weechat.look.jump_previous_buffer_when_closing = on
+2014-02-08 20:06:17		  weechat.look.jump_smart_back_to_buffer = on
+2014-02-08 20:06:17		  weechat.look.key_bind_safe = on
+2014-02-08 20:06:17		  weechat.look.mouse = off
+2014-02-08 20:06:17		  weechat.look.mouse_timer_delay = 100
+2014-02-08 20:06:17		  weechat.look.nick_prefix = ""
+2014-02-08 20:06:17		  weechat.look.nick_suffix = ""
+2014-02-08 20:06:17		  weechat.look.paste_bracketed = off
+2014-02-08 20:06:17		  weechat.look.paste_bracketed_timer_delay = 10
+2014-02-08 20:06:17		  weechat.look.paste_max_lines = 1
+2014-02-08 20:06:17		  weechat.look.prefix_action = " *"
+2014-02-08 20:06:17		  weechat.look.prefix_align = right
+2014-02-08 20:06:17		  weechat.look.prefix_align_max = 8  (default: 0)
+2014-02-08 20:06:17		  weechat.look.prefix_align_min = 0
+2014-02-08 20:06:17		  weechat.look.prefix_align_more = "+"
+2014-02-08 20:06:17		  weechat.look.prefix_align_more_after = on
+2014-02-08 20:06:17		  weechat.look.prefix_buffer_align = right
+2014-02-08 20:06:17		  weechat.look.prefix_buffer_align_max = 0
+2014-02-08 20:06:17		  weechat.look.prefix_buffer_align_more = "+"
+2014-02-08 20:06:17		  weechat.look.prefix_buffer_align_more_after = on
+2014-02-08 20:06:17		  weechat.look.prefix_error = "=!="
+2014-02-08 20:06:17		  weechat.look.prefix_join = "-->"
+2014-02-08 20:06:17		  weechat.look.prefix_network = "--"
+2014-02-08 20:06:17		  weechat.look.prefix_quit = "<--"
+2014-02-08 20:06:17		  weechat.look.prefix_same_nick = ""
+2014-02-08 20:06:17		  weechat.look.prefix_suffix = "|"
+2014-02-08 20:06:17		  weechat.look.read_marker = line
+2014-02-08 20:06:17		  weechat.look.read_marker_always_show = off
+2014-02-08 20:06:17		  weechat.look.read_marker_string = "- "
+2014-02-08 20:06:17		  weechat.look.save_config_on_exit = on
+2014-02-08 20:06:17		  weechat.look.save_layout_on_exit = none
+2014-02-08 20:06:17		  weechat.look.scroll_amount = 3
+2014-02-08 20:06:17		  weechat.look.scroll_bottom_after_switch = off
+2014-02-08 20:06:17		  weechat.look.scroll_page_percent = 100
+2014-02-08 20:06:17		  weechat.look.search_text_not_found_alert = on
+2014-02-08 20:06:17		  weechat.look.separator_horizontal = "-"
+2014-02-08 20:06:17		  weechat.look.separator_vertical = ""
+2014-02-08 20:06:17		  weechat.look.set_title = on
+2014-02-08 20:06:17		  weechat.look.time_format = "%a, %d %b %Y %T"
+2014-02-08 20:06:17		  weechat.look.window_separator_horizontal = on
+2014-02-08 20:06:17		  weechat.look.window_separator_vertical = on
+2014-02-08 20:06:17		88 options (matching with "weechat.look.*")
+2014-02-08 20:06:57		Option changed: weechat.look.hotlist_sort = number_asc  (default: group_time_asc)
+2014-02-08 20:14:48		[color] (buffers.conf)
+2014-02-08 20:14:48		  buffers.color.current_bg = default  (default: red)
+2014-02-08 20:14:48		  buffers.color.current_fg = default  (default: lightcyan)
+2014-02-08 20:14:48		  buffers.color.default_bg = default
+2014-02-08 20:14:48		  buffers.color.default_fg = default
+2014-02-08 20:14:48		  buffers.color.hotlist_highlight_bg = default
+2014-02-08 20:14:48		  buffers.color.hotlist_highlight_fg = magenta
+2014-02-08 20:14:48		  buffers.color.hotlist_low_bg = default
+2014-02-08 20:14:48		  buffers.color.hotlist_low_fg = darkgray  (default: white)
+2014-02-08 20:14:48		  buffers.color.hotlist_message_bg = default
+2014-02-08 20:14:48		  buffers.color.hotlist_message_fg = white  (default: yellow)
+2014-02-08 20:14:48		  buffers.color.hotlist_private_bg = default
+2014-02-08 20:14:48		  buffers.color.hotlist_private_fg = lightgreen
+2014-02-08 20:14:48		  buffers.color.none_channel_bg = default
+2014-02-08 20:14:48		  buffers.color.none_channel_fg = default
+2014-02-08 20:14:48		  buffers.color.number = darkgray  (default: lightgreen)
+2014-02-08 20:14:48		  buffers.color.number_char = darkgray  (default: lightgreen)
+2014-02-08 20:14:48		  buffers.color.prefix_bufname = default
+2014-02-08 20:14:48		  buffers.color.queries_default_bg = default
+2014-02-08 20:14:48		  buffers.color.queries_default_fg = default
+2014-02-08 20:14:48		  buffers.color.queries_highlight_bg = default
+2014-02-08 20:14:48		  buffers.color.queries_highlight_fg = default
+2014-02-08 20:14:48		  buffers.color.queries_message_bg = default
+2014-02-08 20:14:48		  buffers.color.queries_message_fg = default
+2014-02-08 20:14:48		  buffers.color.suffix_bufname = default
+2014-02-08 20:14:48		  buffers.color.whitelist_default_bg = default
+2014-02-08 20:14:48		  buffers.color.whitelist_default_fg = default
+2014-02-08 20:14:48		  buffers.color.whitelist_highlight_bg = default
+2014-02-08 20:14:48		  buffers.color.whitelist_highlight_fg = default
+2014-02-08 20:14:48		  buffers.color.whitelist_low_bg = default
+2014-02-08 20:14:48		  buffers.color.whitelist_low_fg = default
+2014-02-08 20:14:48		  buffers.color.whitelist_message_bg = default
+2014-02-08 20:14:48		  buffers.color.whitelist_message_fg = default
+2014-02-08 20:14:48		  buffers.color.whitelist_private_bg = default
+2014-02-08 20:14:48		  buffers.color.whitelist_private_fg = default
+2014-02-08 20:14:48		[look] (buffers.conf)
+2014-02-08 20:14:48		  buffers.look.core_to_front = off
+2014-02-08 20:14:48		  buffers.look.detach = 0
+2014-02-08 20:14:48		  buffers.look.detach_buffer_immediately = ""
+2014-02-08 20:14:48		  buffers.look.detach_display_window_number = off
+2014-02-08 20:14:48		  buffers.look.detach_displayed_buffers = on
+2014-02-08 20:14:48		  buffers.look.detach_free_content = off
+2014-02-08 20:14:48		  buffers.look.detach_query = off
+2014-02-08 20:14:48		  buffers.look.hide_merged_buffers = none
+2014-02-08 20:14:48		  buffers.look.hotlist_counter = off
+2014-02-08 20:14:48		  buffers.look.immune_detach_buffers = ""
+2014-02-08 20:14:48		  buffers.look.indenting = off
+2014-02-08 20:14:48		  buffers.look.indenting_number = on
+2014-02-08 20:14:48		  buffers.look.jump_prev_next_visited_buffer = off
+2014-02-08 20:14:48		  buffers.look.mark_inactive = off
+2014-02-08 20:14:48		  buffers.look.mouse_move_buffer = on
+2014-02-08 20:14:48		  buffers.look.name_crop_suffix = "+"
+2014-02-08 20:14:48		  buffers.look.name_size_max = 0
+2014-02-08 20:14:48		  buffers.look.number_char = "|"  (default: ".")
+2014-02-08 20:14:48		  buffers.look.prefix = off
+2014-02-08 20:14:48		  buffers.look.prefix_bufname = ""
+2014-02-08 20:14:48		  buffers.look.prefix_empty = on
+2014-02-08 20:14:48		  buffers.look.prefix_for_query = ""
+2014-02-08 20:14:48		  buffers.look.short_names = on
+2014-02-08 20:14:48		  buffers.look.show_lag = off
+2014-02-08 20:14:48		  buffers.look.show_number = on
+2014-02-08 20:14:48		  buffers.look.sort = number
+2014-02-08 20:14:48		  buffers.look.suffix_bufname = ""
+2014-02-08 20:14:48		  buffers.look.toogle_bar = on
+2014-02-08 20:14:48		  buffers.look.whitelist_buffers = ""
+2014-02-08 20:14:48		63 options (matching with "buffers.*")
+2014-02-08 20:14:56		Option changed: buffers.look.indenting = on  (default: off)
+2014-02-08 20:15:17		Option changed: buffers.look.indenting = off
+2014-02-08 20:17:09	=!=	Error: option "weechat.look.hostlist_count_max" not found
+2014-02-08 20:17:15		Option changed: weechat.look.hotlist_count_max = 0  (default: 2)
+2014-02-08 20:17:27		Options saved to sec.conf
+2014-02-08 20:17:27		Options saved to weechat.conf
+2014-02-08 20:17:27		Options saved to plugins.conf
+2014-02-08 20:17:27		Options saved to script.conf
+2014-02-08 20:17:27		Options saved to relay.conf
+2014-02-08 20:17:27		Options saved to xfer.conf
+2014-02-08 20:17:27		Options saved to rmodifier.conf
+2014-02-08 20:17:27		Options saved to irc.conf
+2014-02-08 20:17:27		Options saved to logger.conf
+2014-02-08 20:17:27		Options saved to aspell.conf
+2014-02-08 20:17:27		Options saved to alias.conf
+2014-02-08 20:17:27		Options saved to buffers.conf
+2014-02-08 20:17:27		Options saved to charset.conf
+2014-02-08 20:18:40		[look] (irc.conf)
+2014-02-08 20:18:40		  irc.look.buffer_switch_autojoin = on
+2014-02-08 20:18:40		  irc.look.buffer_switch_join = on
+2014-02-08 20:18:40		  irc.look.color_nicks_in_names = off
+2014-02-08 20:18:40		  irc.look.color_nicks_in_nicklist = off
+2014-02-08 20:18:40		  irc.look.color_nicks_in_server_messages = on
+2014-02-08 20:18:40		  irc.look.color_pv_nick_like_channel = on
+2014-02-08 20:18:40		  irc.look.ctcp_time_format = "%a, %d %b %Y %T %z"
+2014-02-08 20:18:40		  irc.look.display_away = local
+2014-02-08 20:18:40		  irc.look.display_ctcp_blocked = on
+2014-02-08 20:18:40		  irc.look.display_ctcp_reply = on
+2014-02-08 20:18:40		  irc.look.display_ctcp_unknown = on
+2014-02-08 20:18:40		  irc.look.display_host_join = on
+2014-02-08 20:18:40		  irc.look.display_host_join_local = on
+2014-02-08 20:18:40		  irc.look.display_host_quit = on
+2014-02-08 20:18:40		  irc.look.display_join_message = "329,332,333,366"
+2014-02-08 20:18:40		  irc.look.display_old_topic = on
+2014-02-08 20:18:40		  irc.look.display_pv_away_once = on
+2014-02-08 20:18:40		  irc.look.display_pv_back = on
+2014-02-08 20:18:40		  irc.look.highlight_channel = "$nick"
+2014-02-08 20:18:40		  irc.look.highlight_pv = "$nick"
+2014-02-08 20:18:40		  irc.look.highlight_server = "$nick"
+2014-02-08 20:18:40		  irc.look.highlight_tags = "irc_privmsg,irc_notice"
+2014-02-08 20:18:40		  irc.look.item_away_message = on
+2014-02-08 20:18:40		  irc.look.item_channel_modes_hide_key = off
+2014-02-08 20:18:40		  irc.look.item_display_server = buffer_plugin
+2014-02-08 20:18:40		  irc.look.item_nick_modes = on
+2014-02-08 20:18:40		  irc.look.item_nick_prefix = on
+2014-02-08 20:18:40		  irc.look.msgbuffer_fallback = current
+2014-02-08 20:18:40		  irc.look.new_channel_position = none
+2014-02-08 20:18:40		  irc.look.new_pv_position = none
+2014-02-08 20:18:40		  irc.look.nick_color_force = ""
+2014-02-08 20:18:40		  irc.look.nick_color_hash = sum
+2014-02-08 20:18:40		  irc.look.nick_color_stop_chars = "_|["
+2014-02-08 20:18:40		  irc.look.nick_completion_smart = speakers
+2014-02-08 20:18:40		  irc.look.nick_mode = prefix
+2014-02-08 20:18:40		  irc.look.nick_mode_empty = off
+2014-02-08 20:18:40		  irc.look.nicks_hide_password = "nickserv"
+2014-02-08 20:18:40		  irc.look.notice_as_pv = auto
+2014-02-08 20:18:40		  irc.look.notice_welcome_redirect = on
+2014-02-08 20:18:40		  irc.look.notify_tags_ison = "notify_message"
+2014-02-08 20:18:40		  irc.look.notify_tags_whois = "notify_message"
+2014-02-08 20:18:40		  irc.look.part_closes_buffer = off
+2014-02-08 20:18:40		  irc.look.pv_buffer = independent
+2014-02-08 20:18:40		  irc.look.pv_tags = "notify_private"
+2014-02-08 20:18:40		  irc.look.raw_messages = 256
+2014-02-08 20:18:40		  irc.look.server_buffer = merge_with_core
+2014-02-08 20:18:40		  irc.look.smart_filter = on
+2014-02-08 20:18:40		  irc.look.smart_filter_delay = 5
+2014-02-08 20:18:40		  irc.look.smart_filter_join = on
+2014-02-08 20:18:40		  irc.look.smart_filter_join_unmask = 30
+2014-02-08 20:18:40		  irc.look.smart_filter_nick = on
+2014-02-08 20:18:40		  irc.look.smart_filter_quit = on
+2014-02-08 20:18:40		  irc.look.topic_strip_colors = off
+2014-02-08 20:18:40		[color] (irc.conf)
+2014-02-08 20:18:40		  irc.color.input_nick = lightcyan
+2014-02-08 20:18:40		  irc.color.item_away = yellow
+2014-02-08 20:18:40		  irc.color.item_channel_modes = default
+2014-02-08 20:18:40		  irc.color.item_lag_counting = default
+2014-02-08 20:18:40		  irc.color.item_lag_finished = yellow
+2014-02-08 20:18:40		  irc.color.message_join = green
+2014-02-08 20:18:40		  irc.color.message_quit = red
+2014-02-08 20:18:40		  irc.color.mirc_remap = "1,-1:darkgray"
+2014-02-08 20:18:40		  irc.color.nick_prefixes = "q:lightred;a:lightcyan;o:lightgreen;h:lightmagenta;v:yellow;*:lightblue"
+2014-02-08 20:18:40		  irc.color.notice = green
+2014-02-08 20:18:40		  irc.color.reason_quit = default
+2014-02-08 20:18:40		  irc.color.topic_new = white
+2014-02-08 20:18:40		  irc.color.topic_old = darkgray
+2014-02-08 20:18:40		[network] (irc.conf)
+2014-02-08 20:18:40		  irc.network.alternate_nick = on
+2014-02-08 20:18:40		  irc.network.autoreconnect_delay_growing = 2
+2014-02-08 20:18:40		  irc.network.autoreconnect_delay_max = 1800
+2014-02-08 20:18:40		  irc.network.colors_receive = on
+2014-02-08 20:18:40		  irc.network.colors_send = on
+2014-02-08 20:18:40		  irc.network.lag_check = 60
+2014-02-08 20:18:40		  irc.network.lag_min_show = 500
+2014-02-08 20:18:40		  irc.network.lag_reconnect = 0
+2014-02-08 20:18:40		  irc.network.lag_refresh_interval = 1
+2014-02-08 20:18:40		  irc.network.notify_check_ison = 1
+2014-02-08 20:18:40		  irc.network.notify_check_whois = 5
+2014-02-08 20:18:40		  irc.network.send_unknown_commands = off
+2014-02-08 20:18:40		  irc.network.whois_double_nick = on
+2014-02-08 20:18:40		[server_default] (irc.conf)
+2014-02-08 20:18:40		  irc.server_default.addresses = ""
+2014-02-08 20:18:40		  irc.server_default.anti_flood_prio_high = 2
+2014-02-08 20:18:40		  irc.server_default.anti_flood_prio_low = 2
+2014-02-08 20:18:40		  irc.server_default.autoconnect = off
+2014-02-08 20:18:40		  irc.server_default.autojoin = ""
+2014-02-08 20:18:40		  irc.server_default.autoreconnect = on
+2014-02-08 20:18:40		  irc.server_default.autoreconnect_delay = 10
+2014-02-08 20:18:40		  irc.server_default.autorejoin = off
+2014-02-08 20:18:40		  irc.server_default.autorejoin_delay = 30
+2014-02-08 20:18:40		  irc.server_default.away_check = 0
+2014-02-08 20:18:40		  irc.server_default.away_check_max_nicks = 25
+2014-02-08 20:18:40		  irc.server_default.capabilities = ""
+2014-02-08 20:18:40		  irc.server_default.command = ""
+2014-02-08 20:18:40		  irc.server_default.command_delay = 0
+2014-02-08 20:18:40		  irc.server_default.connection_timeout = 60
+2014-02-08 20:18:40		  irc.server_default.default_msg_part = "WeeChat %v"
+2014-02-08 20:18:40		  irc.server_default.default_msg_quit = "WeeChat %v"
+2014-02-08 20:18:40		  irc.server_default.ipv6 = on
+2014-02-08 20:18:40		  irc.server_default.local_hostname = ""
+2014-02-08 20:18:40		  irc.server_default.nicks = "cdsboy,cdsboy1,cdsboy2,cdsboy3,cdsboy4"  (default: "")
+2014-02-08 20:18:40		  irc.server_default.notify = ""
+2014-02-08 20:18:40		  irc.server_default.password = ""
+2014-02-08 20:18:40		  irc.server_default.proxy = ""
+2014-02-08 20:18:40		  irc.server_default.realname = ""
+2014-02-08 20:18:40		  irc.server_default.sasl_mechanism = plain
+2014-02-08 20:18:40		  irc.server_default.sasl_password = ""
+2014-02-08 20:18:40		  irc.server_default.sasl_timeout = 15
+2014-02-08 20:18:40		  irc.server_default.sasl_username = ""
+2014-02-08 20:18:40		  irc.server_default.ssl = off
+2014-02-08 20:18:40		  irc.server_default.ssl_cert = ""
+2014-02-08 20:18:40		  irc.server_default.ssl_dhkey_size = 2048
+2014-02-08 20:18:40		  irc.server_default.ssl_priorities = "NORMAL"
+2014-02-08 20:18:40		  irc.server_default.ssl_verify = on
+2014-02-08 20:18:40		  irc.server_default.username = "cdsboy"  (default: "")
+2014-02-08 20:18:40		[server] (irc.conf)
+2014-02-08 20:18:40		  irc.server.bitlbee.addresses = "localhost"  (default: (undefined))
+2014-02-08 20:18:40		  irc.server.bitlbee.anti_flood_prio_high
+2014-02-08 20:18:40		  irc.server.bitlbee.anti_flood_prio_low
+2014-02-08 20:18:40		  irc.server.bitlbee.autoconnect = on  (default: (undefined))
+2014-02-08 20:18:40		  irc.server.bitlbee.autojoin
+2014-02-08 20:18:40		  irc.server.bitlbee.autoreconnect
+2014-02-08 20:18:40		  irc.server.bitlbee.autoreconnect_delay
+2014-02-08 20:18:40		  irc.server.bitlbee.autorejoin
+2014-02-08 20:18:40		  irc.server.bitlbee.autorejoin_delay
+2014-02-08 20:18:40		  irc.server.bitlbee.away_check
+2014-02-08 20:18:40		  irc.server.bitlbee.away_check_max_nicks
+2014-02-08 20:18:40		  irc.server.bitlbee.capabilities
+2014-02-08 20:18:40		  irc.server.bitlbee.command
+2014-02-08 20:18:40		  irc.server.bitlbee.command_delay
+2014-02-08 20:18:40		  irc.server.bitlbee.connection_timeout
+2014-02-08 20:18:40		  irc.server.bitlbee.default_msg_part
+2014-02-08 20:18:40		  irc.server.bitlbee.default_msg_quit
+2014-02-08 20:18:40		  irc.server.bitlbee.ipv6
+2014-02-08 20:18:40		  irc.server.bitlbee.local_hostname
+2014-02-08 20:18:40		  irc.server.bitlbee.nicks
+2014-02-08 20:18:40		  irc.server.bitlbee.notify
+2014-02-08 20:18:40		  irc.server.bitlbee.password
+2014-02-08 20:18:40		  irc.server.bitlbee.proxy
+2014-02-08 20:18:40		  irc.server.bitlbee.realname
+2014-02-08 20:18:40		  irc.server.bitlbee.sasl_mechanism
+2014-02-08 20:18:40		  irc.server.bitlbee.sasl_password
+2014-02-08 20:18:40		  irc.server.bitlbee.sasl_timeout
+2014-02-08 20:18:40		  irc.server.bitlbee.sasl_username
+2014-02-08 20:18:40		  irc.server.bitlbee.ssl
+2014-02-08 20:18:40		  irc.server.bitlbee.ssl_cert
+2014-02-08 20:18:40		  irc.server.bitlbee.ssl_dhkey_size
+2014-02-08 20:18:40		  irc.server.bitlbee.ssl_priorities
+2014-02-08 20:18:40		  irc.server.bitlbee.ssl_verify
+2014-02-08 20:18:40		  irc.server.bitlbee.username
+2014-02-08 20:18:40		  irc.server.freenode.addresses = "chat.freenode.net/6667"  (default: (undefined))
+2014-02-08 20:18:40		  irc.server.freenode.anti_flood_prio_high
+2014-02-08 20:18:40		  irc.server.freenode.anti_flood_prio_low
+2014-02-08 20:18:40		  irc.server.freenode.autoconnect
+2014-02-08 20:18:40		  irc.server.freenode.autojoin
+2014-02-08 20:18:40		  irc.server.freenode.autoreconnect
+2014-02-08 20:18:40		  irc.server.freenode.autoreconnect_delay
+2014-02-08 20:18:40		  irc.server.freenode.autorejoin
+2014-02-08 20:18:40		  irc.server.freenode.autorejoin_delay
+2014-02-08 20:18:40		  irc.server.freenode.away_check
+2014-02-08 20:18:40		  irc.server.freenode.away_check_max_nicks
+2014-02-08 20:18:40		  irc.server.freenode.capabilities
+2014-02-08 20:18:40		  irc.server.freenode.command
+2014-02-08 20:18:40		  irc.server.freenode.command_delay
+2014-02-08 20:18:40		  irc.server.freenode.connection_timeout
+2014-02-08 20:18:40		  irc.server.freenode.default_msg_part
+2014-02-08 20:18:40		  irc.server.freenode.default_msg_quit
+2014-02-08 20:18:40		  irc.server.freenode.ipv6
+2014-02-08 20:18:40		  irc.server.freenode.local_hostname
+2014-02-08 20:18:40		  irc.server.freenode.nicks
+2014-02-08 20:18:40		  irc.server.freenode.notify
+2014-02-08 20:18:40		  irc.server.freenode.password
+2014-02-08 20:18:40		  irc.server.freenode.proxy
+2014-02-08 20:18:40		  irc.server.freenode.realname
+2014-02-08 20:18:40		  irc.server.freenode.sasl_mechanism
+2014-02-08 20:18:40		  irc.server.freenode.sasl_password
+2014-02-08 20:18:40		  irc.server.freenode.sasl_timeout
+2014-02-08 20:18:40		  irc.server.freenode.sasl_username
+2014-02-08 20:18:40		  irc.server.freenode.ssl
+2014-02-08 20:18:40		  irc.server.freenode.ssl_cert
+2014-02-08 20:18:40		  irc.server.freenode.ssl_dhkey_size
+2014-02-08 20:18:40		  irc.server.freenode.ssl_priorities
+2014-02-08 20:18:40		  irc.server.freenode.ssl_verify
+2014-02-08 20:18:40		  irc.server.freenode.username
+2014-02-08 20:18:40		181 options (matching with "irc.*")
+2014-02-08 20:27:00		script: downloading list of scripts...
+2014-02-08 20:27:01		script: 270 scripts for WeeChat 0.4.2
+2014-02-08 21:01:31		Filter "irc_smart" added:
+2014-02-08 21:01:31		  [irc_smart] buffer: irc.bitlbee.* / tags: irc_smart_filter / regex: * 
+2014-02-08 21:02:25	=!=	Error: unknown command "ver" (type /help for help)
+2014-02-08 21:02:37	=!=	Error: unknown command "ver" (type /help for help)
+2014-02-08 21:02:40		[core]
+2014-02-08 21:02:40		  away     command  filter   key      plugin   repeat   unset    wait   
+2014-02-08 21:02:40		  bar      cursor   help     layout   proxy    save     upgrade  window 
+2014-02-08 21:02:40		  buffer   debug    history  mouse    quit     secure   uptime 
+2014-02-08 21:02:40		  color    eval     input    mute     reload   set      version
+2014-02-08 21:02:40		[script]
+2014-02-08 21:02:40		  script
+2014-02-08 21:02:40		[relay]
+2014-02-08 21:02:40		  relay
+2014-02-08 21:02:40		[xfer]
+2014-02-08 21:02:40		  me  xfer
+2014-02-08 21:02:40		[rmodifier]
+2014-02-08 21:02:40		  rmodifier
+2014-02-08 21:02:40		[irc]
+2014-02-08 21:02:40		  admin       disconnect  lusers      part        sapart      unban     
+2014-02-08 21:02:40		  allchan     halfop      map         ping        saquit      userhost  
+2014-02-08 21:02:40		  allserv     ignore      me          pong        server      users     
+2014-02-08 21:02:40		  ban         info        mode        query       service     version   
+2014-02-08 21:02:40		  connect     invite      motd        quiet       servlist    voice     
+2014-02-08 21:02:40		  ctcp        ison        msg         quote       squery      wallchops 
+2014-02-08 21:02:40		  cycle       join        names       reconnect   squit       wallops   
+2014-02-08 21:02:40		  dcc         kick        nick        rehash      stats       who       
+2014-02-08 21:02:40		  dehalfop    kickban     notice      restart     summon      whois     
+2014-02-08 21:02:40		  deop        kill        notify      sajoin      time        whowas    
+2014-02-08 21:02:40		  devoice     links       op          samode      topic     
+2014-02-08 21:02:40		  die         list        oper        sanick      trace     
+2014-02-08 21:02:40		[logger]
+2014-02-08 21:02:40		  logger
+2014-02-08 21:02:40		[aspell]
+2014-02-08 21:02:40		  aspell
+2014-02-08 21:02:40		[alias]
+2014-02-08 21:02:40		  AAWAY    ANICK    CL       J        M        REDRAW   UB       W        WW     
+2014-02-08 21:02:40		  alias    BYE      CLOSE    K        MUB      SAY      UMODE    WC     
+2014-02-08 21:02:40		  AME      C        EXIT     KB       N        SIGNOFF  unalias  WI     
+2014-02-08 21:02:40		  AMSG     CHAT     IG       LEAVE    Q        T        V        WII    
+2014-02-08 21:02:40		[perl]
+2014-02-08 21:02:40		  buffers_detach  buffers_whitelist  perl
+2014-02-08 21:02:40		[charset]
+2014-02-08 21:02:40		  charset
+2014-02-08 21:02:40		[python]
+2014-02-08 21:02:40		  python
+2014-02-08 21:07:41		Options saved to sec.conf
+2014-02-08 21:07:41		Options saved to weechat.conf
+2014-02-08 21:07:41		Options saved to plugins.conf
+2014-02-08 21:07:41		Options saved to script.conf
+2014-02-08 21:07:41		Options saved to relay.conf
+2014-02-08 21:07:41		Options saved to xfer.conf
+2014-02-08 21:07:41		Options saved to rmodifier.conf
+2014-02-08 21:07:41		Options saved to irc.conf
+2014-02-08 21:07:41		Options saved to logger.conf
+2014-02-08 21:07:41		Options saved to aspell.conf
+2014-02-08 21:07:41		Options saved to alias.conf
+2014-02-08 21:07:41		Options saved to buffers.conf
+2014-02-08 21:07:41		Options saved to charset.conf
+2014-02-08 21:12:19		URL server listening on ('192.99.8.218', 36685)
+2014-02-08 21:13:22	=!=	Option "urlserver.*" not found (tip: you can use "*" at beginning and/or end of option to see a sublist)
+2014-02-08 21:13:46	=!=	Error: can not merge windows, there's no other window with same size near current one
+2014-02-08 21:14:39		[python/urlserver]  /urlserver  start|restart|stop|status
+2014-02-08 21:14:39		                                clear
+2014-02-08 21:14:39		Shorten URLs with own HTTP server
+2014-02-08 21:14:39		  start: start server
+2014-02-08 21:14:39		restart: restart server
+2014-02-08 21:14:39		   stop: stop server
+2014-02-08 21:14:39		 status: display status of server
+2014-02-08 21:14:39		  clear: remove all URLs from list
+2014-02-08 21:14:39		Without argument, this command opens new buffer with list of URLs.
+2014-02-08 21:14:39		Initial setup:
+2014-02-08 21:14:39		  - by default, script will listen on a random free port, you can force a port with:
+2014-02-08 21:14:39		      /set plugins.var.python.urlserver.http_port "1234"
+2014-02-08 21:14:39		  - you can force an IP or custom hostname with:
+2014-02-08 21:14:39		      /set plugins.var.python.urlserver.http_hostname "111.22.33.44"
+2014-02-08 21:14:39		  - it is strongly recommended to restrict IPs allowed and/or use auth, for example:
+2014-02-08 21:14:39		      /set plugins.var.python.urlserver.http_allowed_ips "^(123.45.67.89|192.160.*)$"
+2014-02-08 21:14:39		      /set plugins.var.python.urlserver.http_auth "user:password"
+2014-02-08 21:14:39		  - if you do not like the default HTML formatting, you can override the CSS:
+2014-02-08 21:14:39		      /set plugins.var.python.urlserver.http_css_url "http://example.com/sample.css"
+2014-02-08 21:14:39		      See https://raw.github.com/FiXato/weechat_scripts/master/urlserver/sample.css
+2014-02-08 21:14:39		  - don't like the built-in HTTP server to start automatically? Disable it:
+2014-02-08 21:14:39		      /set plugins.var.python.urlserver.http_autostart "off"
+2014-02-08 21:14:39		  - have external port 80 or 443 (https) forwarded to your internal server port? Remove :port with:
+2014-02-08 21:14:39		      /set plugins.var.python.urlserver.http_port_display "80" or "443" respectively
+2014-02-08 21:14:39		Tip: use URL without key at the end to display list of all URLs in your browser.
+2014-02-08 21:14:58		URL server already running
+2014-02-08 21:15:04		URL server listening on ('192.99.8.218', 36685)
+2014-02-08 21:16:49		[var] (plugins.conf)
+2014-02-08 21:16:49		  plugins.var.python.urlserver.buffer_short_name = "off"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.color = "darkgray"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.color_in_msg = ""
+2014-02-08 21:16:49		  plugins.var.python.urlserver.debug = "off"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.display_urls = "on"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.display_urls_in_msg = "off"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_allowed_ips = ""
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_auth = ""
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_autostart = "on"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_bg_color = "#f4f4f4"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_css_url = ""
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_embed_image = "off"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_embed_youtube = "off"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_embed_youtube_size = "480*350"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_fg_color = "#000"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_hostname = ""
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_hostname_display = ""
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_port = ""
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_port_display = ""
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_prefix_suffix = " "
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_scheme_display = "http"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_time_format = "%d/%m/%y %H:%M:%S"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_title = "WeeChat URLs"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.http_url_prefix = ""
+2014-02-08 21:16:49		  plugins.var.python.urlserver.msg_ignore_buffers = "core.weechat,python.grep"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.msg_ignore_dup_urls = "off"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.msg_ignore_regex = ""
+2014-02-08 21:16:49		  plugins.var.python.urlserver.msg_ignore_tags = "irc_quit,irc_part,notify_none"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.msg_require_tags = "nick_"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.separators = "[|]"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.url_min_length = "0"
+2014-02-08 21:16:49		  plugins.var.python.urlserver.urls_amount = "100"
+2014-02-08 21:16:49		32 options (matching with "plugins.var.python.urlserver.*")
+2014-02-08 21:18:25		URL server stopped
+2014-02-08 21:18:25		URL server listening on ('192.99.8.218', 33076)
+2014-02-08 21:18:25		Option changed: plugins.var.python.urlserver.http_hostname = "cdsboy.com"
+2014-02-08 21:26:54	=!=	Error: can not merge windows, there's no other window with same size near current one
+2014-02-08 21:28:35		Options saved to sec.conf
+2014-02-08 21:28:35		Options saved to weechat.conf
+2014-02-08 21:28:35		Options saved to plugins.conf
+2014-02-08 21:28:35		Options saved to script.conf
+2014-02-08 21:28:35		Options saved to relay.conf
+2014-02-08 21:28:35		Options saved to xfer.conf
+2014-02-08 21:28:35		Options saved to rmodifier.conf
+2014-02-08 21:28:35		Options saved to irc.conf
+2014-02-08 21:28:35		Options saved to logger.conf
+2014-02-08 21:28:35		Options saved to aspell.conf
+2014-02-08 21:28:35		Options saved to alias.conf
+2014-02-08 21:28:35		Options saved to buffers.conf
+2014-02-08 21:28:35		Options saved to charset.conf
+2014-02-08 21:31:56		[core]  /buffer  list
+2014-02-08 21:31:56		                 clear [<number>|<name>|-merged|-all]
+2014-02-08 21:31:56		                 move|merge <number>
+2014-02-08 21:31:56		                 swap <number1>|<name1> [<number2>|<name2>]
+2014-02-08 21:31:56		                 unmerge [<number>|-all]
+2014-02-08 21:31:56		                 close [<n1>[-<n2>]|<name>]
+2014-02-08 21:31:56		                 notify <level>
+2014-02-08 21:31:56		                 localvar
+2014-02-08 21:31:56		                 set <property> <value>
+2014-02-08 21:31:56		                 get <property>
+2014-02-08 21:31:56		                 <number>|<name>
+2014-02-08 21:31:56		manage buffers
+2014-02-08 21:31:56		    list: list buffers (without argument, this list is displayed)
+2014-02-08 21:31:56		   clear: clear buffer content (number for a buffer, -merged for merged buffers, -all for all buffers, or nothing for current buffer)
+2014-02-08 21:31:56		    move: move buffer in the list (may be relative, for example -1)
+2014-02-08 21:31:56		    swap: swap two buffers (swap with current buffer if only one number/name given)
+2014-02-08 21:31:56		   merge: merge current buffer to another buffer (chat area will be mix of both buffers)
+2014-02-08 21:31:56		          (by default ctrl-x switches between merged buffers)
+2014-02-08 21:31:56		 unmerge: unmerge buffer from other buffers which have same number
+2014-02-08 21:31:56		   close: close buffer (number/range or name is optional)
+2014-02-08 21:31:56		  notify: set notify level for current buffer: this level determines whether buffer will be added to hotlist or not:
+2014-02-08 21:31:56		               none: never
+2014-02-08 21:31:56		          highlight: for highlights only
+2014-02-08 21:31:56		            message: for messages from users + highlights
+2014-02-08 21:31:56		                all: all messages
+2014-02-08 21:31:56		              reset: reset to default value (all)
+2014-02-08 21:31:56		localvar: display local variables for current buffer
+2014-02-08 21:31:56		     set: set a property for current buffer
+2014-02-08 21:31:56		     get: display a property of current buffer
+2014-02-08 21:31:56		  number: jump to buffer by number, possible prefix:
+2014-02-08 21:31:56		          '+': relative jump, add number to current
+2014-02-08 21:31:56		          '-': relative jump, sub number to current
+2014-02-08 21:31:56		          '*': jump to number, using option "weechat.look.jump_current_to_previous_buffer"
+2014-02-08 21:31:56		    name: jump to buffer by (partial) name
+2014-02-08 21:31:56		Examples:
+2014-02-08 21:31:56		  clear current buffer:
+2014-02-08 21:31:56		    /buffer clear
+2014-02-08 21:31:56		  move buffer to number 5:
+2014-02-08 21:31:56		    /buffer move 5
+2014-02-08 21:31:56		  swap buffer 1 with 3:
+2014-02-08 21:31:56		    /buffer swap 1 3
+2014-02-08 21:31:56		  swap buffer #weechat with current buffer:
+2014-02-08 21:31:56		    /buffer swap #weechat
+2014-02-08 21:31:56		  merge with core buffer:
+2014-02-08 21:31:56		    /buffer merge 1
+2014-02-08 21:31:56		  unmerge buffer:
+2014-02-08 21:31:56		    /buffer unmerge
+2014-02-08 21:31:56		  close current buffer:
+2014-02-08 21:31:56		    /buffer close
+2014-02-08 21:31:56		  close buffers 5 to 7:
+2014-02-08 21:31:56		    /buffer close 5-7
+2014-02-08 21:31:56		  jump to #weechat:
+2014-02-08 21:31:56		    /buffer #weechat
+2014-02-08 21:31:56		  jump to next buffer:
+2014-02-08 21:31:56		    /buffer +1
