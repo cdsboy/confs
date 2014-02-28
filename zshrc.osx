@@ -1,14 +1,28 @@
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/confs/scripts
 source ~/.antigen/antigen.zsh
+
+
+# Bloom git sandbox location
+export BLOOM_GIT_SANDBOX=/Users/bbowlby/dev
+#
+. $BLOOM_GIT_SANDBOX/dev_scripts/bash/bitbucket-sandbox.sh
+# . $BLOOM_GIT_SANDBOX/dev_scripts/bash/bloom-plugins.sh
+. $BLOOM_GIT_SANDBOX/dev_scripts/bash/ctags.sh
+. $BLOOM_GIT_SANDBOX/dev_scripts/bash/grep-colors.sh
+# . $BLOOM_GIT_SANDBOX/dev_scripts/bash/groovy-grails.sh
+# . $BLOOM_GIT_SANDBOX/dev_scripts/bash/java-home.sh
+. $BLOOM_GIT_SANDBOX/dev_scripts/bash/ls-colors.sh
+# . $BLOOM_GIT_SANDBOX/dev_scripts/bash/mysql.sh
+# . $BLOOM_GIT_SANDBOX/dev_scripts/bash/prompt.sh
+# . $BLOOM_GIT_SANDBOX/dev_scripts/bash/rabbitmq.sh
+. $BLOOM_GIT_SANDBOX/dev_scripts/bash/vagrant.sh
+. $BLOOM_GIT_SANDBOX/dev_scripts/bash/vim_dev.sh
 
 antigen use oh-my-zsh
 
 antigen bundles <<EOBUNDLES
     git
     git-extras
-
-    python
-    django
 
     gradle
     grails
@@ -17,7 +31,6 @@ antigen bundles <<EOBUNDLES
     osx
 
     tmux
-    jimhester/per-directory-history
 EOBUNDLES
 
 antigen theme juanghurtado
@@ -25,3 +38,32 @@ antigen theme juanghurtado
 antigen apply
 
 alias tmux="TERM=screen-256color-bce tmux"
+
+# dev cd
+
+_chgit() {
+    if [[ $# -eq 1 ]]
+    then
+        cd $1
+    else
+        `lazycd $1 $2`
+    fi
+}
+
+alias dp='_chgit ~/dev'
+
+cdv() {
+    cd ~/dev/provisioning/vagrant/vagrantmanager
+}
+
+/() {grep -I -R $1 *}
+
+# GVM stuff
+[[ -s "/Users/bbowlby/.gvm/bin/gvm-init.sh" ]] && source "/Users/bbowlby/.gvm/bin/gvm-init.sh"
+export GRADLE_OPTS="-Xmx2G -Xms2G -XX:NewSize=512m -XX:MaxNewSize=512m -XX:MaxPermSize=1G"
+
+if [ -n "$TMUX" ]; then
+    unset GVM_INIT
+fi
+
+export JAVA_OPTS="-Xmx2G -Xms2G -XX:NewSize=512m -XX:MaxNewSize=512m -XX:MaxPermSize=1G"
