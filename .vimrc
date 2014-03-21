@@ -25,6 +25,9 @@ set t_Co=256
 
 ab pymain if __name__ == '__main__':
 
+" Exhuberant C-Tags
+set tags=.tags
+
 " F5 Paste shortcut
 nnoremap <F5> :set invpaste paste?<Enter>
 imap <F5> <C-O><F5>
@@ -65,10 +68,13 @@ Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'derekwyatt/vim-scala'
 Bundle 'kien/ctrlp.vim'
 Bundle 'atweiden/vim-dragvisuals'
+Bundle 'tpope/vim-fugitive'
 
 filetype plugin indent on
 
 set wildignore+=*.class,.git,.hg,.svn,**/target/classes/**,**/target/test-classes/**,**/target/test-reports/**.html,**/target/test-reports/**.xml,**/build/**
+
+let g:ctrlp_custom_ignore = '(JS|js|markdown|iml|yaml|yml|coffee|rb|d|TXT|h|gradle|ini|el|cfg|html|html|MakeFile|xml|html5|properties|c|txt|java|py|json|pl|gsp|groovy|conf|csv|css|php)$'
 
 " vim-dragvisuals setup
 runtime bundle/vim-dragvisuals/dragvisuals.vim
