@@ -12,13 +12,13 @@ cp -r .vim  ../.
 cp -r antigen ../.antigen
 
 if [ "$(uname)" == "Darwin" ]; then
-    cp tmux.conf.osx ../.tmux.conf
-    cp zshrc.osx ../.zshrc
-    cp vimrc.osx ../.vimrc
+    ln -s tmux.conf.osx ../.tmux.conf
+    ln -s zshrc.osx ../.zshrc
+    ln -s vimrc.osx ../.vimrc
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
-    cp .tmux.conf ../.
-    cp .zshrc ../.
-    cp .vimrc ../.
+    ln -s .tmux.conf ../.
+    ln -s .zshrc ../.
+    ln -s .vimrc ../.
 fi
 
 echo "Installing vim bundles"

@@ -58,6 +58,8 @@ cdv() {
 
 /() {grep -I -R $1 *}
 
+alias sp='git stash && git rebase && git stash pop'
+
 # GVM stuff
 [[ -s "/Users/bbowlby/.gvm/bin/gvm-init.sh" ]] && source "/Users/bbowlby/.gvm/bin/gvm-init.sh"
 export GRADLE_OPTS="-Xmx2G -Xms2G -XX:NewSize=512m -XX:MaxNewSize=512m -XX:MaxPermSize=1G"

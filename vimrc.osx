@@ -68,6 +68,7 @@ Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'derekwyatt/vim-scala'
 Bundle 'kien/ctrlp.vim'
 Bundle 'atweiden/vim-dragvisuals'
+Bundle 'tpope/vim-fugitive'
 
 filetype plugin indent on
 
