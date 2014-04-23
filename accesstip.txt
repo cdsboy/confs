@@ -1,0 +1,1 @@
+sudo sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db 'delete from access where client like "%divvy%"'
