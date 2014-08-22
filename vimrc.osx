@@ -43,6 +43,8 @@ map ; :
 imap jj 
 " map :syn sync fromstart to :sfs
 cmap sfs syn sync fromstart
+" map leader from , to space
+let mapleader = "\<Space>"
 
 " Groovy
 au BufNewFile,BufRead *.groovy setf groovy
@@ -69,6 +71,12 @@ Bundle 'derekwyatt/vim-scala'
 Bundle 'kien/ctrlp.vim'
 Bundle 'atweiden/vim-dragvisuals'
 Bundle 'tpope/vim-fugitive'
+Bundle 'majutsushi/tagbar'
+Bundle 'scrooloose/nerdtree'
+Bundle 'wesQ3/vim-windowswap'
+Bundle 'godlygeek/tabular'
+Bundle 'jimenezrick/vimerl'
+Bundle 'mattn/flappyvird-vim'
 
 filetype plugin indent on
 
@@ -86,3 +94,7 @@ vmap <expr> <UP>    DVB_Drag('up')
 vmap <expr> D       DVB_Duplicate()
 
 let g:DVB_TrimWS = 1
+
+nnoremap <leader>. :CtrlPTag<cr>
+nnoremap <silent> <leader>b :TagbarToggle<cr>
+nnoremap <silent> <leader>n :NERDTreeToggle<CR>

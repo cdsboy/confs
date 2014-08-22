@@ -43,6 +43,8 @@ map ; :
 imap jj 
 " map :syn sync fromstart to :sfs
 cmap sfs syn sync fromstart
+" map leader from , to space
+let mapleader = "\<Space>"
 
 " Groovy
 au BufNewFile,BufRead *.groovy setf groovy

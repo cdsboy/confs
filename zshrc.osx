@@ -69,3 +69,5 @@ if [ -n "$TMUX" ]; then
 fi
 
 export JAVA_OPTS="-Xmx2G -Xms2G -XX:NewSize=512m -XX:MaxNewSize=512m -XX:MaxPermSize=1G"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
