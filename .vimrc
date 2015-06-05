@@ -25,17 +25,15 @@ set t_Co=256
 
 ab pymain if __name__ == '__main__':
 
-" Exhuberant C-Tags
-set tags=.tags
-
 " F5 Paste shortcut
 nnoremap <F5> :set invpaste paste?<Enter>
 imap <F5> <C-O><F5>
 set pastetoggle=<F5>
 
 " Set color column to column 80 for easy code wrapping
-set colorcolumn=80
-" hi ColorColumn ctermbg=#AE81FF guibg=#AE81FF 
+" set colorcolumn=80
+let &colorcolumn="80,".join(range(120,999),",")
+hi ColorColumn ctermbg=235 guibg=#AE81FF 
 
 " map ; to :
 map ; :
@@ -43,6 +41,7 @@ map ; :
 imap jj 
 " map :syn sync fromstart to :sfs
 cmap sfs syn sync fromstart
+cmap fixtabs set expandtab | set tabstop=8 | retab | set tabstop=4
 " map leader from , to space
 let mapleader = "\<Space>"
 
@@ -66,13 +65,21 @@ Bundle 'gmarik/vundle'
 Bundle 'pangloss/vim-javascript'
 Bundle 'jQuery'
 Bundle 'groovy.vim'
-Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'derekwyatt/vim-scala'
 Bundle 'kien/ctrlp.vim'
 Bundle 'atweiden/vim-dragvisuals'
 Bundle 'tpope/vim-fugitive'
+Bundle 'majutsushi/tagbar'
+Bundle 'scrooloose/nerdtree'
+Bundle 'wesQ3/vim-windowswap'
+Bundle 'godlygeek/tabular'
+Bundle 'jimenezrick/vimerl'
+Bundle 'mattn/flappyvird-vim'
+Bundle 'christoomey/vim-tmux-navigator'
+Bundle 'Lokaltog/vim-easymotion'
 
 filetype plugin indent on
+filetype plugin on
 
 set wildignore+=*.class,.git,.hg,.svn,**/target/classes/**,**/target/test-classes/**,**/target/test-reports/**.html,**/target/test-reports/**.xml,**/build/**
 
@@ -88,3 +95,60 @@ vmap <expr> <UP>    DVB_Drag('up')
 vmap <expr> D       DVB_Duplicate()
 
 let g:DVB_TrimWS = 1
+
+nnoremap <leader>. :CtrlPTag<cr>
+nnoremap <silent> <leader>b :TagbarToggle<cr>
+nnoremap <silent> <leader>n :NERDTreeToggle<CR>
+
+if exists('$TMUX')
+  function! TmuxOrSplitSwitch(wincmd, tmuxdir)
+    let previous_winnr = winnr()
+    silent! execute "wincmd " . a:wincmd
+    if previous_winnr == winnr()
+      call system("tmux select-pane -" . a:tmuxdir)
+      redraw!
+    endif
+  endfunction
+
+  let previous_title = substitute(system("tmux display-message -p '#{pane_title}'"), '\n', '', '')
+  let &t_ti = "\<Esc>]2;vim\<Esc>\\" . &t_ti
+  let &t_te = "\<Esc>]2;". previous_title . "\<Esc>\\" . &t_te
+
+  nnoremap <silent> <C-h> :call TmuxOrSplitSwitch('h', 'L')<cr>
+  nnoremap <silent> <C-j> :call TmuxOrSplitSwitch('j', 'D')<cr>
+  nnoremap <silent> <C-k> :call TmuxOrSplitSwitch('k', 'U')<cr>
+  nnoremap <silent> <C-l> :call TmuxOrSplitSwitch('l', 'R')<cr>
+else
+  map <C-h> <C-w>h
+  map <C-j> <C-w>j
+  map <C-k> <C-w>k
+  map <C-l> <C-w>l
+endif
+
+function FixTabs()
+    :set expandtab
+    :set tabstop=8
+    :retab
+    :set tabstop=4
+endfunction
+cmap fixtabs call FixTabs()
+
+" EasyMotion config stuff
+let g:EasyMotion_do_mapping = 0 " Disable default mappings
+
+map <Leader>s <Plug>(easymotion-s2)
+
+" Turn on case sensitive feature
+let g:EasyMotion_smartcase = 1
+
+" JK motions: Line motions
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
+
+" bind moves
+nnoremap <A-j> :m .+1<CR>
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>
+inoremap <A-k> <Esc>:m .-2<CR>
+vnoremap <A-j> :m '>+1<CR>
+vnoremap <A-k> :m '<-2<CR>
