@@ -1,7 +1,7 @@
 echo "Checking pre-reqs"
 command -v zsh >/dev/null 2>&1 || { echo >&2 "zsh required to install. Aborting."; exit 1; }
-command -v gem >/dev/null 2>&1 || { echo >&2 "Ruby & Gem required to install. Aborting."; exit 1; }
-command -v hub >/dev/null 2>&1 || { echo >&2 "Hub is required for github module to work properly"; }
+#command -v gem >/dev/null 2>&1 || { echo >&2 "Ruby & Gem required to install. Aborting."; exit 1; }
+#command -v hub >/dev/null 2>&1 || { echo >&2 "Hub is required for github module to work properly"; }
 
 echo "Updating submodules"
 git submodule init
@@ -24,7 +24,7 @@ fi
 echo "Installing vim bundles"
 vim +BundleInstall +qall
 
-echo "Installing github gem"
-gem install github
+#echo "Installing github gem"
+#gem install github
 
 echo "Done installing dot files"
