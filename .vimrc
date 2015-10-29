@@ -18,12 +18,7 @@ nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 set nofoldenable
 syntax on
 
-" Execute python file being edited with <Shift> + e:
-map <buffer> <S-e> :w<CR>:!/usr/bin/env python % <CR>
-
 set t_Co=256
-
-ab pymain if __name__ == '__main__':
 
 " F5 Paste shortcut
 nnoremap <F5> :set invpaste paste?<Enter>
@@ -45,60 +40,37 @@ cmap fixtabs set expandtab | set tabstop=8 | retab | set tabstop=4
 " map leader from , to space
 let mapleader = "\<Space>"
 
-" Groovy
-au BufNewFile,BufRead *.groovy setf groovy
-if did_filetype()
-  finish
-endif
-if getline(1) =~ '^#!.*[/\\]groovy\>'
-  setf groovy
-endif
-
 " Vundle plugins:
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
-Bundle 'pangloss/vim-javascript'
-Bundle 'jQuery'
-Bundle 'groovy.vim'
-Bundle 'derekwyatt/vim-scala'
-Bundle 'kien/ctrlp.vim'
-Bundle 'atweiden/vim-dragvisuals'
-Bundle 'tpope/vim-fugitive'
-Bundle 'majutsushi/tagbar'
-Bundle 'scrooloose/nerdtree'
-Bundle 'wesQ3/vim-windowswap'
-Bundle 'godlygeek/tabular'
-Bundle 'jimenezrick/vimerl'
-Bundle 'mattn/flappyvird-vim'
-Bundle 'christoomey/vim-tmux-navigator'
-Bundle 'Lokaltog/vim-easymotion'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'jQuery'
+Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdtree'
+Plugin 'wesQ3/vim-windowswap'
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'mxw/vim-jsx'
+
+call vundle#end()
+
+let g:javascript_enable_domhtmlcss = 1
 
 filetype plugin indent on
-filetype plugin on
 
 set wildignore+=*.class,.git,.hg,.svn,**/target/classes/**,**/target/test-classes/**,**/target/test-reports/**.html,**/target/test-reports/**.xml,**/build/**
-
 let g:ctrlp_custom_ignore = '(JS|js|markdown|iml|yaml|yml|coffee|rb|d|TXT|h|gradle|ini|el|cfg|html|html|MakeFile|xml|html5|properties|c|txt|java|py|json|pl|gsp|groovy|conf|csv|css|php)$'
-
-" vim-dragvisuals setup
-runtime bundle/vim-dragvisuals/dragvisuals.vim
-
-vmap <expr> <LEFT>  DVB_Drag('left')
-vmap <expr> <RIGHT> DVB_Drag('right')
-vmap <expr> <DOWN>  DVB_Drag('down')
-vmap <expr> <UP>    DVB_Drag('up')
-vmap <expr> D       DVB_Duplicate()
-
-let g:DVB_TrimWS = 1
 
 nnoremap <leader>. :CtrlPTag<cr>
 nnoremap <silent> <leader>b :TagbarToggle<cr>
 nnoremap <silent> <leader>n :NERDTreeToggle<CR>
+let NERDTreeIgnore = ['\.pyc$']
 
 if exists('$TMUX')
   function! TmuxOrSplitSwitch(wincmd, tmuxdir)
@@ -125,14 +97,6 @@ else
   map <C-l> <C-w>l
 endif
 
-function FixTabs()
-    :set expandtab
-    :set tabstop=8
-    :retab
-    :set tabstop=4
-endfunction
-cmap fixtabs call FixTabs()
-
 " EasyMotion config stuff
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
 
@@ -145,10 +109,4 @@ let g:EasyMotion_smartcase = 1
 map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
 
-" bind moves
-nnoremap <A-j> :m .+1<CR>
-nnoremap <A-k> :m .-2<CR>==
-inoremap <A-j> <Esc>:m .+1<CR>
-inoremap <A-k> <Esc>:m .-2<CR>
-vnoremap <A-j> :m '>+1<CR>
-vnoremap <A-k> :m '<-2<CR>
+let g:jsx_ext_required = 0 " Allow JSX in normal JS files
