@@ -13,7 +13,8 @@ antigen bundles <<EOBUNDLES
     grails
 
     tmux
-    jimhester/per-directory-history
+    
+    thefuck
 EOBUNDLES
 
 antigen theme juanghurtado
