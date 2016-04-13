@@ -8,17 +8,17 @@ git submodule init
 git submodule update
 
 echo "Copying dot-files"
-cp -r .vim  ../.
-cp -r antigen ../.antigen
+cp -r .vim ~/.vim  
+cp -r antigen ~/.antigen
 
 if [ "$(uname)" == "Darwin" ]; then
-    ln -s tmux.conf.osx ../.tmux.conf
-    ln -s zshrc.osx ../.zshrc
-    ln -s vimrc.osx ../.vimrc
+    cp tmux.conf.osx ~/.tmux.conf
+    cp zshrc.osx ~/.zshrc
+    cp vimrc.osx ~/.vimrc
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
-    ln -s .tmux.conf ../.
-    ln -s .zshrc ../.
-    ln -s .vimrc ../.
+    cp .tmux.conf ~/.tmux.conf
+    cp .zshrc ~/.zshrc 
+    cp .vimrc ~/.vimrc
 fi
 
 echo "Installing vim bundles"
