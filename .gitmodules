@@ -1,9 +1,6 @@
 [submodule ".config/awesome/awesompd"]
 	path = .config/awesome/awesompd
 	url = https://github.com/alexander-yakushev/awesompd.git
-[submodule ".vim/bundle/vim-javascript"]
-	path = .vim/bundle/vim-javascript
-	url = https://github.com/pangloss/vim-javascript.git
 [submodule "antigen"]
 	path = antigen
 	url = https://github.com/zsh-users/antigen
