@@ -1,0 +1,6 @@
+if [[ "$(pidof gpg-agent)" ]]; then
+  source ~/.gnupg/gpg-agent-info
+else
+  eval "$(gpg-agent --daemon)"
+  source ~/.gnupg/gpg-agent-info
+fi
