@@ -1,0 +1,10 @@
+[Unit]
+Description=letsencrypt timer
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+Unit=letsencrypt.service
+
+[Install]
+WantedBy=basic.target
