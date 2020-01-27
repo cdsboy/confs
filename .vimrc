@@ -6,13 +6,14 @@ set ts=4
 set smartindent
 set nowrap
 
+nmap <leader>t :set expandtab tabstop=4 shiftwidth=4 softtabstop=4<CR>
+nmap <leader>m :set expandtab tabstop=2 shiftwidth=2 softtabstop=2<CR>
+
 " mac osx
 set backspace+=indent,eol,start
 
 " Display
 set background=dark
-colorscheme molokai
-let g:molokai_original = 0 
 set number
 nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 set nofoldenable
@@ -57,12 +58,21 @@ Plugin 'wesQ3/vim-windowswap'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'mxw/vim-jsx'
+Plugin 'vim-python/python-syntax'
+Plugin 'chrisbra/csv.vim'
+Plugin 'rust-lang/rust.vim'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'arcticicestudio/nord-vim'
 
 call vundle#end()
 
 let g:javascript_enable_domhtmlcss = 1
 
 filetype plugin indent on
+
+colorscheme nord
+let g:airline_powerline_fonts = 1
 
 set wildignore+=*.class,.git,.hg,.svn,**/target/classes/**,**/target/test-classes/**,**/target/test-reports/**.html,**/target/test-reports/**.xml,**/build/**
 let g:ctrlp_custom_ignore = '(JS|js|markdown|iml|yaml|yml|coffee|rb|d|TXT|h|gradle|ini|el|cfg|html|html|MakeFile|xml|html5|properties|c|txt|java|py|json|pl|gsp|groovy|conf|csv|css|php)$'

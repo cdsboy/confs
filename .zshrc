@@ -7,16 +7,17 @@ antigen bundles <<EOBUNDLES
     git-extras
 
     python
-    django
-
-    gradle
-    grails
 
     tmux
-    
-    thefuck
 EOBUNDLES
 
 antigen theme juanghurtado
 
 antigen apply
+
+ssh-add ~/.ssh/id_rsa &>/dev/null
+
+alias yarn=yarnpkg
+
+export PATH="$(yarn global bin):$HOME/.cargo/bin:$PATH"
+export EDITOR="/usr/bin/vim"
