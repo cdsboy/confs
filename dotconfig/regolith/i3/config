@@ -8,7 +8,7 @@ set $mod Mod4
 set $alt Mod1
 
 # i3xrocks config file
-set $i3xrocks_config /etc/regolith/i3xrocks/config
+set $i3xrocks_config /home/cdsboy/.config/regolith/i3xrocks/config
 
 # compton config file
 set $compton_config /etc/regolith/compton/config
@@ -83,6 +83,17 @@ bindsym $mod+Shift+h move left
 bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
+
+#move workspaces between monitors
+bindysm $mod+Control+Left move workspace to output left
+bindsym $mod+Control+Down move workspace to output down
+bindsym $mod+Control+Up move workspace to output up
+bindsym $mod+Control+Right move workspace to output right
+
+bindysm $mod+Control+h move workspace to output left
+bindsym $mod+Control+j move workspace to output down
+bindsym $mod+Control+k move workspace to output up
+bindsym $mod+Control+l move workspace to output right
 
 # toggle split orientation
 bindsym $mod+BackSpace split toggle
@@ -280,7 +291,7 @@ client.urgent           $urgent.color.border               $urgent.color.backgro
 popup_during_fullscreen smart
 
 # window focus follows your mouse movements as the mouse crosses window borders
-focus_follows_mouse no
+focus_follows_mouse yes
 
 set_from_resource $i3-wm.bar.background.color i3-wm.bar.background.color "#002b36"
 set_from_resource $i3-wm.bar.statusline.color i3-wm.bar.statusline.color "#93a1a1"
